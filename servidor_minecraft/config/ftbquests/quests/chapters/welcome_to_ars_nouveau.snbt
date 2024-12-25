@@ -1,0 +1,1020 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "welcome_to_ars_nouveau"
+	group: "02FF1DFCC567E551"
+	id: "75E5FAED5626BA24"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "6B099495BD948BAB"
+			rewards: [
+				{
+					advancement: "ars_nouveau:root"
+					criterion: ""
+					id: "105938921DADA989"
+					type: "advancement"
+				}
+				{
+					id: "215C61F83D87FCC7"
+					item: "ars_nouveau:worn_notebook"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "01820F6ABCF3A92D"
+					title: "Ars Nouveau"
+					type: "checkmark"
+				}
+				{
+					count: 10L
+					id: "31588FE7A1DC1E10"
+					item: { Count: 10, id: "ars_nouveau:sourceberry_bush" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6B099495BD948BAB"]
+			id: "7AD41A3E80A88B9B"
+			rewards: [
+				{
+					advancement: "ars_nouveau:ritual_brazier"
+					criterion: ""
+					id: "3CAC4EFCB8E3D0CF"
+					type: "advancement"
+				}
+				{
+					id: "43EF951601A4363B"
+					item: "ars_nouveau:arcane_pedestal"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "3297598E8F9CD77C"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+				{
+					id: "11C4B4F65DDD720A"
+					item: "ars_nouveau:source_gem_block"
+					type: "item"
+				}
+			]
+			subtitle: "Aquire a Ritual Blazier"
+			tasks: [{
+				consume_items: true
+				id: "05BDBBD01FC5C7E6"
+				item: "ars_nouveau:ritual_brazier"
+				type: "item"
+			}]
+			title: "Brazen"
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7AD41A3E80A88B9B"]
+			id: "7DEC3480D631E2B4"
+			tasks: [{
+				id: "58E8EF2AC2103EE1"
+				item: "ars_nouveau:ritual_binding"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7AD41A3E80A88B9B"]
+			id: "3C4888EC11B42BC3"
+			tasks: [{
+				id: "67F404F92A33AE84"
+				item: "ars_nouveau:ritual_gravity"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["7AD41A3E80A88B9B"]
+			id: "4ABF6F1C00487200"
+			tasks: [{
+				id: "4CB3537E671C78B0"
+				item: "ars_nouveau:amethyst_golem_charm"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7AD41A3E80A88B9B"]
+			id: "45588B98B9B0C906"
+			rewards: [
+				{
+					count: 5
+					id: "514C878F2E10FB5D"
+					item: "minecraft:glass"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "035983EDBFD688D4"
+					item: "ars_nouveau:archwood_slab"
+					type: "item"
+				}
+				{
+					advancement: "ars_nouveau:mob_jar"
+					criterion: ""
+					id: "5B8EE11D58D90FE4"
+					type: "advancement"
+				}
+			]
+			tasks: [{
+				id: "69C3724D09B41B96"
+				item: "ars_nouveau:mob_jar"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["45588B98B9B0C906"]
+			id: "614DFE7C1D7D05FF"
+			rewards: [
+				{
+					advancement: "ars_nouveau:shrunk_starbuncle"
+					criterion: ""
+					id: "01359B49F5FB150C"
+					type: "advancement"
+				}
+				{
+					count: 5
+					id: "1410282E33810FC9"
+					item: {
+						Count: 1
+						id: "ars_nouveau:starby_gift"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "33FC219BA5C533A0"
+				item: {
+					Count: 1
+					id: "ars_nouveau:starbuncle_charm"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["45588B98B9B0C906"]
+			id: "4858E5FC51C455A1"
+			rewards: [{
+				advancement: "ars_nouveau:catch_lightning"
+				criterion: ""
+				id: "0E9B9FC93ED6C6C8"
+				type: "advancement"
+			}]
+			tasks: [{
+				id: "3884DD09712993FE"
+				item: "minecraft:lightning_rod"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["45588B98B9B0C906"]
+			id: "3FC389C80E9FFEBB"
+			tasks: [{
+				id: "384BB566A09E0EF4"
+				item: "minecraft:clock"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["6B099495BD948BAB"]
+			id: "62A5A4EC4D50CF40"
+			tasks: [{
+				id: "508915BD6E68A5C5"
+				item: "ars_nouveau:imbuement_chamber"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["62A5A4EC4D50CF40"]
+			id: "50BBB09D881F080C"
+			tasks: [{
+				id: "04AB893C33FD2C96"
+				item: "ars_nouveau:source_jar"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["62A5A4EC4D50CF40"]
+			id: "647212956473F00A"
+			tasks: [{
+				id: "5B996C729E885836"
+				item: "ars_nouveau:enchanting_apparatus"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["647212956473F00A"]
+			id: "3E06A8260492C2E1"
+			tasks: [{
+				id: "0FFBB2C448E22107"
+				item: "ars_nouveau:basic_spell_turret"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3E06A8260492C2E1"]
+			id: "6667DE618A9F5E15"
+			tasks: [{
+				id: "39AD8C2A9A4F5831"
+				item: "ars_nouveau:spell_prism"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6667DE618A9F5E15"]
+			id: "22598645EE501F16"
+			tasks: [{
+				id: "4D3346E01D84BC94"
+				item: "ars_elemental:advanced_prism"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["647212956473F00A"]
+			id: "51F6FBCF4B27A8FD"
+			tasks: [{
+				id: "2A8ED509E391A0C6"
+				item: "ars_nouveau:scryers_oculus"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["647212956473F00A"]
+			id: "3D5B5241C94D4A2C"
+			tasks: [{
+				id: "279A025275C27342"
+				item: "ars_nouveau:potion_jar"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["647212956473F00A"]
+			id: "127B35DF05312DB1"
+			tasks: [{
+				id: "5F83AC09CAEB8EA3"
+				item: {
+					Count: 1
+					id: "ars_nouveau:enchanters_shield"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["647212956473F00A"]
+			id: "2BA5B7A90CFF2B54"
+			tasks: [{
+				id: "5269C226066F5FF8"
+				item: "ars_elemental:everfull_urn"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["3D5B5241C94D4A2C"]
+			id: "4DF334B0480D7990"
+			tasks: [{
+				id: "39D35194787AEC2F"
+				item: "ars_nouveau:potion_melder"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3D5B5241C94D4A2C"]
+			id: "029B94CCE7433FC9"
+			tasks: [{
+				id: "3C55B53D2826570A"
+				item: "ars_nouveau:potion_diffuser"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["3D5B5241C94D4A2C"]
+			id: "4A9C1FFF3C43AE1B"
+			tasks: [{
+				id: "036596A72F39CDFC"
+				item: {
+					Count: 1
+					id: "ars_nouveau:potion_flask"
+					tag: {
+						Damage: 8
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["647212956473F00A"]
+			id: "3CB3479B1E8BEE7A"
+			tasks: [{
+				id: "7363C43F2541CE49"
+				item: "ars_nouveau:magebloom_crop"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["3CB3479B1E8BEE7A"]
+			id: "434E89A38B401BF2"
+			tasks: [{
+				id: "66F56C16300EBFEC"
+				item: "ars_elemental:firenando_charm"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["3CB3479B1E8BEE7A"]
+			id: "5F08C408BEFFAECE"
+			tasks: [{
+				id: "25484C47BD2CD72F"
+				item: "ars_nouveau:alteration_table"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["3CB3479B1E8BEE7A"]
+			id: "528D23128F5D4E10"
+			tasks: [{
+				id: "4A80BDCFAF92757E"
+				item: "ars_elemental:curio_bag"
+				type: "item"
+			}]
+			x: 12.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["3CB3479B1E8BEE7A"]
+			id: "77B86BCBD418576E"
+			tasks: [{
+				id: "4DFC16428DA7D7B8"
+				item: {
+					Count: 1
+					id: "ars_nouveau:warp_scroll"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["77B86BCBD418576E"]
+			id: "08A0EAA2DFAD9FB9"
+			tasks: [{
+				id: "24551671DE683440"
+				item: "ars_nouveau:creative_source_jar"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["528D23128F5D4E10"]
+			id: "71792FC27EEC4E12"
+			tasks: [{
+				id: "3A22F08F7903E04F"
+				item: "ars_elemental:caster_bag"
+				type: "item"
+			}]
+			x: 12.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["528D23128F5D4E10"]
+			id: "0854B52F4EBDBDCB"
+			rewards: [
+				{
+					count: 5
+					id: "0705F675BCA4FEF6"
+					item: {
+						Count: 1
+						id: "ars_nouveau:starby_gift"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					advancement: "ars_elemental:lesser_air_focus"
+					criterion: ""
+					id: "1D4C825E998B3B0F"
+					type: "advancement"
+				}
+			]
+			tasks: [{
+				id: "0911B8E2531AE567"
+				item: "ars_elemental:lesser_air_focus"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["528D23128F5D4E10"]
+			id: "3454B55ADC2DECE2"
+			rewards: [
+				{
+					advancement: "ars_elemental:lesser_earth_focus"
+					criterion: ""
+					id: "38092BA04506EA03"
+					type: "advancement"
+				}
+				{
+					count: 5
+					id: "04DBE278587507BD"
+					item: {
+						Count: 1
+						id: "ars_nouveau:starby_gift"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "44E290D0EACC4405"
+				item: "ars_elemental:lesser_earth_focus"
+				type: "item"
+			}]
+			x: 14.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["528D23128F5D4E10"]
+			id: "64161CCF862E1170"
+			rewards: [
+				{
+					advancement: "ars_elemental:lesser_fire_focus"
+					criterion: ""
+					id: "67BC7A679A0AE8D8"
+					type: "advancement"
+				}
+				{
+					count: 5
+					id: "173E4190D6C48CB9"
+					item: {
+						Count: 1
+						id: "ars_nouveau:starby_gift"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7FAD65333A86CCB0"
+				item: "ars_elemental:lesser_fire_focus"
+				type: "item"
+			}]
+			x: 14.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["528D23128F5D4E10"]
+			id: "5AD2DF74AE2F94DD"
+			rewards: [
+				{
+					advancement: "ars_elemental:lesser_water_focus"
+					criterion: ""
+					id: "49AE3CEE46839AF3"
+					type: "advancement"
+				}
+				{
+					count: 5
+					id: "048DD1C2E8E23B84"
+					item: {
+						Count: 1
+						id: "ars_nouveau:starby_gift"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0DE08219E03087AC"
+				item: "ars_elemental:lesser_water_focus"
+				type: "item"
+			}]
+			x: 14.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["0854B52F4EBDBDCB"]
+			id: "562BB83968BF533E"
+			rewards: [
+				{
+					advancement: "ars_elemental:air_focus"
+					criterion: ""
+					id: "3CD2112C653E7116"
+					type: "advancement"
+				}
+				{
+					count: 5
+					id: "2B03885214C7F667"
+					item: {
+						Count: 1
+						id: "ars_nouveau:starby_gift"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "11319D015B112B0F"
+				item: "ars_elemental:air_focus"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -11.5d
+		}
+		{
+			dependencies: ["0854B52F4EBDBDCB"]
+			id: "261C8E64C15A385D"
+			rewards: [
+				{
+					count: 5
+					id: "33A1E8C9717D88EF"
+					item: {
+						Count: 1
+						id: "ars_nouveau:starby_gift"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					advancement: "ars_elemental:levitation"
+					criterion: ""
+					id: "27632E2899435BFD"
+					type: "advancement"
+				}
+			]
+			tasks: [{
+				id: "54140ABF2ABDEED7"
+				item: {
+					Count: 1
+					id: "ars_elemental:air_caster_tome"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 12.0d
+			y: -12.5d
+		}
+		{
+			dependencies: ["3454B55ADC2DECE2"]
+			id: "0139DD85EFE42688"
+			rewards: [
+				{
+					advancement: "ars_elemental:earth_focus"
+					criterion: ""
+					id: "01A06F40FB58A960"
+					type: "advancement"
+				}
+				{
+					count: 5
+					id: "1F0FADB3BA56FD0B"
+					item: {
+						Count: 1
+						id: "ars_nouveau:starby_gift"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2557CFE63F8F3129"
+				item: "ars_elemental:earth_focus"
+				type: "item"
+			}]
+			x: 14.5d
+			y: -12.0d
+		}
+		{
+			dependencies: ["3454B55ADC2DECE2"]
+			id: "2FA2A981C61C0434"
+			rewards: [
+				{
+					advancement: "ars_elemental:spore_blossom"
+					criterion: ""
+					id: "6BA4D90EECF441E6"
+					type: "advancement"
+				}
+				{
+					count: 5
+					id: "742980AEC63C7D98"
+					item: {
+						Count: 1
+						id: "ars_nouveau:starby_gift"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2D984E083C38AFF5"
+				item: "ars_elemental:spore_blossom_up"
+				type: "item"
+			}]
+			x: 15.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["64161CCF862E1170"]
+			id: "44DDF24047EADCCC"
+			rewards: [
+				{
+					advancement: "ars_elemental:fire_focus"
+					criterion: ""
+					id: "0A64143F9A9839BC"
+					type: "advancement"
+				}
+				{
+					count: 5
+					id: "5DBE9DC9201D40F5"
+					item: {
+						Count: 1
+						id: "ars_nouveau:starby_gift"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "001067FA43D73E27"
+				item: "ars_elemental:fire_focus"
+				type: "item"
+			}]
+			x: 17.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["64161CCF862E1170"]
+			id: "415810F3FD9EC743"
+			rewards: [
+				{
+					advancement: "ars_elemental:summon_strider"
+					criterion: ""
+					id: "7915C5E987BADBBF"
+					type: "advancement"
+				}
+				{
+					count: 5
+					id: "6FC8AB13B240E7BF"
+					item: {
+						Count: 1
+						id: "ars_nouveau:starby_gift"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4D394ED4B6086D92"
+				item: {
+					Count: 1
+					id: "ars_elemental:fire_caster_tome"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 16.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["5AD2DF74AE2F94DD"]
+			id: "13F11C78CAA8F5C7"
+			rewards: [
+				{
+					advancement: "ars_elemental:water_focus"
+					criterion: ""
+					id: "2DC58ED98953FD82"
+					type: "advancement"
+				}
+				{
+					count: 5
+					id: "4D7CED9D1FE8B419"
+					item: {
+						Count: 1
+						id: "ars_nouveau:starby_gift"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2ED28883710BCA7A"
+				item: "ars_elemental:water_focus"
+				type: "item"
+			}]
+			x: 16.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["5AD2DF74AE2F94DD"]
+			id: "0680CB10AF758798"
+			rewards: [
+				{
+					advancement: "ars_elemental:summon_dolphin"
+					criterion: ""
+					id: "42BFDB258F36E827"
+					type: "advancement"
+				}
+				{
+					count: 5
+					id: "055C035F4274D4B8"
+					item: {
+						Count: 1
+						id: "ars_nouveau:starby_gift"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0529FFF637513794"
+				item: {
+					Count: 1
+					id: "ars_elemental:water_caster_tome"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 14.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["6B099495BD948BAB"]
+			id: "152CDDA95FCCEF6D"
+			tasks: [{
+				id: "1A03C5E53C1283E1"
+				item: "ars_nouveau:novice_spell_book"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["152CDDA95FCCEF6D"]
+			id: "6FB7F2C0B4765949"
+			tasks: [{
+				id: "45F1A9466F4EB587"
+				item: "ars_nouveau:apprentice_spell_book"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["6FB7F2C0B4765949"]
+			id: "2DD522C746FC6F1C"
+			tasks: [{
+				id: "403A3AF1B23D0962"
+				item: "ars_nouveau:shapers_focus"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["6FB7F2C0B4765949"]
+			id: "0204E366C33950AB"
+			tasks: [{
+				id: "6788CBC5B4AF76F1"
+				item: "ars_nouveau:wilden_tribute"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["0204E366C33950AB"]
+			id: "23E33887089BBA4B"
+			tasks: [{
+				id: "6EF68D23C0774E08"
+				item: "ars_nouveau:archmage_spell_book"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["0204E366C33950AB"]
+			id: "3D4B275C5F9932CA"
+			tasks: [{
+				id: "7A1C8AF5DC6BFEA9"
+				item: "ars_nouveau:summon_focus"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["0204E366C33950AB"]
+			id: "595BBA3BD7FF8FF1"
+			tasks: [{
+				id: "0041C111B085EF37"
+				item: "ars_elemental:mark_of_mastery"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["0204E366C33950AB"]
+			id: "3E1098B4BBCAAFBC"
+			tasks: [{
+				id: "48D093675A51F257"
+				item: "ars_nouveau:ritual_wilden_summon"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3D4B275C5F9932CA"]
+			id: "111C81E6EC76D338"
+			tasks: [{
+				id: "6B35F7EFF6868E45"
+				item: "ars_elemental:necrotic_focus"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["111C81E6EC76D338"]
+			id: "78913AA81D4EBF7D"
+			tasks: [{
+				id: "2C7BB6DD1E5D3CBA"
+				item: {
+					Count: 1
+					id: "ars_elemental:anima_caster_tome"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -7.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["6B099495BD948BAB"]
+			id: "3D5BB132C39731FC"
+			tasks: [{
+				id: "0CA3AC328E316EB0"
+				item: "ars_nouveau:bombegranate_pod"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["78F3B51B5207FABC"]
+			id: "20A2FE9CA7A5E4F2"
+			tasks: [{
+				id: "364C61EAC74A00F2"
+				item: {
+					Count: 1
+					id: "ars_nouveau:starbuncle_charm"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["78F3B51B5207FABC"]
+			id: "0459BFA5021F4090"
+			tasks: [{
+				id: "428D0F30EA3318F6"
+				item: "ars_nouveau:whirlisprig_charm"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -4.0d
+		}
+		{
+			can_repeat: false
+			dependencies: ["78F3B51B5207FABC"]
+			id: "0B2AD2025DFC2B97"
+			tasks: [{
+				id: "06DC1BB56E827A33"
+				item: "ars_nouveau:wixie_charm"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["78F3B51B5207FABC"]
+			id: "7EE89CC88A287729"
+			tasks: [{
+				id: "31228E2291B50937"
+				item: "ars_nouveau:drygmy_charm"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["78F3B51B5207FABC"]
+			id: "3699A100C726D17A"
+			tasks: [{
+				id: "641F6A7E6AB35383"
+				item: "ars_elemental:siren_charm"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -3.5d
+		}
+		{
+			id: "78F3B51B5207FABC"
+			tasks: [{
+				id: "31FC7E67CC6B7C4D"
+				item: "minecraft:gold_nugget"
+				type: "item"
+			}]
+			title: "Where Did It Go?"
+			x: -0.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["20A2FE9CA7A5E4F2"]
+			id: "612060DCA24F0397"
+			tasks: [{
+				id: "71581F1F487D7B7D"
+				item: "ars_nouveau:starbuncle_shades"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["20A2FE9CA7A5E4F2"]
+			id: "54AE12017FACAA0E"
+			tasks: [{
+				id: "56FDD61960B1F772"
+				item: "ars_nouveau:wixie_hat"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -7.0d
+		}
+	]
+	title: "Welcome To Ars Nouveau!"
+}

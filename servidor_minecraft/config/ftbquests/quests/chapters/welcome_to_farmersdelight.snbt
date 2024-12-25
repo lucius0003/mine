@@ -1,0 +1,141 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "welcome_to_farmersdelight"
+	group: "461C008368C78F60"
+	id: "0AB5BC65A9F38FDD"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "17D0DB65AB915921"
+			rewards: [
+				{
+					id: "5243A1DE92640C5A"
+					item: "farmersdelight:basket"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "477D126ABD679B95"
+					item: "farmersdelight:sweet_berry_cheesecake_slice"
+					type: "item"
+				}
+				{
+					id: "319416334C22B32D"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			subtitle: "The beginnings of your cullinary adventures and good foods!"
+			tasks: [
+				{
+					id: "2D53131FD77B99D3"
+					item: "farmersdelight:stove"
+					type: "item"
+				}
+				{
+					id: "2D86F24C58E51861"
+					item: "farmersdelight:cooking_pot"
+					type: "item"
+				}
+				{
+					id: "63C267F986D55CDC"
+					item: {
+						Count: 1
+						id: "farmersdelight:skillet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "23107257909A3F4C"
+					item: "farmersdelight:cutting_board"
+					type: "item"
+				}
+				{
+					id: "4341B67F453DA03A"
+					item: {
+						Count: 1
+						id: "farmersdelight:flint_knife"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Kitchen Beginnings"
+			x: -17.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["17D0DB65AB915921"]
+			id: "2B577E8F585387CB"
+			rewards: [{
+				id: "1ED05438B034E3D9"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "To get started you first need to use the knife to cut the grass surrounding you to obtain straw"
+			tasks: [
+				{
+					id: "42B6CEE538E65123"
+					item: "farmersdelight:rich_soil"
+					type: "item"
+				}
+				{
+					id: "3DB112EF288142D0"
+					item: "mm_cooking:item_trader_food_onion"
+					type: "item"
+				}
+				{
+					id: "0333AEA370603E9D"
+					item: "mm_cooking:item_trader_food_rice"
+					type: "item"
+				}
+				{
+					id: "3B044595041EB8E4"
+					item: "farmersdelight:cabbage_seeds"
+					type: "item"
+				}
+				{
+					id: "15C77F782EF4E236"
+					item: "farmersdelight:tomato_seeds"
+					type: "item"
+				}
+				{
+					id: "2747034A86C1F7A5"
+					item: "minecraft:apple"
+					type: "item"
+				}
+				{
+					id: "5B59D3DAC3817961"
+					item: "minecraft:wheat_seeds"
+					type: "item"
+				}
+				{
+					id: "3730A6057EBB6A54"
+					item: "minecraft:beetroot_seeds"
+					type: "item"
+				}
+				{
+					id: "43B59C20D962D36A"
+					item: "minecraft:carrot"
+					type: "item"
+				}
+				{
+					id: "5B8F327D3C2195C1"
+					item: "minecraft:potato"
+					type: "item"
+				}
+			]
+			title: "Farming Essentials"
+			x: -17.5d
+			y: 1.0d
+		}
+	]
+	title: "Welcome to Farmer's Delight!"
+}

@@ -1,0 +1,8 @@
+{
+	chapter_groups: [
+		{ id: "55C6B7A1E1025350", title: "The Basics" }
+		{ id: "7AD08E2FB32F844B", title: "Mekanism" }
+		{ id: "02FF1DFCC567E551", title: "Ars Nouveau" }
+		{ id: "461C008368C78F60", title: "Farmer's Delight" }
+	]
+}

@@ -1,0 +1,21 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "minecraft_basics"
+	group: "55C6B7A1E1025350"
+	id: "041732732AA3763A"
+	order_index: 0
+	quest_links: [ ]
+	quests: [{
+		id: "5B2141A6D340055A"
+		tasks: [{
+			id: "138CFCAA1263EB84"
+			title: "Minecraft"
+			type: "checkmark"
+		}]
+		title: "Welcome to Tech And Adventure!"
+		x: 0.0d
+		y: 0.0d
+	}]
+	title: "Minecraft Basics"
+}

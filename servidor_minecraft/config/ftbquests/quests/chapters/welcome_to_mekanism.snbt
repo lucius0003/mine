@@ -1,0 +1,1291 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "welcome_to_mekanism"
+	group: "7AD08E2FB32F844B"
+	id: "685859B4CA29AA33"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Gather some Salt Blocks to get started"]
+			id: "15ABAD6D169FBE9B"
+			rewards: [{
+				advancement: "mekanism:root"
+				criterion: ""
+				id: "6989A1B9403A2284"
+				type: "advancement"
+			}]
+			subtitle: "Welcome To Mekanism!"
+			tasks: [{
+				count: 10L
+				id: "1A62842B551C33B4"
+				item: { Count: 10, id: "mekanism:block_salt" }
+				type: "item"
+			}]
+			title: "Mekanism"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["15ABAD6D169FBE9B"]
+			disable_toast: true
+			id: "3D9B54811CB59542"
+			rewards: [
+				{
+					advancement: "mekanism:materials"
+					criterion: ""
+					id: "40FF118E240DBE55"
+					type: "advancement"
+				}
+				{
+					count: 7
+					id: "67ECD25EFF97D50F"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "1657A94F89C0AF39"
+					item: "minecraft:stick"
+					type: "item"
+				}
+				{
+					id: "4AC89E6F5B679FE4"
+					item: "minecraft:crafting_table"
+					type: "item"
+				}
+			]
+			subtitle: "Gather some natural Mekanism Resources"
+			tasks: [
+				{
+					id: "55C734B208E70854"
+					item: "mekanism:ingot_osmium"
+					type: "item"
+				}
+				{
+					advancement: "mekanism:root"
+					criterion: ""
+					id: "65632D4D349333C4"
+					type: "advancement"
+				}
+			]
+			title: "First Steps"
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3D9B54811CB59542"]
+			disable_toast: true
+			id: "6132C5AFD992A57C"
+			rewards: [{
+				count: 7
+				id: "1EB4C6AE60A9AFFF"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			subtitle: "Here have your iron back"
+			tasks: [
+				{
+					advancement: "mekanismtools:paxel"
+					criterion: ""
+					id: "13576EF7A1E7A38D"
+					type: "advancement"
+				}
+				{
+					id: "35C68AE2A4D2121F"
+					item: {
+						Count: 1
+						id: "mekanismtools:iron_paxel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6132C5AFD992A57C"]
+			id: "48913939B1615BE6"
+			rewards: [
+				{
+					count: 2
+					id: "7E04E0FE15CD6A54"
+					item: "minecraft:redstone"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "66255F5928CA6E2E"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					id: "2E823566B2E253BF"
+					item: "mekanism:ingot_osmium"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "75E1AD6FA818175B"
+					item: "minecraft:furnace"
+					type: "item"
+				}
+			]
+			subtitle: "Craft a Mettalurgic Infuser"
+			tasks: [
+				{
+					id: "2F8253DB3C455C0A"
+					item: "mekanism:metallurgic_infuser"
+					only_from_crafting: true
+					type: "item"
+				}
+				{
+					advancement: "mekanism:metallurgic_infuser"
+					criterion: ""
+					id: "7ED3EC2AEC67862F"
+					type: "advancement"
+				}
+			]
+			title: " A Metallur- What?"
+			x: -7.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["48913939B1615BE6"]
+			description: ["  Infuse Iron with Carbon and Repeat"]
+			id: "74C8F15ECC70B5FC"
+			rewards: [{
+				id: "05986B53A9B1184A"
+				item: "mekanism:ingot_steel"
+				type: "item"
+			}]
+			tasks: [{
+				id: "013B47FFB9A22F5B"
+				item: "mekanism:ingot_steel"
+				type: "item"
+			}]
+			title: "Industrial Revolution"
+			x: -7.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["74C8F15ECC70B5FC"]
+			id: "1B51474957E94D26"
+			rewards: [{
+				count: 5
+				id: "0F330C92FFDE86E6"
+				item: "mekanism:basic_control_circuit"
+				type: "item"
+			}]
+			subtitle: "Craft a Basic Control Circuit"
+			tasks: [{
+				id: "645713B90FED44A0"
+				item: "mekanism:basic_control_circuit"
+				type: "item"
+			}]
+			title: "Tricking a Rock into Thinking"
+			x: -7.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["3D9B54811CB59542"]
+			id: "674421F9AE94678B"
+			rewards: [
+				{
+					count: 8
+					id: "4532077DBA3A34E1"
+					item: "mekanism:ingot_osmium"
+					type: "item"
+				}
+				{
+					advancement: "mekanismtools:alternate_armor"
+					criterion: ""
+					id: "3860DDCE3F48C441"
+					type: "advancement"
+				}
+			]
+			subtitle: "Craft any piece of Armor from Mekanism Tools"
+			tasks: [
+				{
+					id: "04BE5063CAC915B7"
+					item: {
+						Count: 1
+						id: "mekanismtools:osmium_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3C5AB533AD016067"
+					item: {
+						Count: 1
+						id: "mekanismtools:refined_obsidian_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "0C6617F13D69997B"
+					item: {
+						Count: 1
+						id: "mekanismtools:steel_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "7A652BD4278B0BB7"
+					item: {
+						Count: 1
+						id: "mekanismtools:refined_glowstone_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "2E786AEC3CB6F622"
+					item: {
+						Count: 1
+						id: "mekanismtools:lapis_lazuli_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "56115B6A10868268"
+					item: {
+						Count: 1
+						id: "mekanismtools:bronze_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "More Armor Types!"
+			x: -2.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3D9B54811CB59542"]
+			id: "0AB2DAF8DB53D98B"
+			rewards: [{
+				advancement: "mekanismtools:not_enough_shielding"
+				criterion: ""
+				id: "0E8C2B1BD59CF097"
+				type: "advancement"
+			}]
+			subtitle: "Craft any Shield added by Mekanism Tools"
+			tasks: [
+				{
+					id: "40AA6C79138870EC"
+					item: {
+						Count: 1
+						id: "mekanismtools:steel_shield"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "25EB910AEB5EFED8"
+					item: {
+						Count: 1
+						id: "mekanismtools:bronze_shield"
+						tag: {
+							Damage: 0
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "61640AC1ADACDCF0"
+					item: {
+						Count: 1
+						id: "mekanismtools:lapis_lazuli_shield"
+						tag: {
+							Damage: 0
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "587F67240BB54BC2"
+					item: {
+						Count: 1
+						id: "mekanismtools:osmium_shield"
+						tag: {
+							Damage: 0
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "796094FD2F565778"
+					item: {
+						Count: 1
+						id: "mekanismtools:refined_glowstone_shield"
+						tag: {
+							Damage: 0
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "6BEE298E8FB4285E"
+					item: {
+						Count: 1
+						id: "mekanismtools:refined_obsidian_shield"
+						tag: {
+							Damage: 0
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "Not Enough Shielding"
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3D9B54811CB59542"]
+			id: "4A669640F62C401F"
+			subtitle: "Craft any Tool or Weapon (except Paxels) from Mekanism Tools"
+			tasks: [
+				{
+					id: "36ABF54C524958AA"
+					item: {
+						Count: 1
+						id: "mekanismtools:osmium_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4142CEF2EE18543E"
+					item: {
+						Count: 1
+						id: "mekanismtools:lapis_lazuli_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "29FE3B421CA0083F"
+					item: {
+						Count: 1
+						id: "mekanismtools:refined_glowstone_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "73EE8B33A240E7EA"
+					item: {
+						Count: 1
+						id: "mekanismtools:refined_obsidian_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "More Tool Types!"
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3D9B54811CB59542"]
+			id: "06888881669FF7EC"
+			rewards: [
+				{
+					advancement: "mekanismgenerators:heat_generator"
+					criterion: ""
+					id: "6266A7BCE9750C12"
+					type: "advancement"
+				}
+				{
+					count: 2
+					id: "4352E2473C709BB1"
+					item: "minecraft:copper_ingot"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "3B5181BB85124F33"
+					item: "minecraft:oak_planks"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "6A31731FA305ABE4"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					id: "05EFC8E65F6D188C"
+					item: "mekanism:ingot_osmium"
+					type: "item"
+				}
+			]
+			subtitle: "Craft a Heat Generator to start making power"
+			tasks: [{
+				disable_toast: true
+				id: "17CF285EB320B535"
+				item: "mekanismgenerators:heat_generator"
+				type: "item"
+			}]
+			title: "Your First Generator"
+			x: 0.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["48913939B1615BE6"]
+			id: "4C16990D6C1B410B"
+			rewards: [{
+				advancement: "mekanism:infused_alloy"
+				criterion: ""
+				id: "4131F047C12A9C10"
+				type: "advancement"
+			}]
+			subtitle: "Infuse Iron with Redstone"
+			tasks: [{
+				id: "47B10CBC77B1B7A6"
+				item: "mekanism:alloy_infused"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["4C16990D6C1B410B"]
+			id: "238B258350F4CA75"
+			rewards: [{
+				advancement: "mekanism:reinforced_alloy"
+				criterion: ""
+				id: "0445DF2C5A601385"
+				type: "advancement"
+			}]
+			tasks: [{
+				id: "230FFF6F1AC9502D"
+				item: "mekanism:alloy_reinforced"
+				type: "item"
+			}]
+			title: "Make it Stronger"
+			x: -4.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["3D9B54811CB59542"]
+			id: "64754E6A6B47887F"
+			rewards: [
+				{
+					advancement: "mekanism:cleaning_gauges"
+					criterion: ""
+					id: "18D0409DFD77666D"
+					type: "advancement"
+				}
+				{
+					count: 5
+					id: "32E141F5C5E8811B"
+					item: "minecraft:glass_pane"
+					type: "item"
+				}
+				{
+					id: "2D4103BA6F8E0E38"
+					item: "mekanism:ingot_osmium"
+					type: "item"
+				}
+			]
+			subtitle: "Use the Guage Dropper on any Guage in the Mekanism GUI"
+			tasks: [{
+				id: "541C44277C821C76"
+				item: "mekanism:gauge_dropper"
+				type: "item"
+			}]
+			title: "Cleaning Guages"
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["06888881669FF7EC"]
+			id: "7FC2BA525852786C"
+			rewards: [
+				{
+					advancement: "mekanismgenerators:wind_generator"
+					criterion: ""
+					id: "72E2E57838AAE669"
+					type: "advancement"
+				}
+				{
+					count: 2
+					id: "552975A55085DFD0"
+					item: "mekanism:energy_tablet"
+					type: "item"
+				}
+				{
+					id: "31E58053334C8ACF"
+					item: "mekanism:basic_control_circuit"
+					type: "item"
+				}
+				{
+					id: "7CEB2926F5654A8A"
+					item: "mekanism:alloy_infused"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "51568027C7BA85D9"
+					item: "mekanism:ingot_osmium"
+					type: "item"
+				}
+			]
+			subtitle: "Hopefully there is some wind nearby"
+			tasks: [{
+				id: "5F77A5A02ACD522E"
+				item: "mekanismgenerators:wind_generator"
+				type: "item"
+			}]
+			title: "Spin Baby Spin"
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["06888881669FF7EC"]
+			id: "297E8B180EBBC94F"
+			rewards: [
+				{
+					advancement: "mekanismgenerators:solar_generator"
+					criterion: ""
+					id: "14A9F8B306A6E543"
+					type: "advancement"
+				}
+				{
+					id: "74F2060BEA533204"
+					item: "mekanism:energy_tablet"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "13641C9224D6370A"
+					item: "mekanismgenerators:solar_panel"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "6F670EDA84549CBF"
+					item: "mekanism:ingot_osmium"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "5D79C69F0069CD37"
+					item: "mekanism:alloy_infused"
+					type: "item"
+				}
+				{
+					id: "4C384420021634B3"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+			]
+			subtitle: "Renewable daytime Energy"
+			tasks: [{
+				id: "042F0248E293769E"
+				item: "mekanismgenerators:solar_generator"
+				type: "item"
+			}]
+			title: "Power Of The Sun"
+			x: 1.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["7FC2BA525852786C"]
+			id: "38DEBC596BFF5ADB"
+			rewards: [
+				{
+					advancement: "mekanismgenerators:burn_the_gas"
+					criterion: ""
+					id: "2FB5E1AF6492E680"
+					type: "advancement"
+				}
+				{
+					count: 4
+					id: "162AC96CC4B32159"
+					item: "mekanism:ingot_osmium"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "4BD516342471D793"
+					item: "mekanism:alloy_infused"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "2DAFE19F71051562"
+					item: "mekanism:steel_casing"
+					type: "item"
+				}
+				{
+					id: "311C35A55F12E569"
+					item: "mekanism:electrolytic_core"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "063DB28CDDB8BCEF"
+				item: "mekanismgenerators:gas_burning_generator"
+				type: "item"
+			}]
+			title: "Burn the Gas"
+			x: 3.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4C16990D6C1B410B"]
+			id: "31790659CE0A5678"
+			rewards: [{
+				advancement: "mekanism:advanced_control_circuit"
+				criterion: ""
+				id: "57462F6C2DC8D647"
+				type: "advancement"
+			}]
+			tasks: [{
+				id: "428A75EB949305B3"
+				item: "mekanism:advanced_control_circuit"
+				type: "item"
+			}]
+			title: "He's Really Advanced For His Age"
+			x: -6.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["31790659CE0A5678"]
+			id: "247497AAA2F52430"
+			rewards: [{
+				advancement: "mekanism:playing_with_fire"
+				criterion: ""
+				id: "1F65C31E775B500C"
+				type: "advancement"
+			}]
+			tasks: [{
+				id: "6CA04279A035BBCC"
+				item: "mekanism:flamethrower"
+				type: "item"
+			}]
+			title: "Playing With Fire"
+			x: -4.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["31790659CE0A5678"]
+			id: "0EEC16E881FC686A"
+			rewards: [{
+				advancement: "mekanism:painting_machine"
+				criterion: ""
+				id: "514668A07A802F83"
+				type: "advancement"
+			}]
+			tasks: [{
+				id: "2231835E70BF2B57"
+				item: "mekanism:painting_machine"
+				type: "item"
+			}]
+			title: "Lets Paint!"
+			x: -5.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["238B258350F4CA75"]
+			id: "1C0E6B8599EDFD71"
+			rewards: [{
+				advancement: "mekanism:atomic_alloy"
+				criterion: ""
+				id: "4C5946919AE7E9EC"
+				type: "advancement"
+			}]
+			tasks: [{
+				id: "18AB92DFAAF68A35"
+				item: "mekanism:alloy_atomic"
+				type: "item"
+			}]
+			title: "Top Tier Alloy"
+			x: -3.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["31790659CE0A5678"]
+			id: "1DD13050DB8FA37B"
+			rewards: [{
+				advancement: "mekanism:network_reader"
+				criterion: ""
+				id: "2582E14AC6EBD204"
+				type: "advancement"
+			}]
+			tasks: [{
+				id: "5708EDF8BCED2512"
+				item: "mekanism:network_reader"
+				type: "item"
+			}]
+			title: "Reading The Network"
+			x: -7.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["1DD13050DB8FA37B"]
+			id: "25642CE1415007A9"
+			rewards: [{
+				advancement: "mekanism:fluid_tank"
+				criterion: ""
+				id: "24C69C758D103AA8"
+				type: "advancement"
+			}]
+			tasks: [{
+				id: "60419EBCD179CB02"
+				item: "mekanism:basic_fluid_tank"
+				type: "item"
+			}]
+			title: "Bigger Buckets"
+			x: -7.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["25642CE1415007A9"]
+			id: "6D5E24226311F46B"
+			rewards: [{
+				advancement: "mekanism:alloy_upgrading"
+				criterion: ""
+				id: "1DE6E07B8E91C83F"
+				type: "advancement"
+			}]
+			tasks: [{
+				id: "239916441373918A"
+				item: "mekanism:alloy_infused"
+				type: "item"
+			}]
+			title: "In Place Transmitter Upgrades"
+			x: -7.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["6D5E24226311F46B"]
+			id: "19C25C381FD7670F"
+			rewards: [{
+				advancement: "mekanism:configurator"
+				criterion: ""
+				id: "10EFB2884031BE68"
+				type: "advancement"
+			}]
+			tasks: [{
+				id: "5DFF70E4F049B186"
+				item: "mekanism:configurator"
+				type: "item"
+			}]
+			title: "Configure Everything"
+			x: -7.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["1C0E6B8599EDFD71"]
+			id: "037F9F07CDA497BE"
+			rewards: [{
+				advancement: "mekanism:teleportation_core"
+				criterion: ""
+				id: "318FD8232620F957"
+				type: "advancement"
+			}]
+			tasks: [{
+				id: "463FA53AC7A28D1D"
+				item: "mekanism:teleportation_core"
+				type: "item"
+			}]
+			title: "Thinking with Portals"
+			x: -1.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["1C0E6B8599EDFD71"]
+			id: "6A356AC20A6C7C24"
+			rewards: [{
+				advancement: "mekanism:ultimate_control_circuit"
+				criterion: ""
+				id: "59ADFA7335D40E2E"
+				type: "advancement"
+			}]
+			tasks: [{
+				id: "05D7F42D2BB44BAD"
+				item: "mekanism:ultimate_control_circuit"
+				type: "item"
+			}]
+			title: "Where's My Supercomputer?"
+			x: -1.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["238B258350F4CA75"]
+			id: "2483885D2DD7F69D"
+			rewards: [{
+				advancement: "mekanism:laser"
+				criterion: ""
+				id: "2DCE3DF5041A2165"
+				type: "advancement"
+			}]
+			tasks: [{
+				id: "02D3D933E90069E1"
+				item: "mekanism:laser"
+				type: "item"
+			}]
+			title: "Pew! Pew!"
+			x: -2.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["1B51474957E94D26"]
+			id: "63D08A6C748106BD"
+			rewards: [{
+				advancement: "mekanism:running_free"
+				criterion: ""
+				id: "5691BB490E34F88F"
+				type: "advancement"
+			}]
+			tasks: [{
+				id: "0FCEBE9C98F38B1E"
+				item: "mekanism:free_runners"
+				type: "item"
+			}]
+			title: "Yeah I'm Freeeeeee Fallin'"
+			x: -9.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["1B51474957E94D26"]
+			id: "1337604BFFCB89E9"
+			rewards: [{
+				advancement: "mekanism:simple_mass_storage"
+				criterion: ""
+				id: "48A8B5309BC8EEC4"
+				type: "advancement"
+			}]
+			tasks: [{
+				id: "4FC9F4F61963ED1B"
+				item: "mekanism:basic_bin"
+				type: "item"
+			}]
+			title: "You Can Fit A Whole House In There"
+			x: -9.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["1B51474957E94D26"]
+			id: "7EEBEA6B4B3E156C"
+			rewards: [{
+				advancement: "mekanism:alarm"
+				criterion: ""
+				id: "066CA90AAAE60619"
+				type: "advancement"
+			}]
+			tasks: [{
+				id: "256549C13A23E125"
+				item: "mekanism:industrial_alarm"
+				type: "item"
+			}]
+			title: "Woop! Woop! Woop!"
+			x: -9.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["1B51474957E94D26"]
+			id: "1F7F6E3CB802F499"
+			rewards: [{
+				advancement: "mekanism:factory"
+				criterion: ""
+				id: "6C06A913D86904C5"
+				type: "advancement"
+			}]
+			tasks: [{
+				id: "04F73BE617A4111B"
+				item: "mekanism:basic_smelting_factory"
+				type: "item"
+			}]
+			title: "This Factory Must Grow!"
+			x: -9.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["1B51474957E94D26"]
+			id: "2EDA1E4E7BCD2683"
+			rewards: [{
+				advancement: "mekanism:installer"
+				criterion: ""
+				id: "0460AAA9B8165E09"
+				type: "advancement"
+			}]
+			tasks: [{
+				id: "6F043DF369EC2606"
+				item: "mekanism:basic_tier_installer"
+				type: "item"
+			}]
+			title: "Your Distinctive Will Be Added To Our Own"
+			x: -9.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["1B51474957E94D26"]
+			id: "045BABDC1B5F73E4"
+			rewards: [{
+				advancement: "mekanism:configuration_copying"
+				criterion: ""
+				id: "254EC91ED210E784"
+				type: "advancement"
+			}]
+			tasks: [{
+				id: "67911589F766128B"
+				item: "mekanism:configuration_card"
+				type: "item"
+			}]
+			title: "Ctrl+C, Ctrl+V"
+			x: -9.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["1B51474957E94D26"]
+			id: "0D689E0F1AD6488D"
+			rewards: [{
+				advancement: "mekanism:personal_storage"
+				criterion: ""
+				id: "231BC3108E8A9A07"
+				type: "advancement"
+			}]
+			tasks: [{
+				id: "0A64D0ABAF1369BE"
+				item: "mekanism:personal_chest"
+				type: "item"
+			}]
+			title: "Mine Mine, all Mine!"
+			x: -9.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["2483885D2DD7F69D"]
+			id: "692A9E3F92FB350E"
+			rewards: [{
+				advancement: "mekanism:stopping_lasers"
+				criterion: ""
+				id: "2EBE998B28936CEB"
+				type: "advancement"
+			}]
+			tasks: [{
+				id: "60E29A63B7EC68F7"
+				item: {
+					Count: 1
+					id: "minecraft:shield"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Get Outta My Spectrum!"
+			x: -3.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["2483885D2DD7F69D"]
+			id: "62DE8C15E6F3F650"
+			rewards: [{
+				advancement: "mekanism:auto_collection"
+				criterion: ""
+				id: "7B9E2E4F1CF3EE21"
+				type: "advancement"
+			}]
+			tasks: [{
+				id: "714FBF6BFE669A6A"
+				item: "mekanism:laser_tractor_beam"
+				type: "item"
+			}]
+			title: "Its Pulling Us In!"
+			x: -1.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["1C0E6B8599EDFD71"]
+			id: "7E27B3A2501A782F"
+			rewards: [{
+				advancement: "mekanism:robit"
+				criterion: ""
+				id: "17B9E5C617B2A7B8"
+				type: "advancement"
+			}]
+			tasks: [{
+				id: "01BE5132AA052CF7"
+				item: "mekanism:robit"
+				type: "item"
+			}]
+			title: "A New Best Friend!"
+			x: 0.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["7E27B3A2501A782F"]
+			id: "0E7435AC8B7DBD7E"
+			rewards: [{
+				advancement: "mekanism:robit_aesthetics"
+				criterion: ""
+				id: "781F8710152B9C86"
+				type: "advancement"
+			}]
+			tasks: [{
+				id: "1982E94AF64054C8"
+				item: "mekanism:robit"
+				type: "item"
+			}]
+			title: "A New Coat of Paint"
+			x: 1.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["7E27B3A2501A782F"]
+			id: "72CB489A31B746A5"
+			rewards: [{
+				advancement: "mekanism:digital_miner"
+				criterion: ""
+				id: "2EDB8A8BF6056F49"
+				type: "advancement"
+			}]
+			tasks: [{
+				id: "4D32AEA76FCED8EF"
+				item: "mekanism:digital_miner"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["72CB489A31B746A5"]
+			id: "66F3E694DDDAB890"
+			rewards: [{
+				advancement: "mekanism:dictionary"
+				criterion: ""
+				id: "65618200DBBACE08"
+				type: "advancement"
+			}]
+			tasks: [{
+				id: "38074005B36E9B5A"
+				item: "mekanism:dictionary"
+				type: "item"
+			}]
+			title: "Time To Learn"
+			x: 2.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["72CB489A31B746A5"]
+			id: "09CCA6F8D4FA85B0"
+			rewards: [{
+				advancement: "mekanism:stone_generator"
+				criterion: ""
+				id: "48E4999CFAE020C0"
+				type: "advancement"
+			}]
+			tasks: [{
+				id: "6B27D49D5C6F3BD0"
+				item: "mekanism:upgrade_stone_generator"
+				type: "item"
+			}]
+			title: "Replace with Stone"
+			x: 1.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["037F9F07CDA497BE"]
+			id: "05C93463021C0A30"
+			rewards: [{
+				advancement: "mekanism:quantum_entangloporter"
+				criterion: ""
+				id: "5C2C5F50489DF083"
+				type: "advancement"
+			}]
+			tasks: [{
+				id: "39B089781274852C"
+				item: "mekanism:quantum_entangloporter"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["037F9F07CDA497BE"]
+			id: "14679A94A23C8C9B"
+			rewards: [{
+				advancement: "mekanism:teleporter"
+				criterion: ""
+				id: "2D63E2E98970C3D1"
+				type: "advancement"
+			}]
+			tasks: [{
+				id: "1700D0BEDF6A6AD3"
+				item: "mekanism:teleporter"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["14679A94A23C8C9B"]
+			id: "74AF1F80DD7700A1"
+			rewards: [{
+				advancement: "mekanism:portable_teleporter"
+				criterion: ""
+				id: "50B2E53C90984B22"
+				type: "advancement"
+			}]
+			tasks: [{
+				id: "62ECAEEC97D22246"
+				item: "mekanism:portable_teleporter"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["6A356AC20A6C7C24"]
+			id: "2CA13BE42678BCED"
+			rewards: [{
+				advancement: "mekanism:stabilizing_chunks"
+				criterion: ""
+				id: "7A44AC9B7BEF0926"
+				type: "advancement"
+			}]
+			tasks: [{
+				id: "360EF5385BAB7D5C"
+				item: "mekanism:dimensional_stabilizer"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["1C0E6B8599EDFD71"]
+			id: "2BF940DE1AF30965"
+			rewards: [{
+				advancement: "mekanism:disassembler"
+				criterion: ""
+				id: "13F1B58C6F927144"
+				type: "advancement"
+			}]
+			tasks: [{
+				id: "6523430B2FBFD595"
+				item: "mekanism:atomic_disassembler"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["2BF940DE1AF30965"]
+			id: "6EF32FB11A1452B7"
+			rewards: [{
+				advancement: "mekanism:modification_station"
+				criterion: ""
+				id: "3F669B9FE1B51EAF"
+				type: "advancement"
+			}]
+			tasks: [{
+				id: "40A1524E7DBCE92F"
+				item: "mekanism:modification_station"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 11.5d
+		}
+		{
+			dependencies: ["2BF940DE1AF30965"]
+			id: "02DEC53F5F8F2259"
+			rewards: [{
+				advancement: "mekanism:mekasuit"
+				criterion: ""
+				id: "497CC796E425F6AD"
+				type: "advancement"
+			}]
+			tasks: [{
+				id: "475B57154655AC65"
+				item: "mekanism:mekasuit_bodyarmor"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["238B258350F4CA75"]
+			id: "6ECA6684442F7873"
+			tasks: [{
+				id: "348E0B74788AAAC4"
+				item: "mekanism:elite_control_circuit"
+				type: "item"
+			}]
+			title: "Make It Precise"
+			x: -6.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6ECA6684442F7873"]
+			id: "6C4C49942FE29416"
+			tasks: [{
+				id: "04E9CAD7AA38A2B6"
+				item: "mekanism:solar_neutron_activator"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6ECA6684442F7873"]
+			id: "26B36724D7EF9749"
+			tasks: [{
+				id: "3297F557180901CC"
+				item: "mekanism:security_desk"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -3.5d
+		}
+	]
+	title: "Welcome To Mekanism!"
+}
