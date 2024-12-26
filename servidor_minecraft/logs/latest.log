@@ -6541,3 +6541,537 @@ com.google.gson.JsonParseException: Unknown item 'fsang:wayne_heirloom'
 [26Dec2024 00:59:41.241] [Server thread/INFO] [net.threetag.palladium.Palladium/]: Loaded 6 suit set powers
 [26Dec2024 00:59:41.241] [Server thread/INFO] [net.threetag.palladium.Palladium/]: Registered 110 objectives to be tracked
 [26Dec2024 00:59:41.266] [Server thread/INFO] [twilightforest/]: Loaded 9 Stalactite configs!
+[26Dec2024 00:59:41.436] [Server Watchdog/FATAL] [net.minecraftforge.common.ForgeMod/]: Preparing crash report with UUID e9526822-1cc6-4a63-9ee4-cfd6275d980e
+[26Dec2024 00:59:41.737] [Server thread/ERROR] [ModularItem API/]: Module modules/blade/blade_katana.json contains invalid property healthPercent-old
+[26Dec2024 00:59:41.737] [Server thread/ERROR] [ModularItem API/]: This indicates either a broken Module, Outdated API version or missing dependency!
+[26Dec2024 00:59:41.737] [Server thread/ERROR] [ModularItem API/]: Module modules/blade/blade_katana.json contains invalid property armor_pen-old
+[26Dec2024 00:59:41.737] [Server thread/ERROR] [ModularItem API/]: This indicates either a broken Module, Outdated API version or missing dependency!
+[26Dec2024 00:59:41.912] [Server thread/WARN] [ModularItem API/]: ItemModule does not exist handle_handheld" cannot load synergy
+[26Dec2024 00:59:41.921] [Server thread/WARN] [ModularItem API/]: could not load synergies/compat/bettercombat/katars.json
+java.lang.NullPointerException: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
+	at smartin.miapi.modules.conditions.TagCondition.load(TagCondition.java:38) ~[Truly-Modular-miapi-forge-1.1.37-1.20.1.jar%23578!/:?]
+	at smartin.miapi.modules.conditions.ConditionManager.get(ConditionManager.java:28) ~[Truly-Modular-miapi-forge-1.1.37-1.20.1.jar%23578!/:?]
+	at smartin.miapi.modules.conditions.OtherModuleModuleCondition.load(OtherModuleModuleCondition.java:36) ~[Truly-Modular-miapi-forge-1.1.37-1.20.1.jar%23578!/:?]
+	at smartin.miapi.modules.conditions.ConditionManager.get(ConditionManager.java:28) ~[Truly-Modular-miapi-forge-1.1.37-1.20.1.jar%23578!/:?]
+	at smartin.miapi.modules.conditions.AndCondition.lambda$load$0(AndCondition.java:36) ~[Truly-Modular-miapi-forge-1.1.37-1.20.1.jar%23578!/:?]
+	at java.lang.Iterable.forEach(Iterable.java:75) ~[?:?]
+	at smartin.miapi.modules.conditions.AndCondition.load(AndCondition.java:35) ~[Truly-Modular-miapi-forge-1.1.37-1.20.1.jar%23578!/:?]
+	at smartin.miapi.modules.conditions.ConditionManager.get(ConditionManager.java:28) ~[Truly-Modular-miapi-forge-1.1.37-1.20.1.jar%23578!/:?]
+	at smartin.miapi.modules.synergies.SynergyManager.loadSynergy(SynergyManager.java:107) ~[Truly-Modular-miapi-forge-1.1.37-1.20.1.jar%23578!/:?]
+	at smartin.miapi.modules.synergies.SynergyManager.lambda$load$6(SynergyManager.java:99) ~[Truly-Modular-miapi-forge-1.1.37-1.20.1.jar%23578!/:?]
+	at java.lang.Iterable.forEach(Iterable.java:75) ~[?:?]
+	at smartin.miapi.modules.synergies.SynergyManager.load(SynergyManager.java:64) ~[Truly-Modular-miapi-forge-1.1.37-1.20.1.jar%23578!/:?]
+	at smartin.miapi.modules.synergies.SynergyManager.lambda$setup$2(SynergyManager.java:51) ~[Truly-Modular-miapi-forge-1.1.37-1.20.1.jar%23578!/:?]
+	at smartin.miapi.Miapi.lambda$registerReloadHandler$17(Miapi.java:226) ~[Truly-Modular-miapi-forge-1.1.37-1.20.1.jar%23578!/:?]
+	at java.util.LinkedHashMap.forEach(LinkedHashMap.java:986) ~[?:?]
+	at java.util.Collections$SynchronizedMap.forEach(Collections.java:2955) ~[?:?]
+	at smartin.miapi.Miapi.lambda$registerReloadHandler$18(Miapi.java:223) ~[Truly-Modular-miapi-forge-1.1.37-1.20.1.jar%23578!/:?]
+	at smartin.miapi.datapack.ReloadEvents$ReloadEvent.lambda$fireEvent$0(ReloadEvents.java:263) ~[Truly-Modular-miapi-forge-1.1.37-1.20.1.jar%23578!/:?]
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184) ~[?:?]
+	at java.util.stream.SortedOps$SizedRefSortingSink.end(SortedOps.java:357) ~[?:?]
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:510) ~[?:?]
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499) ~[?:?]
+	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151) ~[?:?]
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174) ~[?:?]
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[?:?]
+	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596) ~[?:?]
+	at smartin.miapi.datapack.ReloadEvents$ReloadEvent.fireEvent(ReloadEvents.java:261) ~[Truly-Modular-miapi-forge-1.1.37-1.20.1.jar%23578!/:?]
+	at smartin.miapi.forge.MiapiReloadListenerForge.apply(MiapiReloadListenerForge.java:62) ~[Truly-Modular-miapi-forge-1.1.37-1.20.1.jar%23578!/:?]
+	at smartin.miapi.forge.MiapiReloadListenerForge.m_5787_(MiapiReloadListenerForge.java:19) ~[Truly-Modular-miapi-forge-1.1.37-1.20.1.jar%23578!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:156) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:770) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:161) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:130) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:753) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:747) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_18701_(BlockableEventLoop.java:139) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.server.MinecraftServer.m_129861_(MinecraftServer.java:1345) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.server.commands.ReloadCommand.m_138235_(ReloadCommand.java:22) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.server.commands.ReloadCommand.m_287964_(ReloadCommand.java:53) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at com.mojang.brigadier.CommandDispatcher.execute(CommandDispatcher.java:264) ~[brigadier-1.1.8.jar%2376!/:?]
+	at net.minecraft.commands.Commands.m_242674_(Commands.java:257) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.m_246958_(ServerGamePacketListenerImpl.java:1244) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.m_244885_(ServerGamePacketListenerImpl.java:1221) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_18693_(BlockableEventLoop.java:67) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:156) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:770) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:161) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:130) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:753) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:747) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_18701_(BlockableEventLoop.java:139) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.server.MinecraftServer.m_130012_(MinecraftServer.java:733) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:665) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:251) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[26Dec2024 00:59:41.945] [Server thread/INFO] [ModularItem API/]: Loaded 206 Materials
+[26Dec2024 01:00:40.935] [Server thread/INFO] [ModularItem API/]: Loaded 1013 Skins
+[26Dec2024 01:00:40.941] [Server thread/INFO] [ModularItem API/]: Found 113 Enchantments
+[26Dec2024 01:00:40.942] [Server thread/INFO] [ModularItem API/]: Loaded 58 Modular Converters
+[26Dec2024 01:00:40.942] [Server thread/INFO] [ModularItem API/]: Loaded 76 Synergies
+[26Dec2024 01:00:40.942] [Server thread/INFO] [ModularItem API/]: Loaded 1 Injectors/Property Substitutors
+[26Dec2024 01:00:40.942] [Server thread/INFO] [ModularItem API/]: Loaded 154 Modules
+[26Dec2024 01:00:40.943] [Server thread/INFO] [ModularItem API/]: Server load took 59341.644292000004 ms
+[26Dec2024 01:00:00.005] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Attempting to create an automatic backup
+[26Dec2024 01:00:40.945] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Found world folder at /workspaces/mine/servidor_minecraft/./world/.
+[26Dec2024 01:00:40.977] [Server thread/INFO] [dan200.computercraft.impl.UpgradeManager/]: Loaded 9 turtle upgrades
+[26Dec2024 01:00:41.012] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Last backup size: 10.5MB Current world size: 15.3MB Current Available space: 18.3GB ExpectedSize 11.0MB
+[26Dec2024 01:01:30.927] [Server thread/INFO] [dan200.computercraft.impl.UpgradeManager/]: Loaded 3 pocket computer upgrades
+[26Dec2024 01:01:30.929] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world minecraft:overworld save state to true
+[26Dec2024 01:01:30.929] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world ad_astra:moon_orbit save state to true
+[26Dec2024 01:01:30.929] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world dimdoors:public_pockets save state to true
+[26Dec2024 01:01:30.929] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world ad_astra:venus_orbit save state to true
+[26Dec2024 01:01:30.929] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world sgjourney:lantea save state to true
+[26Dec2024 01:01:30.929] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world mining_dimension:mining save state to true
+[26Dec2024 01:01:30.929] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world swplanets:mustafar save state to true
+[26Dec2024 01:01:30.929] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world swplanets:tatooine save state to true
+[26Dec2024 01:01:30.929] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world swplanets:endor_orbit save state to true
+[26Dec2024 01:01:30.929] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world ad_astra:earth_orbit save state to true
+[26Dec2024 01:01:30.929] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world ad_astra:moon save state to true
+[26Dec2024 01:01:30.930] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world swplanets:tatooine_orbit save state to true
+[26Dec2024 01:01:30.930] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world swplanets:hot_orbit save state to true
+[26Dec2024 01:01:30.930] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world twilightforest:twilight_forest save state to true
+[26Dec2024 01:01:30.930] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world minecraft:the_end save state to true
+[26Dec2024 01:01:30.930] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world dimdoors:dungeon_pockets save state to true
+[26Dec2024 01:01:30.930] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world fsang:negative_speedforce save state to true
+[26Dec2024 01:01:30.930] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world ad_astra:mercury save state to true
+[26Dec2024 01:01:30.930] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world ad_astra:mars save state to true
+[26Dec2024 01:01:30.930] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world fsang:speedforce save state to true
+[26Dec2024 01:01:30.930] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world ad_astra:glacio_orbit save state to true
+[26Dec2024 01:01:30.930] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world ad_astra:mars_orbit save state to true
+[26Dec2024 01:01:30.930] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world sgjourney:chulak save state to true
+[26Dec2024 01:01:30.930] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world ad_astra:glacio save state to true
+[26Dec2024 01:01:30.930] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world fsang:pocket_dimension save state to true
+[26Dec2024 01:01:30.930] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world dimdoors:limbo save state to true
+[26Dec2024 01:01:30.931] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world swplanets:mandalore_orbit save state to true
+[26Dec2024 01:01:30.931] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world sgjourney:abydos save state to true
+[26Dec2024 01:01:30.931] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world aether:the_aether save state to true
+[26Dec2024 01:01:30.931] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world swplanets:mustafar_orbit save state to true
+[26Dec2024 01:01:30.931] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world dimdungeons:dungeon_dimension save state to true
+[26Dec2024 01:01:30.931] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world swplanets:hot save state to true
+[26Dec2024 01:01:30.931] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world dimdungeons:build_dimension save state to true
+[26Dec2024 01:01:30.931] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world ad_astra:venus save state to true
+[26Dec2024 01:01:30.931] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world ad_astra:mercury_orbit save state to true
+[26Dec2024 01:01:30.931] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world bloodmagic:dungeon save state to true
+[26Dec2024 01:01:30.931] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world sgjourney:cavum_tenebrae save state to true
+[26Dec2024 01:01:30.931] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world swplanets:endor save state to true
+[26Dec2024 01:01:30.931] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world dimdoors:personal_pockets save state to true
+[26Dec2024 01:01:30.931] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world swplanets:mandalore save state to true
+[26Dec2024 01:01:30.931] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world minecraft:the_nether save state to true
+[26Dec2024 01:01:30.932] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world ae2:spatial_storage save state to true
+[26Dec2024 01:01:30.932] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Writing to file /workspaces/mine/servidor_minecraft/backups/backups.json
+[26Dec2024 01:01:30.944] [FTB Backups backup thread 0/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Waiting for world save to complete.
+[26Dec2024 01:01:31.016] [Server Watchdog/FATAL] [net.minecraftforge.common.ForgeMod/]: Preparing crash report with UUID c4e6df19-4a9c-42bd-bb69-adb811d3237b
+[26Dec2024 01:01:31.018] [Server Watchdog/ERROR] [net.minecraft.server.dedicated.ServerWatchdog/]: This crash report has been saved to: /workspaces/mine/servidor_minecraft/./crash-reports/crash-2024-12-26_01.01.30-server.txt
+[26Dec2024 01:01:31.356] [Server thread/INFO] [com.teamabnormals.blueprint.core.Blueprint/]: Chunk Generator Modification Manager has loaded 1 modifier groups
+[26Dec2024 01:01:31.379] [Server thread/INFO] [quark-zeta/]: Modified advancement minecraft:husbandry/wax_on with 2 patches
+[26Dec2024 01:01:31.380] [Server thread/INFO] [quark-zeta/]: Modified advancement minecraft:adventure/kill_a_mob with 3 patches
+[26Dec2024 01:01:31.380] [Server thread/INFO] [quark-zeta/]: Modified advancement minecraft:husbandry/bred_all_animals with 3 patches
+[26Dec2024 01:01:31.380] [Server thread/INFO] [quark-zeta/]: Modified advancement minecraft:adventure/kill_all_mobs with 3 patches
+[26Dec2024 01:01:31.380] [Server thread/INFO] [quark-zeta/]: Modified advancement minecraft:husbandry/balanced_diet with 3 patches
+[26Dec2024 01:01:31.380] [Server thread/INFO] [quark-zeta/]: Modified advancement minecraft:husbandry/plant_seed with 1 patches
+[26Dec2024 01:01:31.380] [Server thread/INFO] [quark-zeta/]: Modified advancement minecraft:nether/all_effects with 2 patches
+[26Dec2024 01:01:31.381] [Server thread/INFO] [quark-zeta/]: Modified advancement minecraft:husbandry/wax_off with 2 patches
+[26Dec2024 01:01:31.381] [Server thread/INFO] [quark-zeta/]: Modified advancement minecraft:adventure/adventuring_time with 1 patches
+[26Dec2024 01:01:31.382] [Server thread/INFO] [quark-zeta/]: Modified advancement minecraft:nether/all_potions with 1 patches
+[26Dec2024 01:01:31.522] [Server thread/ERROR] [ModularItem API/]: Module modules/blade/blade_katana.json contains invalid property healthPercent-old
+[26Dec2024 01:01:31.523] [Server thread/ERROR] [ModularItem API/]: This indicates either a broken Module, Outdated API version or missing dependency!
+[26Dec2024 01:01:31.524] [Server thread/ERROR] [ModularItem API/]: Module modules/blade/blade_katana.json contains invalid property armor_pen-old
+[26Dec2024 01:01:31.524] [Server thread/ERROR] [ModularItem API/]: This indicates either a broken Module, Outdated API version or missing dependency!
+[26Dec2024 01:01:31.605] [Server thread/WARN] [ModularItem API/]: ItemModule does not exist handle_handheld" cannot load synergy
+[26Dec2024 01:01:31.608] [Server thread/WARN] [ModularItem API/]: could not load synergies/compat/bettercombat/katars.json
+java.lang.NullPointerException: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
+	at smartin.miapi.modules.conditions.TagCondition.load(TagCondition.java:38) ~[Truly-Modular-miapi-forge-1.1.37-1.20.1.jar%23578!/:?]
+	at smartin.miapi.modules.conditions.ConditionManager.get(ConditionManager.java:28) ~[Truly-Modular-miapi-forge-1.1.37-1.20.1.jar%23578!/:?]
+	at smartin.miapi.modules.conditions.OtherModuleModuleCondition.load(OtherModuleModuleCondition.java:36) ~[Truly-Modular-miapi-forge-1.1.37-1.20.1.jar%23578!/:?]
+	at smartin.miapi.modules.conditions.ConditionManager.get(ConditionManager.java:28) ~[Truly-Modular-miapi-forge-1.1.37-1.20.1.jar%23578!/:?]
+	at smartin.miapi.modules.conditions.AndCondition.lambda$load$0(AndCondition.java:36) ~[Truly-Modular-miapi-forge-1.1.37-1.20.1.jar%23578!/:?]
+	at java.lang.Iterable.forEach(Iterable.java:75) ~[?:?]
+	at smartin.miapi.modules.conditions.AndCondition.load(AndCondition.java:35) ~[Truly-Modular-miapi-forge-1.1.37-1.20.1.jar%23578!/:?]
+	at smartin.miapi.modules.conditions.ConditionManager.get(ConditionManager.java:28) ~[Truly-Modular-miapi-forge-1.1.37-1.20.1.jar%23578!/:?]
+	at smartin.miapi.modules.synergies.SynergyManager.loadSynergy(SynergyManager.java:107) ~[Truly-Modular-miapi-forge-1.1.37-1.20.1.jar%23578!/:?]
+	at smartin.miapi.modules.synergies.SynergyManager.lambda$load$6(SynergyManager.java:99) ~[Truly-Modular-miapi-forge-1.1.37-1.20.1.jar%23578!/:?]
+	at java.lang.Iterable.forEach(Iterable.java:75) ~[?:?]
+	at smartin.miapi.modules.synergies.SynergyManager.load(SynergyManager.java:64) ~[Truly-Modular-miapi-forge-1.1.37-1.20.1.jar%23578!/:?]
+	at smartin.miapi.modules.synergies.SynergyManager.lambda$setup$2(SynergyManager.java:51) ~[Truly-Modular-miapi-forge-1.1.37-1.20.1.jar%23578!/:?]
+	at smartin.miapi.Miapi.lambda$registerReloadHandler$17(Miapi.java:226) ~[Truly-Modular-miapi-forge-1.1.37-1.20.1.jar%23578!/:?]
+	at java.util.LinkedHashMap.forEach(LinkedHashMap.java:986) ~[?:?]
+	at java.util.Collections$SynchronizedMap.forEach(Collections.java:2955) ~[?:?]
+	at smartin.miapi.Miapi.lambda$registerReloadHandler$18(Miapi.java:223) ~[Truly-Modular-miapi-forge-1.1.37-1.20.1.jar%23578!/:?]
+	at smartin.miapi.datapack.ReloadEvents$ReloadEvent.lambda$fireEvent$0(ReloadEvents.java:263) ~[Truly-Modular-miapi-forge-1.1.37-1.20.1.jar%23578!/:?]
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184) ~[?:?]
+	at java.util.stream.SortedOps$SizedRefSortingSink.end(SortedOps.java:357) ~[?:?]
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:510) ~[?:?]
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499) ~[?:?]
+	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151) ~[?:?]
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174) ~[?:?]
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[?:?]
+	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596) ~[?:?]
+	at smartin.miapi.datapack.ReloadEvents$ReloadEvent.fireEvent(ReloadEvents.java:261) ~[Truly-Modular-miapi-forge-1.1.37-1.20.1.jar%23578!/:?]
+	at smartin.miapi.forge.MiapiReloadListenerForge.apply(MiapiReloadListenerForge.java:62) ~[Truly-Modular-miapi-forge-1.1.37-1.20.1.jar%23578!/:?]
+	at smartin.miapi.forge.MiapiReloadListenerForge.m_5787_(MiapiReloadListenerForge.java:19) ~[Truly-Modular-miapi-forge-1.1.37-1.20.1.jar%23578!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:156) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:770) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:161) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:130) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:753) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:747) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_18701_(BlockableEventLoop.java:139) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.server.MinecraftServer.m_129861_(MinecraftServer.java:1345) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.server.commands.ReloadCommand.m_138235_(ReloadCommand.java:22) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.server.commands.ReloadCommand.m_287964_(ReloadCommand.java:53) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at com.mojang.brigadier.CommandDispatcher.execute(CommandDispatcher.java:264) ~[brigadier-1.1.8.jar%2376!/:?]
+	at net.minecraft.commands.Commands.m_242674_(Commands.java:257) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.m_246958_(ServerGamePacketListenerImpl.java:1244) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.m_244885_(ServerGamePacketListenerImpl.java:1221) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_18693_(BlockableEventLoop.java:67) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:156) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:770) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:161) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:130) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:753) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:747) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_18701_(BlockableEventLoop.java:139) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.server.MinecraftServer.m_130012_(MinecraftServer.java:733) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:665) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:251) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[26Dec2024 01:01:31.621] [Server thread/INFO] [ModularItem API/]: Loaded 206 Materials
+[26Dec2024 01:01:31.621] [Server thread/INFO] [ModularItem API/]: Loaded 1013 Skins
+[26Dec2024 01:01:31.621] [Server thread/INFO] [ModularItem API/]: Found 113 Enchantments
+[26Dec2024 01:01:31.621] [Server thread/INFO] [ModularItem API/]: Loaded 58 Modular Converters
+[26Dec2024 01:01:31.621] [Server thread/INFO] [ModularItem API/]: Loaded 76 Synergies
+[26Dec2024 01:01:31.622] [Server thread/INFO] [ModularItem API/]: Loaded 1 Injectors/Property Substitutors
+[26Dec2024 01:01:31.622] [Server thread/INFO] [ModularItem API/]: Loaded 154 Modules
+[26Dec2024 01:01:31.622] [Server thread/INFO] [ModularItem API/]: Server load took 238.632993 ms
+[26Dec2024 01:01:31.624] [Server thread/INFO] [enderio/]: Data loader for eio_soul/spawner loaded 73 jsons
+[26Dec2024 01:01:31.624] [Server thread/INFO] [enderio/]: Data loader for eio_soul/engine loaded 5 jsons
+[26Dec2024 01:01:31.627] [Server thread/INFO] [Supplementaries/]: Loaded 27 flute songs
+[26Dec2024 01:01:31.629] [Server thread/INFO] [minecolonies/]: Beginning load of custom recipes for colony workers
+[26Dec2024 01:01:31.633] [Server thread/INFO] [minecolonies/]: Loaded 164 recipes for 16 crafters
+[26Dec2024 01:01:31.634] [Server thread/INFO] [minecolonies/]: Beginning load of research for University.
+[26Dec2024 01:01:31.637] [FTB Backups backup thread 0/INFO] [net.creeperhost.levelio.loader.SaveInfo/]: Detected MC Version 1.20.1, Data version 3465
+[26Dec2024 01:01:31.638] [FTB Backups backup thread 0/INFO] [net.creeperhost.levelio.loader.SaveInfo/]: Save Name: world
+[26Dec2024 01:01:31.669] [FTB Backups backup thread 0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/creeperhost/levelio/loader/LevelType
+[26Dec2024 01:01:31.677] [FTB Backups backup thread 0/WARN] [net.creeperhost.levelio.loader.LevelLoader/]: Found possible mod dimension with no region folder twilightforest:twilight_forest
+[26Dec2024 01:01:31.681] [FTB Backups backup thread 0/WARN] [net.creeperhost.levelio.loader.LevelLoader/]: Found possible mod dimension with no region folder fsang:negative_speedforce
+[26Dec2024 01:01:31.681] [FTB Backups backup thread 0/WARN] [net.creeperhost.levelio.loader.LevelLoader/]: Found possible mod dimension with no region folder fsang:pocket_dimension
+[26Dec2024 01:01:31.682] [FTB Backups backup thread 0/WARN] [net.creeperhost.levelio.loader.LevelLoader/]: Found possible mod dimension with no region folder fsang:speedforce
+[26Dec2024 01:01:31.682] [FTB Backups backup thread 0/WARN] [net.creeperhost.levelio.loader.LevelLoader/]: Found possible mod dimension with no region folder dimdoors:dungeon_pockets
+[26Dec2024 01:01:31.683] [FTB Backups backup thread 0/WARN] [net.creeperhost.levelio.loader.LevelLoader/]: Found possible mod dimension with no region folder dimdoors:personal_pockets
+[26Dec2024 01:01:31.684] [FTB Backups backup thread 0/WARN] [net.creeperhost.levelio.loader.LevelLoader/]: Found possible mod dimension with no region folder dimdoors:public_pockets
+[26Dec2024 01:01:31.684] [FTB Backups backup thread 0/WARN] [net.creeperhost.levelio.loader.LevelLoader/]: Found possible mod dimension with no region folder dimdoors:limbo
+[26Dec2024 01:01:31.685] [FTB Backups backup thread 0/WARN] [net.creeperhost.levelio.loader.LevelLoader/]: Found possible mod dimension with no region folder ad_astra:earth_orbit
+[26Dec2024 01:01:31.685] [FTB Backups backup thread 0/WARN] [net.creeperhost.levelio.loader.LevelLoader/]: Found possible mod dimension with no region folder ad_astra:mercury
+[26Dec2024 01:01:31.685] [FTB Backups backup thread 0/WARN] [net.creeperhost.levelio.loader.LevelLoader/]: Found possible mod dimension with no region folder ad_astra:moon
+[26Dec2024 01:01:31.685] [FTB Backups backup thread 0/WARN] [net.creeperhost.levelio.loader.LevelLoader/]: Found possible mod dimension with no region folder ad_astra:moon_orbit
+[26Dec2024 01:01:31.686] [FTB Backups backup thread 0/WARN] [net.creeperhost.levelio.loader.LevelLoader/]: Found possible mod dimension with no region folder ad_astra:glacio
+[26Dec2024 01:01:31.686] [FTB Backups backup thread 0/WARN] [net.creeperhost.levelio.loader.LevelLoader/]: Found possible mod dimension with no region folder ad_astra:mercury_orbit
+[26Dec2024 01:01:31.686] [FTB Backups backup thread 0/WARN] [net.creeperhost.levelio.loader.LevelLoader/]: Found possible mod dimension with no region folder ad_astra:venus_orbit
+[26Dec2024 01:01:31.686] [FTB Backups backup thread 0/WARN] [net.creeperhost.levelio.loader.LevelLoader/]: Found possible mod dimension with no region folder ad_astra:mars
+[26Dec2024 01:01:31.687] [FTB Backups backup thread 0/WARN] [net.creeperhost.levelio.loader.LevelLoader/]: Found possible mod dimension with no region folder ad_astra:mars_orbit
+[26Dec2024 01:01:31.687] [FTB Backups backup thread 0/WARN] [net.creeperhost.levelio.loader.LevelLoader/]: Found possible mod dimension with no region folder ad_astra:venus
+[26Dec2024 01:01:31.687] [FTB Backups backup thread 0/WARN] [net.creeperhost.levelio.loader.LevelLoader/]: Found possible mod dimension with no region folder ad_astra:glacio_orbit
+[26Dec2024 01:01:31.687] [FTB Backups backup thread 0/WARN] [net.creeperhost.levelio.loader.LevelLoader/]: Found possible mod dimension with no region folder ae2:spatial_storage
+[26Dec2024 01:01:31.688] [FTB Backups backup thread 0/WARN] [net.creeperhost.levelio.loader.LevelLoader/]: Found possible mod dimension with no region folder dimdungeons:dungeon_dimension
+[26Dec2024 01:01:31.688] [FTB Backups backup thread 0/WARN] [net.creeperhost.levelio.loader.LevelLoader/]: Found possible mod dimension with no region folder dimdungeons:build_dimension
+[26Dec2024 01:01:31.689] [FTB Backups backup thread 0/WARN] [net.creeperhost.levelio.loader.LevelLoader/]: Found possible mod dimension with no region folder aether:the_aether
+[26Dec2024 01:01:31.691] [FTB Backups backup thread 0/WARN] [net.creeperhost.levelio.loader.LevelLoader/]: Found possible mod dimension with no region folder bloodmagic:dungeon
+[26Dec2024 01:01:31.693] [FTB Backups backup thread 0/WARN] [net.creeperhost.levelio.loader.LevelLoader/]: Found possible mod dimension with no region folder swplanets:endor
+[26Dec2024 01:01:31.693] [FTB Backups backup thread 0/WARN] [net.creeperhost.levelio.loader.LevelLoader/]: Found possible mod dimension with no region folder swplanets:mustafar_orbit
+[26Dec2024 01:01:31.694] [FTB Backups backup thread 0/WARN] [net.creeperhost.levelio.loader.LevelLoader/]: Found possible mod dimension with no region folder swplanets:hot
+[26Dec2024 01:01:31.694] [FTB Backups backup thread 0/WARN] [net.creeperhost.levelio.loader.LevelLoader/]: Found possible mod dimension with no region folder swplanets:tatooine
+[26Dec2024 01:01:31.694] [FTB Backups backup thread 0/WARN] [net.creeperhost.levelio.loader.LevelLoader/]: Found possible mod dimension with no region folder swplanets:hot_orbit
+[26Dec2024 01:01:31.694] [FTB Backups backup thread 0/WARN] [net.creeperhost.levelio.loader.LevelLoader/]: Found possible mod dimension with no region folder swplanets:mandalore
+[26Dec2024 01:01:31.695] [FTB Backups backup thread 0/WARN] [net.creeperhost.levelio.loader.LevelLoader/]: Found possible mod dimension with no region folder swplanets:tatooine_orbit
+[26Dec2024 01:01:31.695] [FTB Backups backup thread 0/WARN] [net.creeperhost.levelio.loader.LevelLoader/]: Found possible mod dimension with no region folder swplanets:mandalore_orbit
+[26Dec2024 01:01:31.695] [FTB Backups backup thread 0/WARN] [net.creeperhost.levelio.loader.LevelLoader/]: Found possible mod dimension with no region folder swplanets:mustafar
+[26Dec2024 01:01:31.696] [FTB Backups backup thread 0/WARN] [net.creeperhost.levelio.loader.LevelLoader/]: Found possible mod dimension with no region folder swplanets:endor_orbit
+[26Dec2024 01:01:31.696] [FTB Backups backup thread 0/WARN] [net.creeperhost.levelio.loader.LevelLoader/]: Found possible mod dimension with no region folder mining_dimension:mining
+[26Dec2024 01:01:31.696] [FTB Backups backup thread 0/WARN] [net.creeperhost.levelio.loader.LevelLoader/]: Found possible mod dimension with no region folder sgjourney:chulak
+[26Dec2024 01:01:31.697] [FTB Backups backup thread 0/WARN] [net.creeperhost.levelio.loader.LevelLoader/]: Found possible mod dimension with no region folder sgjourney:lantea
+[26Dec2024 01:01:31.698] [FTB Backups backup thread 0/WARN] [net.creeperhost.levelio.loader.LevelLoader/]: Found possible mod dimension with no region folder sgjourney:cavum_tenebrae
+[26Dec2024 01:01:31.698] [FTB Backups backup thread 0/WARN] [net.creeperhost.levelio.loader.LevelLoader/]: Found possible mod dimension with no region folder sgjourney:abydos
+[26Dec2024 01:01:31.699] [FTB Backups backup thread 0/WARN] [net.creeperhost.levelio.data.Level/]: Did not find a region folder for level: /workspaces/mine/servidor_minecraft/./world/./DIM-1
+[26Dec2024 01:01:31.699] [FTB Backups backup thread 0/WARN] [net.creeperhost.levelio.data.Level/]: Did not find a region folder for level: /workspaces/mine/servidor_minecraft/./world/./DIM1
+[26Dec2024 01:01:31.726] [Server thread/INFO] [minecolonies/]: Loaded 201 recipes for 4 research branches
+[26Dec2024 01:01:31.728] [Server thread/INFO] [minecolonies/]: Loading quests from data
+[26Dec2024 01:01:31.732] [Server thread/INFO] [minecolonies/]: Finished loading quests from data
+[26Dec2024 01:01:31.734] [Server thread/WARN] [minecolonies/]: Read 1500 items with their nbt keys for compatibility.
+[26Dec2024 01:01:31.734] [Server thread/INFO] [placebo/]: Registered 0 gear_sets.
+[26Dec2024 01:01:31.736] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: crafttweaker.reload.start
+[26Dec2024 01:01:32.261] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: crafttweaker.reload.complete
+[26Dec2024 01:01:32.262] [Server thread/INFO] [se.mickelus.mutil.data.DataStore/]: Loaded   1 tiers
+[26Dec2024 01:01:32.262] [Server thread/INFO] [se.mickelus.mutil.data.DataStore/]: Loaded   8 tweaks
+[26Dec2024 01:01:32.263] [Server thread/INFO] [se.mickelus.mutil.data.MergingDataStore/]: Loaded  72 materials
+[26Dec2024 01:01:32.277] [Server thread/INFO] [se.mickelus.mutil.data.DataStore/]: Loaded 126 improvements
+[26Dec2024 01:01:32.325] [Server thread/INFO] [se.mickelus.mutil.data.MergingDataStore/]: Loaded  78 modules
+[26Dec2024 01:01:32.446] [Server thread/INFO] [se.mickelus.mutil.data.DataStore/]: Loaded   0 enchantments
+[26Dec2024 01:01:32.447] [Server thread/INFO] [se.mickelus.mutil.data.DataStore/]: Loaded  21 synergies
+[26Dec2024 01:01:32.449] [Server thread/INFO] [se.mickelus.mutil.data.DataStore/]: Loaded  10 replacements
+[26Dec2024 01:01:32.454] [Server thread/INFO] [se.mickelus.mutil.data.MergingDataStore/]: Loaded 342 schematics
+[26Dec2024 01:01:32.490] [Server thread/INFO] [se.mickelus.mutil.data.MergingDataStore/]: Loaded  18 crafting_effects
+[26Dec2024 01:01:32.492] [Server thread/INFO] [se.mickelus.mutil.data.DataStore/]: Loaded  35 repairs
+[26Dec2024 01:01:32.494] [Server thread/INFO] [se.mickelus.mutil.data.DataStore/]: Loaded   2 actions
+[26Dec2024 01:01:32.495] [Server thread/INFO] [se.mickelus.mutil.data.DataStore/]: Loaded   0 destabilization
+[26Dec2024 01:01:32.495] [Server thread/INFO] [se.mickelus.mutil.data.DataStore/]: Loaded   0 unlocks
+[26Dec2024 01:01:32.495] [Server thread/INFO] [se.mickelus.mutil.data.DataStore/]: Loaded   0 archetypes
+[26Dec2024 01:01:32.496] [Server thread/INFO] [se.mickelus.mutil.data.DataStore/]: Loaded   0 item_effects
+[26Dec2024 01:01:32.570] [Server thread/WARN] [net.minecraftforge.registries.NamespacedWrapper/]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:block] are present in data pack: c:bookshelves, 
+	c:chests, 
+	c:glass_blocks, 
+	c:glass_panes, 
+	c:ores, 
+	c:quartz_ores, 
+	minecraft:cauldons
+[26Dec2024 01:01:32.877] [Server thread/INFO] [Moonlight/]: Applied 7 data villager trades
+[26Dec2024 01:01:32.879] [Server thread/ERROR] [Moonlight/]: Failed to restore original behavior for item: lunch_basket, net.mehvahdjukaar.moonlight.api.util.DispenserHelper$PlaceBlockDispenseBehavior@79a5088
+[26Dec2024 01:01:33.655] [Server thread/INFO] [moze_intel.projecte.PECore/]: Considering file mekanism:pe_custom_conversions/defaults.json, ID mekanism:defaults
+[26Dec2024 01:01:33.655] [Server thread/INFO] [moze_intel.projecte.PECore/]: Considering file projecte:pe_custom_conversions/defaults.json, ID projecte:defaults
+[26Dec2024 01:01:33.658] [Server thread/INFO] [moze_intel.projecte.PECore/]: Considering file projecte:pe_custom_conversions/metals.json, ID projecte:metals
+[26Dec2024 01:01:33.659] [Server thread/INFO] [moze_intel.projecte.PECore/]: Considering file securitycraft:pe_custom_conversions/passcode_protected.json, ID securitycraft:passcode_protected
+[26Dec2024 01:01:33.659] [Server thread/INFO] [moze_intel.projecte.PECore/]: Considering file securitycraft:pe_custom_conversions/reinforced_blocks.json, ID securitycraft:reinforced_blocks
+[26Dec2024 01:01:33.856] [Server thread/WARN] [moze_intel.projecte.PECore/]: EMC Exploit: ingredients (0 + 1*Item: minecraft:cobblestone => 1*Item: minecraft:gravel) cost 1 but output value is 4
+[26Dec2024 01:01:33.857] [Server thread/WARN] [moze_intel.projecte.PECore/]: EMC Exploit: ingredients (0 + 1*Item: minecraft:sand => 1*Item: minecraft:gravel) cost 1 but output value is 4
+[26Dec2024 01:01:33.857] [Server thread/WARN] [moze_intel.projecte.PECore/]: EMC Exploit: ingredients (0 + 1*Item: minecraft:red_sand => 1*Item: minecraft:gravel) cost 1 but output value is 4
+[26Dec2024 01:01:33.857] [Server thread/WARN] [moze_intel.projecte.PECore/]: EMC Exploit: ingredients (0 + 1*Item: biomeswevegone:black_sand => 1*Item: minecraft:gravel) cost 1 but output value is 4
+[26Dec2024 01:01:33.857] [Server thread/WARN] [moze_intel.projecte.PECore/]: EMC Exploit: ingredients (0 + 1*Item: biomeswevegone:blue_sand => 1*Item: minecraft:gravel) cost 3 but output value is 4
+[26Dec2024 01:01:33.857] [Server thread/WARN] [moze_intel.projecte.PECore/]: EMC Exploit: ingredients (0 + 1*Item: biomeswevegone:pink_sand => 1*Item: minecraft:gravel) cost 1 but output value is 4
+[26Dec2024 01:01:33.857] [Server thread/WARN] [moze_intel.projecte.PECore/]: EMC Exploit: ingredients (0 + 1*Item: biomeswevegone:purple_sand => 1*Item: minecraft:gravel) cost 3 but output value is 4
+[26Dec2024 01:01:33.858] [Server thread/WARN] [moze_intel.projecte.PECore/]: EMC Exploit: ingredients (0 + 1*Item: biomeswevegone:white_sand => 1*Item: minecraft:gravel) cost 2 but output value is 4
+[26Dec2024 01:01:33.858] [Server thread/WARN] [moze_intel.projecte.PECore/]: EMC Exploit: ingredients (0 + 1*Item: minecraft:dead_brain_coral_fan + 600*Gas: mekanism:water_vapor => 1*Item: minecraft:brain_coral_fan) cost 1 but output value is 16
+[26Dec2024 01:01:33.865] [Server thread/WARN] [moze_intel.projecte.PECore/]: EMC Exploit: ingredients (0 + 600*Gas: mekanism:water_vapor + 1*Item: minecraft:dead_tube_coral_fan => 1*Item: minecraft:tube_coral_fan) cost 1 but output value is 16
+[26Dec2024 01:01:33.866] [Server thread/WARN] [moze_intel.projecte.PECore/]: EMC Exploit: "0 + 9*Item: mekanism:nugget_osmium => 1*Item: mekanism:ingot_osmium" ingredient cost: 504 value of result: 512 setValueFromConversion: 0 + 2*Item Tag: forge:ingots/iron => 1*Item: mekanism:ingot_osmium
+[26Dec2024 01:01:33.869] [Server thread/WARN] [moze_intel.projecte.PECore/]: EMC Exploit: "0 + 9*NSSFAKE:craftingMapper/159 => 1*Item: minecraft:copper_ingot" ingredient cost: 126 value of result: 128 setValueFromConversion: 0 + 1*Item Tag: forge:ingots/iron => 2*Item: minecraft:copper_ingot
+[26Dec2024 01:01:33.870] [Server thread/WARN] [moze_intel.projecte.PECore/]: EMC Exploit: ingredients (0 + 1*Item: minecraft:mangrove_roots => 8*Item: minecraft:stick) cost 4 but output value is 4
+[26Dec2024 01:01:33.870] [Server thread/WARN] [moze_intel.projecte.PECore/]: EMC Exploit: ingredients (0 + 1*Item: minecraft:dead_bush => 2*Item: minecraft:stick) cost 1 but output value is 4
+[26Dec2024 01:01:33.871] [Server thread/WARN] [moze_intel.projecte.PECore/]: EMC Exploit: ingredients (0 + 1*Item: minecraft:dead_fire_coral_block + 1000*Gas: mekanism:water_vapor => 1*Item: minecraft:fire_coral_block) cost 4 but output value is 64
+[26Dec2024 01:01:33.871] [Server thread/WARN] [moze_intel.projecte.PECore/]: EMC Exploit: ingredients (0 + 1*Item: minecraft:clay_ball + 10*Infuse Type: mekanism:bio => 1*Item: minecraft:slime_ball) cost 82 / 5 but output value is 32
+[26Dec2024 01:01:33.872] [Server thread/WARN] [moze_intel.projecte.PECore/]: EMC Exploit: ingredients (0 + 1*Item: minecraft:clay + 40*Infuse Type: mekanism:bio => 4*Item: minecraft:slime_ball) cost 13 / 5 but output value is 32
+[26Dec2024 01:01:33.872] [Server thread/WARN] [moze_intel.projecte.PECore/]: EMC Exploit: ingredients (0 + 9*Item: mekanism:nugget_uranium => 1*Item: mekanism:ingot_uranium) cost 4095 but output value is 4096
+[26Dec2024 01:01:33.873] [Server thread/WARN] [moze_intel.projecte.PECore/]: EMC Exploit: ingredients (0 + 1*Item: minecraft:dead_fire_coral_fan + 600*Gas: mekanism:water_vapor => 1*Item: minecraft:fire_coral_fan) cost 1 but output value is 16
+[26Dec2024 01:01:33.875] [Server thread/WARN] [moze_intel.projecte.PECore/]: EMC Exploit: ingredients (0 + 1*Item: minecraft:clay => 4*Item: minecraft:clay_ball) cost 1 but output value is 16
+[26Dec2024 01:01:33.876] [Server thread/WARN] [moze_intel.projecte.PECore/]: EMC Exploit: "0 + 9*Item: thermal:nickel_nugget => 1*Item: thermal:nickel_ingot" ingredient cost: 1017 value of result: 1024 setValueFromConversion: 0 + 4*Item Tag: forge:ingots/iron => 1*Item: thermal:nickel_ingot
+[26Dec2024 01:01:33.877] [Server thread/WARN] [moze_intel.projecte.PECore/]: EMC Exploit: ingredients (0 + 1*Item: minecraft:grass => 1*Item: minecraft:wheat_seeds) cost 1 but output value is 16
+[26Dec2024 01:01:33.878] [Server thread/WARN] [moze_intel.projecte.PECore/]: EMC Exploit: ingredients (0 + 1000*Gas: mekanism:water_vapor + 1*Item: minecraft:dead_tube_coral_block => 1*Item: minecraft:tube_coral_block) cost 4 but output value is 64
+[26Dec2024 01:01:33.879] [Server thread/WARN] [moze_intel.projecte.PECore/]: EMC Exploit: ingredients (0 + 1*NSSFAKE:craftingMapper/266 + 1*Item: minecraft:sugar + 1*NSSFAKE:craftingMapper/265 + 1*NSSFAKE:craftingMapper/23 => 3*Item: supplementaries:pancake) cost 75 but output value is 2048
+[26Dec2024 01:01:33.880] [Server thread/WARN] [moze_intel.projecte.PECore/]: EMC Exploit: ingredients (0 + 1*Item: minecraft:dead_fire_coral + 600*Gas: mekanism:water_vapor => 1*Item: minecraft:fire_coral) cost 1 but output value is 16
+[26Dec2024 01:01:33.881] [Server thread/WARN] [moze_intel.projecte.PECore/]: EMC Exploit: ingredients (0 + 600*Gas: mekanism:water_vapor + 1*Item: minecraft:dead_tube_coral => 1*Item: minecraft:tube_coral) cost 1 but output value is 16
+[26Dec2024 01:01:33.883] [Server thread/WARN] [moze_intel.projecte.PECore/]: EMC Exploit: "0 + 9*Item: minecraft:gold_nugget => 1*Item: minecraft:gold_ingot" ingredient cost: 2043 value of result: 2048 setValueFromConversion: 0 + 8*Item Tag: forge:ingots/iron => 1*Item: minecraft:gold_ingot
+[26Dec2024 01:01:33.886] [Server thread/WARN] [moze_intel.projecte.PECore/]: EMC Exploit: ingredients (0 + 1*Item: minecraft:dead_horn_coral_fan + 600*Gas: mekanism:water_vapor => 1*Item: minecraft:horn_coral_fan) cost 1 but output value is 16
+[26Dec2024 01:01:33.887] [Server thread/WARN] [moze_intel.projecte.PECore/]: EMC Exploit: ingredients (0 + 9*Item: minecraft:iron_nugget => 1*Item: minecraft:iron_ingot) cost 252 but output value is 256
+[26Dec2024 01:01:33.888] [Server thread/WARN] [moze_intel.projecte.PECore/]: EMC Exploit: "0 + 1*Item: securitycraft:reinforced_diorite + 1*Item: minecraft:cobblestone => 2*Item: securitycraft:reinforced_andesite" ingredient cost: 17 value of result: 16 setValueFromConversion: 0 + 1*Item: minecraft:andesite => 1*Item: securitycraft:reinforced_andesite
+[26Dec2024 01:01:33.888] [Server thread/WARN] [moze_intel.projecte.PECore/]: EMC Exploit: "0 + 1*Item: securitycraft:reinforced_cobblestone + 1*Item: minecraft:diorite => 2*Item: securitycraft:reinforced_andesite" ingredient cost: 17 value of result: 16 setValueFromConversion: 0 + 1*Item: minecraft:andesite => 1*Item: securitycraft:reinforced_andesite
+[26Dec2024 01:01:33.889] [Server thread/WARN] [moze_intel.projecte.PECore/]: EMC Exploit: "0 + 1*Item: securitycraft:reinforced_cobblestone + 1*Item: securitycraft:reinforced_diorite => 2*Item: securitycraft:reinforced_andesite" ingredient cost: 17 value of result: 16 setValueFromConversion: 0 + 1*Item: minecraft:andesite => 1*Item: securitycraft:reinforced_andesite
+[26Dec2024 01:01:33.890] [Server thread/WARN] [moze_intel.projecte.PECore/]: EMC Exploit: ingredients (0 + 1*Item: minecraft:cobblestone + 1*Item: minecraft:diorite => 2*Item: minecraft:andesite) cost 17 but output value is 16
+[26Dec2024 01:01:33.894] [Server thread/WARN] [moze_intel.projecte.PECore/]: EMC Exploit: ingredients (0 + 1000*Gas: mekanism:water_vapor + 1*Item: minecraft:dead_horn_coral_block => 1*Item: minecraft:horn_coral_block) cost 4 but output value is 64
+[26Dec2024 01:01:33.897] [Server thread/WARN] [moze_intel.projecte.PECore/]: EMC Exploit: ingredients (0 + 3*Item: minecraft:charcoal + 2*Item: minecraft:sugar + 1*Item: minecraft:flint => 3*Item: minecraft:gunpowder) cost 130 but output value is 192
+[26Dec2024 01:01:33.897] [Server thread/WARN] [moze_intel.projecte.PECore/]: EMC Exploit: ingredients (0 + 1*Item: minecraft:flint => 1*Item: minecraft:gunpowder) cost 4 but output value is 192
+[26Dec2024 01:01:33.897] [Server thread/WARN] [moze_intel.projecte.PECore/]: EMC Exploit: ingredients (0 + 1*Item: mekanism:dust_sulfur => 1*Item: minecraft:gunpowder) cost 16 but output value is 192
+[26Dec2024 01:01:33.903] [Server thread/WARN] [moze_intel.projecte.PECore/]: EMC Exploit: ingredients (0 + 1*Item: minecraft:cobweb => 9*Item: minecraft:string) cost 12 but output value is 12
+[26Dec2024 01:01:33.906] [Server thread/WARN] [moze_intel.projecte.PECore/]: EMC Exploit: ingredients (0 + 600*Gas: mekanism:water_vapor + 1*Item: minecraft:dead_horn_coral => 1*Item: minecraft:horn_coral) cost 1 but output value is 16
+[26Dec2024 01:01:33.906] [Server thread/WARN] [moze_intel.projecte.PECore/]: EMC Exploit: ingredients (0 + 1*Item: minecraft:dead_bubble_coral + 600*Gas: mekanism:water_vapor => 1*Item: minecraft:bubble_coral) cost 1 but output value is 16
+[26Dec2024 01:01:33.907] [Server thread/WARN] [moze_intel.projecte.PECore/]: EMC Exploit: ingredients (0 + 1000*Gas: mekanism:water_vapor + 1*Item: minecraft:dead_brain_coral_block => 1*Item: minecraft:brain_coral_block) cost 4 but output value is 64
+[26Dec2024 01:01:33.908] [Server thread/WARN] [moze_intel.projecte.PECore/]: EMC Exploit: ingredients (0 + 600*Gas: mekanism:water_vapor + 1*Item: minecraft:dead_bubble_coral_fan => 1*Item: minecraft:bubble_coral_fan) cost 1 but output value is 16
+[26Dec2024 01:01:33.910] [Server thread/WARN] [moze_intel.projecte.PECore/]: EMC Exploit: "0 + 9*NSSFAKE:craftingMapper/69 => 1*Item: thermal:lead_ingot" ingredient cost: 504 value of result: 512 setValueFromConversion: 0 + 2*Item Tag: forge:ingots/iron => 1*Item: thermal:lead_ingot
+[26Dec2024 01:01:33.910] [Server thread/WARN] [moze_intel.projecte.PECore/]: EMC Exploit: ingredients (0 + 1000*Gas: mekanism:water_vapor + 1*Item: minecraft:dead_bubble_coral_block => 1*Item: minecraft:bubble_coral_block) cost 4 but output value is 64
+[26Dec2024 01:01:33.911] [Server thread/WARN] [moze_intel.projecte.PECore/]: EMC Exploit: ingredients (0 + 600*Gas: mekanism:water_vapor + 1*Item: minecraft:dead_brain_coral => 1*Item: minecraft:brain_coral) cost 1 but output value is 16
+[26Dec2024 01:01:33.912] [Server thread/WARN] [moze_intel.projecte.PECore/]: EMC Exploit: "0 + 9*NSSFAKE:craftingMapper/312 => 1*Item: thermal:silver_ingot" ingredient cost: 504 value of result: 512 setValueFromConversion: 0 + 2*Item Tag: forge:ingots/iron => 1*Item: thermal:silver_ingot
+[26Dec2024 01:01:33.914] [Server thread/WARN] [moze_intel.projecte.PECore/]: EMC Exploit: ingredients (0 + 9*Item: minecraft:disc_fragment_5 => 1*Item: minecraft:music_disc_5) cost 2043 but output value is 2048
+[26Dec2024 01:01:33.915] [Server thread/WARN] [moze_intel.projecte.PECore/]: EMC Exploit: "0 + 9*NSSFAKE:craftingMapper/124 => 1*Item: thermal:tin_ingot" ingredient cost: 252 value of result: 256 setValueFromConversion: 0 + 1*Item Tag: forge:ingots/iron => 1*Item: thermal:tin_ingot
+[26Dec2024 01:01:33.917] [Server thread/WARN] [moze_intel.projecte.PECore/]: EMC Exploit: "0 + 9*NSSFAKE:craftingMapper/19 => 1*Item: thermal:bronze_ingot" ingredient cost: 153 value of result: 160 setValueFromConversion: 0 + 3*Item Tag: forge:ingots/copper + 1*Item Tag: forge:ingots/tin => 4*Item: thermal:bronze_ingot
+[26Dec2024 01:01:33.917] [Server thread/WARN] [moze_intel.projecte.PECore/]: EMC Exploit: "0 + 1*NSSFAKE:craftingMapper/489 => 1*Item: thermal:bronze_ingot" ingredient cost: 103 value of result: 160 setValueFromConversion: 0 + 3*Item Tag: forge:ingots/copper + 1*Item Tag: forge:ingots/tin => 4*Item: thermal:bronze_ingot
+[26Dec2024 01:01:33.917] [Server thread/WARN] [moze_intel.projecte.PECore/]: EMC Exploit: "0 + 3*Item: minecraft:copper_ingot + 10*Infuse Type: mekanism:tin => 4*Item: thermal:bronze_ingot" ingredient cost: 414 value of result: 160 setValueFromConversion: 0 + 3*Item Tag: forge:ingots/copper + 1*Item Tag: forge:ingots/tin => 4*Item: thermal:bronze_ingot
+[26Dec2024 01:01:33.934] [Server thread/INFO] [moze_intel.projecte.PECore/]: Registered 7889 EMC values. (took 1004 ms)
+[26Dec2024 01:01:33.941] [Server thread/INFO] [net.roguelogix.biggerreactors.BiggerReactors/]: Loading reactor moderators
+[26Dec2024 01:01:33.965] [Server thread/INFO] [net.roguelogix.biggerreactors.BiggerReactors/]: Loaded 54 moderator data entries
+[26Dec2024 01:01:33.966] [Server thread/INFO] [net.roguelogix.biggerreactors.BiggerReactors/]: Loaded 48 moderator entries
+[26Dec2024 01:01:33.966] [Server thread/INFO] [net.roguelogix.biggerreactors.BiggerReactors/]: Loading turbine coils
+[26Dec2024 01:01:33.985] [Server thread/INFO] [net.roguelogix.biggerreactors.BiggerReactors/]: Loaded 15 coil data entries
+[26Dec2024 01:01:33.986] [Server thread/INFO] [net.roguelogix.biggerreactors.BiggerReactors/]: Loaded 12 coil entries
+[26Dec2024 01:01:33.986] [Server thread/INFO] [net.roguelogix.biggerreactors.BiggerReactors/]: Loading fluid transitions
+[26Dec2024 01:01:34.004] [Server thread/INFO] [net.roguelogix.biggerreactors.BiggerReactors/]: Loaded 6 transitions data entries
+[26Dec2024 01:01:34.004] [Server thread/INFO] [net.roguelogix.biggerreactors.BiggerReactors/]: Loaded 3 liquid transition entries
+[26Dec2024 01:01:34.004] [Server thread/INFO] [net.roguelogix.biggerreactors.BiggerReactors/]: Loaded 4 gas transition entries
+[26Dec2024 01:01:34.343] [Server thread/WARN] [thermal/]: Energy value for thermal:disenchantment_enchanted_book was out of allowable range and has been clamped between + 1000 and 20000000.
+[26Dec2024 01:01:35.491] [FTB Backups backup thread 0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/creeperhost/levelpreview/ColourMap$Brightness
+[26Dec2024 01:01:35.648] [Server thread/WARN] [net.threetag.palladium.Palladium/]: Tried to add 'fsang:atlantean_artifact' after unknown item 'fsang:amazonian_clay' in creative mode tab
+[26Dec2024 01:01:35.651] [Server thread/WARN] [net.threetag.palladium.Palladium/]: Tried to add 'fsang:amazon_clay' after unknown item 'fsang:amazonian_artifact' in creative mode tab
+[26Dec2024 01:01:35.657] [Server thread/WARN] [net.threetag.palladium.Palladium/]: Tried to add 'fsang:nightwing_helmet' after unknown item 'fsang:nightwing_beyond_boots' in creative mode tab
+[26Dec2024 01:01:35.659] [Server thread/WARN] [net.threetag.palladium.Palladium/]: Tried to add 'fsang:cape_green' after unknown item 'fsang:cape_hooden_blue' in creative mode tab
+[26Dec2024 01:01:35.660] [Server thread/WARN] [net.threetag.palladium.Palladium/]: Tried to add 'fsang:winter_soldier_leggings' after unknown item 'fsang:winter_soldier_chestpalte' in creative mode tab
+[26Dec2024 01:01:35.661] [Server thread/WARN] [net.threetag.palladium.Palladium/]: Tried to add 'fsang:winter_soldier_helmet' after unknown item 'fsang:winter_soldier_beyond_boots' in creative mode tab
+[26Dec2024 01:01:35.663] [Server thread/WARN] [net.threetag.palladium.Palladium/]: Tried to add 'fsang:batman_leggings' after unknown item 'fsang:batman_chestpalte' in creative mode tab
+[26Dec2024 01:01:35.670] [Server thread/WARN] [net.threetag.palladium.Palladium/]: Tried to add 'fsang:spider_serum' after unknown item 'fsang:speedforce_chemicals' in creative mode tab
+[26Dec2024 01:01:35.815] [FTB Backups backup thread 0/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Backup preview created, Scan took 455ms, Capture took 3952ms
+[26Dec2024 01:01:36.366] [Server thread/INFO] [minecolonies/]: Finished discovering Ores 102 91
+[26Dec2024 01:01:36.366] [Server thread/INFO] [minecolonies/]: Finished discovering saplings 84
+[26Dec2024 01:01:36.366] [Server thread/INFO] [minecolonies/]: Finished discovering plantables 19
+[26Dec2024 01:01:36.366] [Server thread/INFO] [minecolonies/]: Finished discovering food 331 374
+[26Dec2024 01:01:36.366] [Server thread/INFO] [minecolonies/]: Finished discovering fuel 2813
+[26Dec2024 01:01:36.366] [Server thread/INFO] [minecolonies/]: Finished discovering flowers 114
+[26Dec2024 01:01:36.366] [Server thread/INFO] [minecolonies/]: Finished discovering items 24624
+[26Dec2024 01:01:36.366] [Server thread/INFO] [minecolonies/]: Finished discovering lucky oreBlocks 6
+[26Dec2024 01:01:36.366] [Server thread/INFO] [minecolonies/]: Finished discovering recruitment costs
+[26Dec2024 01:01:36.367] [Server thread/INFO] [minecolonies/]: Finished discovering diseases
+[26Dec2024 01:01:36.373] [Server thread/INFO] [minecolonies/]: Finished discovering compostables 1135
+[26Dec2024 01:01:36.648] [Server thread/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Backup in progress, Waiting for it to finish before shutting down.
+[26Dec2024 01:01:37.365] [FTB Backups backup thread 0/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world minecraft:overworld save state to false
+[26Dec2024 01:01:37.366] [FTB Backups backup thread 0/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world ad_astra:moon_orbit save state to false
+[26Dec2024 01:01:37.366] [FTB Backups backup thread 0/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world dimdoors:public_pockets save state to false
+[26Dec2024 01:01:37.366] [FTB Backups backup thread 0/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world ad_astra:venus_orbit save state to false
+[26Dec2024 01:01:37.366] [FTB Backups backup thread 0/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world sgjourney:lantea save state to false
+[26Dec2024 01:01:37.366] [FTB Backups backup thread 0/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world mining_dimension:mining save state to false
+[26Dec2024 01:01:37.366] [FTB Backups backup thread 0/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world swplanets:mustafar save state to false
+[26Dec2024 01:01:37.367] [FTB Backups backup thread 0/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world swplanets:tatooine save state to false
+[26Dec2024 01:01:37.367] [FTB Backups backup thread 0/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world swplanets:endor_orbit save state to false
+[26Dec2024 01:01:37.367] [FTB Backups backup thread 0/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world ad_astra:earth_orbit save state to false
+[26Dec2024 01:01:37.367] [FTB Backups backup thread 0/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world ad_astra:moon save state to false
+[26Dec2024 01:01:37.367] [FTB Backups backup thread 0/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world swplanets:tatooine_orbit save state to false
+[26Dec2024 01:01:37.367] [FTB Backups backup thread 0/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world swplanets:hot_orbit save state to false
+[26Dec2024 01:01:37.367] [FTB Backups backup thread 0/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world twilightforest:twilight_forest save state to false
+[26Dec2024 01:01:37.367] [FTB Backups backup thread 0/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world minecraft:the_end save state to false
+[26Dec2024 01:01:37.368] [FTB Backups backup thread 0/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world dimdoors:dungeon_pockets save state to false
+[26Dec2024 01:01:37.368] [FTB Backups backup thread 0/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world fsang:negative_speedforce save state to false
+[26Dec2024 01:01:37.368] [FTB Backups backup thread 0/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world ad_astra:mercury save state to false
+[26Dec2024 01:01:37.368] [FTB Backups backup thread 0/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world ad_astra:mars save state to false
+[26Dec2024 01:01:37.369] [FTB Backups backup thread 0/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world fsang:speedforce save state to false
+[26Dec2024 01:01:37.369] [FTB Backups backup thread 0/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world ad_astra:glacio_orbit save state to false
+[26Dec2024 01:01:37.369] [FTB Backups backup thread 0/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world ad_astra:mars_orbit save state to false
+[26Dec2024 01:01:37.369] [FTB Backups backup thread 0/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world sgjourney:chulak save state to false
+[26Dec2024 01:01:37.369] [FTB Backups backup thread 0/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world ad_astra:glacio save state to false
+[26Dec2024 01:01:37.370] [FTB Backups backup thread 0/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world fsang:pocket_dimension save state to false
+[26Dec2024 01:01:37.370] [FTB Backups backup thread 0/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world dimdoors:limbo save state to false
+[26Dec2024 01:01:37.370] [FTB Backups backup thread 0/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world swplanets:mandalore_orbit save state to false
+[26Dec2024 01:01:37.371] [FTB Backups backup thread 0/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world sgjourney:abydos save state to false
+[26Dec2024 01:01:37.371] [FTB Backups backup thread 0/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world aether:the_aether save state to false
+[26Dec2024 01:01:37.372] [FTB Backups backup thread 0/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world swplanets:mustafar_orbit save state to false
+[26Dec2024 01:01:37.372] [FTB Backups backup thread 0/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world dimdungeons:dungeon_dimension save state to false
+[26Dec2024 01:01:37.372] [FTB Backups backup thread 0/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world swplanets:hot save state to false
+[26Dec2024 01:01:37.373] [FTB Backups backup thread 0/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world dimdungeons:build_dimension save state to false
+[26Dec2024 01:01:37.373] [FTB Backups backup thread 0/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world ad_astra:venus save state to false
+[26Dec2024 01:01:37.373] [FTB Backups backup thread 0/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world ad_astra:mercury_orbit save state to false
+[26Dec2024 01:01:37.373] [FTB Backups backup thread 0/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world bloodmagic:dungeon save state to false
+[26Dec2024 01:01:37.374] [FTB Backups backup thread 0/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world sgjourney:cavum_tenebrae save state to false
+[26Dec2024 01:01:37.374] [FTB Backups backup thread 0/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world swplanets:endor save state to false
+[26Dec2024 01:01:37.374] [FTB Backups backup thread 0/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world dimdoors:personal_pockets save state to false
+[26Dec2024 01:01:37.374] [FTB Backups backup thread 0/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world swplanets:mandalore save state to false
+[26Dec2024 01:01:37.374] [FTB Backups backup thread 0/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world minecraft:the_nether save state to false
+[26Dec2024 01:01:37.375] [FTB Backups backup thread 0/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world ae2:spatial_storage save state to false
+[26Dec2024 01:01:37.404] [FTB Backups backup thread 0/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Backup size 10.6MB World Size 15.3MB
+[26Dec2024 01:01:37.405] [FTB Backups backup thread 0/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Writing to file /workspaces/mine/servidor_minecraft/backups/backups.json
+[26Dec2024 01:01:37.406] [FTB Backups backup thread 0/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: New backup created at /workspaces/mine/servidor_minecraft/backups/2024-12-26_1-0-40.zip size: 10.6MB Took: 0m, 6s, 443ms Sha1: b6232213009a54a2e5f40ea270ec577cace8349a
+[26Dec2024 01:01:37.649] [Server thread/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Shutdown Complete
+[26Dec2024 01:01:37.655] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[26Dec2024 01:01:37.657] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[26Dec2024 01:01:37.752] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: luciu_black lost connection: Disconnected
+[26Dec2024 01:01:37.752] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: luciu_black left the game
+[26Dec2024 01:01:37.756] [Server thread/INFO] [com.alrex.parcool.ParCool/]: Limitation of 48812f9b-dcef-3414-958e-f80113c926fd was unloaded
+[26Dec2024 01:01:37.921] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[26Dec2024 01:01:38.613] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[26Dec2024 01:01:38.990] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/ad_astra:moon_orbit
+[26Dec2024 01:01:38.992] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/dimdoors:public_pockets
+[26Dec2024 01:01:38.993] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/ad_astra:venus_orbit
+[26Dec2024 01:01:38.994] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/sgjourney:lantea
+[26Dec2024 01:01:38.995] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/mining_dimension:mining
+[26Dec2024 01:01:38.996] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/swplanets:mustafar
+[26Dec2024 01:01:38.997] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/swplanets:tatooine
+[26Dec2024 01:01:38.998] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/swplanets:endor_orbit
+[26Dec2024 01:01:38.999] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/ad_astra:earth_orbit
+[26Dec2024 01:01:39.000] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/ad_astra:moon
+[26Dec2024 01:01:39.001] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/swplanets:tatooine_orbit
+[26Dec2024 01:01:39.002] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/swplanets:hot_orbit
+[26Dec2024 01:01:39.003] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/twilightforest:twilight_forest
+[26Dec2024 01:01:39.004] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[26Dec2024 01:01:39.005] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/dimdoors:dungeon_pockets
+[26Dec2024 01:01:39.006] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/fsang:negative_speedforce
+[26Dec2024 01:01:39.007] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/ad_astra:mercury
+[26Dec2024 01:01:39.008] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/ad_astra:mars
+[26Dec2024 01:01:39.009] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/fsang:speedforce
+[26Dec2024 01:01:39.010] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/ad_astra:glacio_orbit
+[26Dec2024 01:01:39.011] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/ad_astra:mars_orbit
+[26Dec2024 01:01:39.012] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/sgjourney:chulak
+[26Dec2024 01:01:39.013] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/ad_astra:glacio
+[26Dec2024 01:01:39.014] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/fsang:pocket_dimension
+[26Dec2024 01:01:39.015] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/dimdoors:limbo
+[26Dec2024 01:01:39.016] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/swplanets:mandalore_orbit
+[26Dec2024 01:01:39.018] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/sgjourney:abydos
+[26Dec2024 01:01:39.018] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/aether:the_aether
+[26Dec2024 01:01:39.019] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/swplanets:mustafar_orbit
+[26Dec2024 01:01:39.020] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/dimdungeons:dungeon_dimension
+[26Dec2024 01:01:39.021] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/swplanets:hot
+[26Dec2024 01:01:39.022] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/dimdungeons:build_dimension
+[26Dec2024 01:01:39.023] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/ad_astra:venus
+[26Dec2024 01:01:39.024] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/ad_astra:mercury_orbit
+[26Dec2024 01:01:39.025] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/bloodmagic:dungeon
+[26Dec2024 01:01:39.025] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/sgjourney:cavum_tenebrae
+[26Dec2024 01:01:39.026] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/swplanets:endor
+[26Dec2024 01:01:39.027] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/dimdoors:personal_pockets
+[26Dec2024 01:01:39.028] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/swplanets:mandalore
+[26Dec2024 01:01:39.029] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[26Dec2024 01:01:39.030] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/ae2:spatial_storage
+[26Dec2024 01:01:39.217] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[26Dec2024 01:01:39.218] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (moon_orbit): All chunks are saved
+[26Dec2024 01:01:39.218] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (public_pockets): All chunks are saved
+[26Dec2024 01:01:39.218] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (venus_orbit): All chunks are saved
+[26Dec2024 01:01:39.218] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (lantea): All chunks are saved
+[26Dec2024 01:01:39.218] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (mining): All chunks are saved
+[26Dec2024 01:01:39.218] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (mustafar): All chunks are saved
+[26Dec2024 01:01:39.218] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (tatooine): All chunks are saved
+[26Dec2024 01:01:39.218] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (endor_orbit): All chunks are saved
+[26Dec2024 01:01:39.218] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (earth_orbit): All chunks are saved
+[26Dec2024 01:01:39.218] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (moon): All chunks are saved
+[26Dec2024 01:01:39.218] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (tatooine_orbit): All chunks are saved
+[26Dec2024 01:01:39.219] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (hot_orbit): All chunks are saved
+[26Dec2024 01:01:39.219] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (twilight_forest): All chunks are saved
+[26Dec2024 01:01:39.219] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[26Dec2024 01:01:39.219] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (dungeon_pockets): All chunks are saved
+[26Dec2024 01:01:39.219] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (negative_speedforce): All chunks are saved
+[26Dec2024 01:01:39.219] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (mercury): All chunks are saved
+[26Dec2024 01:01:39.219] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (mars): All chunks are saved
+[26Dec2024 01:01:39.219] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (speedforce): All chunks are saved
+[26Dec2024 01:01:39.219] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (glacio_orbit): All chunks are saved
+[26Dec2024 01:01:39.219] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (mars_orbit): All chunks are saved
+[26Dec2024 01:01:39.219] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (chulak): All chunks are saved
+[26Dec2024 01:01:39.220] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (glacio): All chunks are saved
+[26Dec2024 01:01:39.220] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (pocket_dimension): All chunks are saved
+[26Dec2024 01:01:39.220] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (limbo): All chunks are saved
+[26Dec2024 01:01:39.220] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (mandalore_orbit): All chunks are saved
+[26Dec2024 01:01:39.220] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (abydos): All chunks are saved
+[26Dec2024 01:01:39.220] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (the_aether): All chunks are saved
+[26Dec2024 01:01:39.220] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (mustafar_orbit): All chunks are saved
+[26Dec2024 01:01:39.220] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (dungeon_dimension): All chunks are saved
+[26Dec2024 01:01:39.220] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (hot): All chunks are saved
+[26Dec2024 01:01:39.220] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (build_dimension): All chunks are saved
+[26Dec2024 01:01:39.221] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (venus): All chunks are saved
+[26Dec2024 01:01:39.221] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (mercury_orbit): All chunks are saved
+[26Dec2024 01:01:39.221] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (dungeon): All chunks are saved
+[26Dec2024 01:01:39.221] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (cavum_tenebrae): All chunks are saved
+[26Dec2024 01:01:39.221] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (endor): All chunks are saved
+[26Dec2024 01:01:39.222] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (personal_pockets): All chunks are saved
+[26Dec2024 01:01:39.222] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (mandalore): All chunks are saved
+[26Dec2024 01:01:39.222] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[26Dec2024 01:01:39.222] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (spatial_storage): All chunks are saved
+[26Dec2024 01:01:39.222] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[26Dec2024 01:01:39.278] [Server thread/INFO] [Framework/]: Unloading server configs...
+[26Dec2024 01:01:39.279] [Server thread/INFO] [Framework/]: Sending config unload event for refurbished_furniture.server.toml
+[26Dec2024 01:01:39.280] [Server thread/INFO] [Framework/]: Finished unloading server configs
+[26Dec2024 01:01:39.314] [Server thread/INFO] [FluxNetworks/Energy]: Energy blacklist loaded: 1 block entries, 0 item entries

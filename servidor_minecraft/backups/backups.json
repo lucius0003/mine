@@ -25,6 +25,19 @@
       "backupName": "automated",
       "backupFormat": "ZIP",
       "complete": true
+    },
+    {
+      "worldName": "world",
+      "createTime": 1735174890922,
+      "backupLocation": "/workspaces/mine/servidor_minecraft/backups/2024-12-26_1-0-40.zip",
+      "size": 11132615,
+      "ratio": 0.69587845,
+      "sha1": "b6232213009a54a2e5f40ea270ec577cace8349a",
+      "preview": "",
+      "snapshot": false,
+      "backupName": "automated",
+      "backupFormat": "ZIP",
+      "complete": true
     }
   ]
 }
