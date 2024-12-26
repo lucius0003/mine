@@ -1,0 +1,12 @@
+{
+	version: 1
+	uuid: "48812f9bdcef3414958ef80113c926fd"
+	name: "luciu_black#48812f9b"
+	lock: false
+	rewards_blocked: false
+	task_progress: { }
+	started: { }
+	completed: { }
+	claimed_rewards: { }
+	player_data: { }
+}

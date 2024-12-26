@@ -1,73 +1,73 @@
-[23:20:12] [INIT] KubeJS 2001.6.5-build.16; MC 2001 forge
-[23:20:12] [INIT] Loaded plugins:
-[23:20:12] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
-[23:20:12] [INIT] - net.threetag.palladium.compat.kubejs.PalladiumKubeJSPlugin
-[23:20:12] [INIT] - smartin.miapi.compat.kubejs.KubeJSMiapiPlugin
-[23:20:13] [INFO] example.js#5: Hello, World! (Loaded startup scripts)
-[23:20:13] [INFO] Loaded script startup_scripts:example.js in 0.08 s
-[23:20:13] [INFO] Loaded script addonpack_fsang_hero:kubejs_scripts/xgene_manipulation.js in 0.02 s
-[23:20:13] [INFO] Loaded script addonpack_fsang_hero:kubejs_scripts/x_ray_vision_ability.js in 0.005 s
-[23:20:13] [INFO] Loaded script addonpack_fsang_hero:kubejs_scripts/wall_climb_move_condition.js in 0.002 s
-[23:20:13] [INFO] Loaded script addonpack_fsang_hero:kubejs_scripts/wall_climb_condition.js in 0.001 s
-[23:20:13] [INFO] addonpack_fsang_hero:kubejs_scripts/wall_climb.js#1: Loaded Java class 'net.minecraft.world.level.ClipContext'
-[23:20:13] [INFO] addonpack_fsang_hero:kubejs_scripts/wall_climb.js#26: Loaded Java class 'net.minecraft.network.protocol.game.ClientboundSetEntityMotionPacket'
-[23:20:13] [INFO] Loaded script addonpack_fsang_hero:kubejs_scripts/wall_climb.js in 0.022 s
-[23:20:13] [INFO] Loaded script addonpack_fsang_hero:kubejs_scripts/tellraw_ability.js in 0.003 s
-[23:20:13] [INFO] Loaded script addonpack_fsang_hero:kubejs_scripts/teleport_ability.js in 0.003 s
-[23:20:13] [INFO] Loaded script addonpack_fsang_hero:kubejs_scripts/tactile_telekinesis_stun.js in 0.001 s
-[23:20:13] [INFO] Loaded script addonpack_fsang_hero:kubejs_scripts/symbiote_wraith_dna.js in 0.001 s
-[23:20:13] [INFO] Loaded script addonpack_fsang_hero:kubejs_scripts/symbiote_venom_dna.js in 0.001 s
-[23:20:13] [INFO] Loaded script addonpack_fsang_hero:kubejs_scripts/symbiote_toxin_dna.js in 0.001 s
-[23:20:13] [INFO] Loaded script addonpack_fsang_hero:kubejs_scripts/symbiote_sleeper_dna.js in 0.001 s
-[23:20:13] [INFO] Loaded script addonpack_fsang_hero:kubejs_scripts/symbiote_scream_dna.js in 0.001 s
-[23:20:13] [INFO] Loaded script addonpack_fsang_hero:kubejs_scripts/symbiote_scorn_dna.js in 0.001 s
-[23:20:13] [INFO] Loaded script addonpack_fsang_hero:kubejs_scripts/symbiote_riot_dna.js in 0.001 s
-[23:20:13] [INFO] Loaded script addonpack_fsang_hero:kubejs_scripts/symbiote_phage_dna.js in 0.001 s
-[23:20:13] [INFO] Loaded script addonpack_fsang_hero:kubejs_scripts/symbiote_montechiari_dna.js in 0.008 s
-[23:20:13] [INFO] Loaded script addonpack_fsang_hero:kubejs_scripts/symbiote_misery_dna.js in 0.001 s
-[23:20:13] [INFO] Loaded script addonpack_fsang_hero:kubejs_scripts/symbiote_lasher_dna.js in 0.001 s
-[23:20:13] [INFO] Loaded script addonpack_fsang_hero:kubejs_scripts/symbiote_inumis_dna.js in 0.001 s
-[23:20:13] [INFO] Loaded script addonpack_fsang_hero:kubejs_scripts/symbiote_hybrid_dna.js in 0.0 s
-[23:20:13] [INFO] Loaded script addonpack_fsang_hero:kubejs_scripts/symbiote_host_rider_dna.js in 0.001 s
-[23:20:13] [INFO] Loaded script addonpack_fsang_hero:kubejs_scripts/symbiote_grendel_dna.js in 0.009 s
-[23:20:13] [INFO] Loaded script addonpack_fsang_hero:kubejs_scripts/symbiote_fang_dna.js in 0.072 s
-[23:20:13] [INFO] Loaded script addonpack_fsang_hero:kubejs_scripts/symbiote_fallout_dna.js in 0.0 s
-[23:20:13] [INFO] Loaded script addonpack_fsang_hero:kubejs_scripts/symbiote_empty_dna.js in 0.001 s
-[23:20:13] [INFO] Loaded script addonpack_fsang_hero:kubejs_scripts/symbiote_curse_dna.js in 0.001 s
-[23:20:13] [INFO] Loaded script addonpack_fsang_hero:kubejs_scripts/symbiote_carnage_dna.js in 0.001 s
-[23:20:13] [INFO] Loaded script addonpack_fsang_hero:kubejs_scripts/symbiote_agony_dna.js in 0.001 s
-[23:20:13] [INFO] Loaded script addonpack_fsang_hero:kubejs_scripts/speed_power.js in 0.005 s
-[23:20:13] [INFO] Loaded script addonpack_fsang_hero:kubejs_scripts/sound_poisoning.js in 0.001 s
-[23:20:13] [INFO] Loaded script addonpack_fsang_hero:kubejs_scripts/shock.js in 0.0 s
-[23:20:13] [INFO] Loaded script addonpack_fsang_hero:kubejs_scripts/scoreboard_math.js in 0.001 s
-[23:20:13] [INFO] Loaded script addonpack_fsang_hero:kubejs_scripts/scoreboard_ability.js in 0.001 s
-[23:20:13] [INFO] Loaded script addonpack_fsang_hero:kubejs_scripts/scarab_shield.js in 0.001 s
-[23:20:13] [INFO] addonpack_fsang_hero:kubejs_scripts/rf_percentage_condition.js#2: Loaded Java class 'net.threetag.palladium.compat.curiostinkets.CuriosTrinketsUtil'
-[23:20:13] [INFO] addonpack_fsang_hero:kubejs_scripts/rf_percentage_condition.js#3: Loaded Java class 'net.threetag.palladium.energy.EnergyHelper'
-[23:20:13] [INFO] Loaded script addonpack_fsang_hero:kubejs_scripts/rf_percentage_condition.js in 0.018 s
-[23:20:13] [INFO] Loaded script addonpack_fsang_hero:kubejs_scripts/rf_hud.js in 0.015 s
-[23:20:13] [INFO] Loaded script addonpack_fsang_hero:kubejs_scripts/remove_hand_item_ability.js in 0.001 s
-[23:20:13] [INFO] Loaded script addonpack_fsang_hero:kubejs_scripts/potion_punch.js in 0.001 s
-[23:20:13] [INFO] Loaded script addonpack_fsang_hero:kubejs_scripts/magnetism_poisoning.js in 0.001 s
-[23:20:13] [INFO] Loaded script addonpack_fsang_hero:kubejs_scripts/kryptonite_poisoning.js in 0.001 s
-[23:20:13] [INFO] Loaded script addonpack_fsang_hero:kubejs_scripts/iventory_condition.js in 0.001 s
-[23:20:13] [INFO] Loaded script addonpack_fsang_hero:kubejs_scripts/ice_block.js in 0.0 s
-[23:20:13] [INFO] Loaded script addonpack_fsang_hero:kubejs_scripts/hellspawn.js in 0.0 s
-[23:20:13] [INFO] Loaded script addonpack_fsang_hero:kubejs_scripts/height_condition.js in 0.0 s
-[23:20:13] [INFO] Loaded script addonpack_fsang_hero:kubejs_scripts/hand_condition.js in 0.001 s
-[23:20:13] [INFO] Loaded script addonpack_fsang_hero:kubejs_scripts/get_energy_condition2.js in 0.002 s
-[23:20:13] [INFO] Loaded script addonpack_fsang_hero:kubejs_scripts/get_energy_condition.js in 0.003 s
-[23:20:13] [INFO] Loaded script addonpack_fsang_hero:kubejs_scripts/gamma_radiation.js in 0.003 s
-[23:20:13] [INFO] Loaded script addonpack_fsang_hero:kubejs_scripts/freezing.js in 0.0 s
-[23:20:13] [INFO] Loaded script addonpack_fsang_hero:kubejs_scripts/entity_damage.js in 0.005 s
-[23:20:13] [INFO] Loaded script addonpack_fsang_hero:kubejs_scripts/enderchest_ability.js in 0.001 s
-[23:20:13] [INFO] Loaded script addonpack_fsang_hero:kubejs_scripts/dynamic_attribute.js in 0.001 s
-[23:20:13] [INFO] Loaded script addonpack_fsang_hero:kubejs_scripts/drain_per_tick.js in 0.002 s
-[23:20:13] [INFO] Loaded script addonpack_fsang_hero:kubejs_scripts/curios_trinkets_condition.js in 0.001 s
-[23:20:13] [INFO] Loaded script addonpack_fsang_hero:kubejs_scripts/block_condition.js in 0.0 s
-[23:20:13] [INFO] Loaded script addonpack_fsang_hero:kubejs_scripts/asgardian_effect.js in 0.012 s
-[23:20:13] [INFO] Loaded script addonpack_fsang_hero:kubejs_scripts/ad_astra_breathing.js in 0.001 s
-[23:20:13] [INFO] Loaded script addonpack_fsang_hero:kubejs_scripts/ad_astra_ability.js in 0.001 s
-[23:20:13] [INFO] Loaded script addonpack_ghmorak:kubejs_scripts/bonemeal_grow.js in 0.0 s
-[23:20:13] [INFO] Loaded 61/61 KubeJS startup scripts in 0.874 s with 0 errors and 0 warnings
-[23:20:14] [WARN] addonpack_fsang_hero:kubejs_scripts/scarab_shield.js#12: blockBuilder.material(string) is no longer supported! Use .soundType(SoundType) and .mapColor(MapColor) instead!
+[00:30:02] [INIT] KubeJS 2001.6.5-build.16; MC 2001 forge
+[00:30:02] [INIT] Loaded plugins:
+[00:30:02] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
+[00:30:02] [INIT] - net.threetag.palladium.compat.kubejs.PalladiumKubeJSPlugin
+[00:30:02] [INIT] - smartin.miapi.compat.kubejs.KubeJSMiapiPlugin
+[00:30:03] [INFO] example.js#5: Hello, World! (Loaded startup scripts)
+[00:30:03] [INFO] Loaded script startup_scripts:example.js in 0.155 s
+[00:30:03] [INFO] Loaded script addonpack_fsang_hero:kubejs_scripts/xgene_manipulation.js in 0.021 s
+[00:30:03] [INFO] Loaded script addonpack_fsang_hero:kubejs_scripts/x_ray_vision_ability.js in 0.008 s
+[00:30:03] [INFO] Loaded script addonpack_fsang_hero:kubejs_scripts/wall_climb_move_condition.js in 0.001 s
+[00:30:03] [INFO] Loaded script addonpack_fsang_hero:kubejs_scripts/wall_climb_condition.js in 0.0 s
+[00:30:03] [INFO] addonpack_fsang_hero:kubejs_scripts/wall_climb.js#1: Loaded Java class 'net.minecraft.world.level.ClipContext'
+[00:30:03] [INFO] addonpack_fsang_hero:kubejs_scripts/wall_climb.js#26: Loaded Java class 'net.minecraft.network.protocol.game.ClientboundSetEntityMotionPacket'
+[00:30:03] [INFO] Loaded script addonpack_fsang_hero:kubejs_scripts/wall_climb.js in 0.013 s
+[00:30:03] [INFO] Loaded script addonpack_fsang_hero:kubejs_scripts/tellraw_ability.js in 0.003 s
+[00:30:03] [INFO] Loaded script addonpack_fsang_hero:kubejs_scripts/teleport_ability.js in 0.002 s
+[00:30:03] [INFO] Loaded script addonpack_fsang_hero:kubejs_scripts/tactile_telekinesis_stun.js in 0.001 s
+[00:30:03] [INFO] Loaded script addonpack_fsang_hero:kubejs_scripts/symbiote_wraith_dna.js in 0.001 s
+[00:30:03] [INFO] Loaded script addonpack_fsang_hero:kubejs_scripts/symbiote_venom_dna.js in 0.003 s
+[00:30:03] [INFO] Loaded script addonpack_fsang_hero:kubejs_scripts/symbiote_toxin_dna.js in 0.0 s
+[00:30:03] [INFO] Loaded script addonpack_fsang_hero:kubejs_scripts/symbiote_sleeper_dna.js in 0.0 s
+[00:30:03] [INFO] Loaded script addonpack_fsang_hero:kubejs_scripts/symbiote_scream_dna.js in 0.001 s
+[00:30:03] [INFO] Loaded script addonpack_fsang_hero:kubejs_scripts/symbiote_scorn_dna.js in 0.001 s
+[00:30:03] [INFO] Loaded script addonpack_fsang_hero:kubejs_scripts/symbiote_riot_dna.js in 0.001 s
+[00:30:03] [INFO] Loaded script addonpack_fsang_hero:kubejs_scripts/symbiote_phage_dna.js in 0.001 s
+[00:30:03] [INFO] Loaded script addonpack_fsang_hero:kubejs_scripts/symbiote_montechiari_dna.js in 0.001 s
+[00:30:03] [INFO] Loaded script addonpack_fsang_hero:kubejs_scripts/symbiote_misery_dna.js in 0.001 s
+[00:30:03] [INFO] Loaded script addonpack_fsang_hero:kubejs_scripts/symbiote_lasher_dna.js in 0.001 s
+[00:30:03] [INFO] Loaded script addonpack_fsang_hero:kubejs_scripts/symbiote_inumis_dna.js in 0.0 s
+[00:30:03] [INFO] Loaded script addonpack_fsang_hero:kubejs_scripts/symbiote_hybrid_dna.js in 0.016 s
+[00:30:03] [INFO] Loaded script addonpack_fsang_hero:kubejs_scripts/symbiote_host_rider_dna.js in 0.001 s
+[00:30:03] [INFO] Loaded script addonpack_fsang_hero:kubejs_scripts/symbiote_grendel_dna.js in 0.001 s
+[00:30:03] [INFO] Loaded script addonpack_fsang_hero:kubejs_scripts/symbiote_fang_dna.js in 0.002 s
+[00:30:03] [INFO] Loaded script addonpack_fsang_hero:kubejs_scripts/symbiote_fallout_dna.js in 0.001 s
+[00:30:03] [INFO] Loaded script addonpack_fsang_hero:kubejs_scripts/symbiote_empty_dna.js in 0.001 s
+[00:30:03] [INFO] Loaded script addonpack_fsang_hero:kubejs_scripts/symbiote_curse_dna.js in 0.003 s
+[00:30:03] [INFO] Loaded script addonpack_fsang_hero:kubejs_scripts/symbiote_carnage_dna.js in 0.001 s
+[00:30:03] [INFO] Loaded script addonpack_fsang_hero:kubejs_scripts/symbiote_agony_dna.js in 0.006 s
+[00:30:04] [INFO] Loaded script addonpack_fsang_hero:kubejs_scripts/speed_power.js in 0.004 s
+[00:30:04] [INFO] Loaded script addonpack_fsang_hero:kubejs_scripts/sound_poisoning.js in 0.0 s
+[00:30:04] [INFO] Loaded script addonpack_fsang_hero:kubejs_scripts/shock.js in 0.0 s
+[00:30:04] [INFO] Loaded script addonpack_fsang_hero:kubejs_scripts/scoreboard_math.js in 0.002 s
+[00:30:04] [INFO] Loaded script addonpack_fsang_hero:kubejs_scripts/scoreboard_ability.js in 0.001 s
+[00:30:04] [INFO] Loaded script addonpack_fsang_hero:kubejs_scripts/scarab_shield.js in 0.005 s
+[00:30:04] [INFO] addonpack_fsang_hero:kubejs_scripts/rf_percentage_condition.js#2: Loaded Java class 'net.threetag.palladium.compat.curiostinkets.CuriosTrinketsUtil'
+[00:30:04] [INFO] addonpack_fsang_hero:kubejs_scripts/rf_percentage_condition.js#3: Loaded Java class 'net.threetag.palladium.energy.EnergyHelper'
+[00:30:04] [INFO] Loaded script addonpack_fsang_hero:kubejs_scripts/rf_percentage_condition.js in 0.017 s
+[00:30:04] [INFO] Loaded script addonpack_fsang_hero:kubejs_scripts/rf_hud.js in 0.004 s
+[00:30:04] [INFO] Loaded script addonpack_fsang_hero:kubejs_scripts/remove_hand_item_ability.js in 0.0 s
+[00:30:04] [INFO] Loaded script addonpack_fsang_hero:kubejs_scripts/potion_punch.js in 0.0 s
+[00:30:04] [INFO] Loaded script addonpack_fsang_hero:kubejs_scripts/magnetism_poisoning.js in 0.0 s
+[00:30:04] [INFO] Loaded script addonpack_fsang_hero:kubejs_scripts/kryptonite_poisoning.js in 0.0 s
+[00:30:04] [INFO] Loaded script addonpack_fsang_hero:kubejs_scripts/iventory_condition.js in 0.001 s
+[00:30:04] [INFO] Loaded script addonpack_fsang_hero:kubejs_scripts/ice_block.js in 0.006 s
+[00:30:04] [INFO] Loaded script addonpack_fsang_hero:kubejs_scripts/hellspawn.js in 0.001 s
+[00:30:04] [INFO] Loaded script addonpack_fsang_hero:kubejs_scripts/height_condition.js in 0.001 s
+[00:30:04] [INFO] Loaded script addonpack_fsang_hero:kubejs_scripts/hand_condition.js in 0.0 s
+[00:30:04] [INFO] Loaded script addonpack_fsang_hero:kubejs_scripts/get_energy_condition2.js in 0.005 s
+[00:30:04] [INFO] Loaded script addonpack_fsang_hero:kubejs_scripts/get_energy_condition.js in 0.001 s
+[00:30:04] [INFO] Loaded script addonpack_fsang_hero:kubejs_scripts/gamma_radiation.js in 0.001 s
+[00:30:04] [INFO] Loaded script addonpack_fsang_hero:kubejs_scripts/freezing.js in 0.0 s
+[00:30:04] [INFO] Loaded script addonpack_fsang_hero:kubejs_scripts/entity_damage.js in 0.003 s
+[00:30:04] [INFO] Loaded script addonpack_fsang_hero:kubejs_scripts/enderchest_ability.js in 0.001 s
+[00:30:04] [INFO] Loaded script addonpack_fsang_hero:kubejs_scripts/dynamic_attribute.js in 0.006 s
+[00:30:04] [INFO] Loaded script addonpack_fsang_hero:kubejs_scripts/drain_per_tick.js in 0.005 s
+[00:30:04] [INFO] Loaded script addonpack_fsang_hero:kubejs_scripts/curios_trinkets_condition.js in 0.001 s
+[00:30:04] [INFO] Loaded script addonpack_fsang_hero:kubejs_scripts/block_condition.js in 0.001 s
+[00:30:04] [INFO] Loaded script addonpack_fsang_hero:kubejs_scripts/asgardian_effect.js in 0.0 s
+[00:30:04] [INFO] Loaded script addonpack_fsang_hero:kubejs_scripts/ad_astra_breathing.js in 0.0 s
+[00:30:04] [INFO] Loaded script addonpack_fsang_hero:kubejs_scripts/ad_astra_ability.js in 0.001 s
+[00:30:04] [INFO] Loaded script addonpack_ghmorak:kubejs_scripts/bonemeal_grow.js in 0.0 s
+[00:30:04] [INFO] Loaded 61/61 KubeJS startup scripts in 0.816 s with 0 errors and 0 warnings
+[00:30:04] [WARN] addonpack_fsang_hero:kubejs_scripts/scarab_shield.js#12: blockBuilder.material(string) is no longer supported! Use .soundType(SoundType) and .mapColor(MapColor) instead!
