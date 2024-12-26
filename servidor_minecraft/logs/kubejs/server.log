@@ -1,75 +1,72 @@
-[00:30:25] [INIT] KubeJS 2001.6.5-build.16; MC 2001 forge
-[00:30:25] [INIT] Loaded plugins:
-[00:30:25] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
-[00:30:25] [INIT] - net.threetag.palladium.compat.kubejs.PalladiumKubeJSPlugin
-[00:30:25] [INIT] - smartin.miapi.compat.kubejs.KubeJSMiapiPlugin
-[00:30:27] [INFO] example.js#5: Hello, World! (Loaded server scripts)
-[00:30:27] [INFO] Loaded script server_scripts:example.js in 0.001 s
-[00:30:27] [INFO] Loaded script addonpack_fsang_hero:kubejs_scripts/symbiotes_items.js in 0.01 s
-[00:30:27] [INFO] Loaded script addonpack_fsang_hero:kubejs_scripts/symbiote_assigner.js in 0.004 s
-[00:30:27] [INFO] Loaded script addonpack_fsang_hero:kubejs_scripts/skin_change.js in 0.002 s
-[00:30:27] [INFO] Loaded script addonpack_fsang_hero:kubejs_scripts/random_power_2.js in 0.003 s
-[00:30:27] [INFO] Loaded script addonpack_fsang_hero:kubejs_scripts/random_power.js in 0.004 s
-[00:30:27] [INFO] Loaded script addonpack_fsang_hero:kubejs_scripts/mutation_assigner.js in 0.002 s
-[00:30:27] [INFO] Loaded script addonpack_fsang_hero:kubejs_scripts/items.js in 0.011 s
-[00:30:27] [INFO] Loaded script addonpack_fsang_hero:kubejs_scripts/extra_lives.js in 0.001 s
-[00:30:27] [INFO] Loaded script addonpack_fsang_hero:kubejs_scripts/data_enderchest.js in 0.0 s
-[00:30:27] [INFO] Loaded script addonpack_fsang_hero:kubejs_scripts/custom_commands.js in 0.007 s
-[00:30:27] [INFO] Loaded script addonpack_fsang_hero:kubejs_scripts/config.js in 0.001 s
-[00:30:27] [INFO] Loaded script addonpack_fsang_hero:kubejs_scripts/blueprints.js in 0.001 s
-[00:30:27] [INFO] Loaded script addonpack_fsang_hero:kubejs_scripts/ad_astra_space.js in 0.001 s
-[00:30:27] [INFO] Loaded script addonpack_ghmorak:kubejs_scripts/teleporte.js in 0.002 s
-[00:30:27] [INFO] Loaded script addonpack_ghmorak:kubejs_scripts/startup_scripts/grow_plants.js in 0.0 s
-[00:30:27] [INFO] Loaded 16/16 KubeJS server scripts in 0.071 s with 0 errors and 0 warnings
-[00:30:27] [INFO] Scripts loaded
-[00:30:27] [INFO] Initializing recipe event...
-[00:30:38] [INFO] Processing recipes...
-[00:30:38] [WARN] Failed to parse recipe 'outer_end:violite/tiles/vertical_slab_stonecutting[minecraft:stonecutting]'! Falling back to vanilla: ItemStack 'result' can't be empty!
-[00:30:38] [WARN] Failed to parse recipe 'minecraft_121_update:copper_lock_crafting[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
-[00:30:38] [WARN] Failed to parse recipe 'outer_end:violite/bricks/vertical_slab[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
-[00:30:38] [WARN] Failed to parse recipe 'outer_end:himmel_vertical_slab_stonecutting[minecraft:stonecutting]'! Falling back to vanilla: ItemStack 'result' can't be empty!
-[00:30:38] [WARN] Failed to parse recipe 'outer_end:violite/tiles/vertical_slab[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
-[00:30:38] [WARN] Failed to parse recipe 'outer_end:azure_vertical_planks[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
-[00:30:38] [WARN] Failed to parse recipe 'outer_end:violite/vertical_slab[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
-[00:30:38] [WARN] Failed to parse recipe 'outer_end:violite/bricks/vertical_slab_violite_stonecutting[minecraft:stonecutting]'! Falling back to vanilla: ItemStack 'result' can't be empty!
-[00:30:38] [WARN] Failed to parse recipe 'outer_end:violite/vertical_slab_stonecutting[minecraft:stonecutting]'! Falling back to vanilla: ItemStack 'result' can't be empty!
-[00:30:38] [WARN] Failed to parse recipe 'outer_end:violite/mossy_bricks/vertical_slab[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
-[00:30:38] [WARN] Failed to parse recipe 'outer_end:himmel_vertical_slab[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
-[00:30:38] [WARN] Failed to parse recipe 'outer_end:violite/mossy_bricks/vertical_slab_stonecutting[minecraft:stonecutting]'! Falling back to vanilla: ItemStack 'result' can't be empty!
-[00:30:38] [WARN] Failed to parse recipe 'outer_end:violite/mossy_tiles/vertical_slab_stonecutting[minecraft:stonecutting]'! Falling back to vanilla: ItemStack 'result' can't be empty!
-[00:30:38] [WARN] Failed to parse recipe 'outer_end:violite/tiles/vertical_slab_from_violite_stonecutting[minecraft:stonecutting]'! Falling back to vanilla: ItemStack 'result' can't be empty!
-[00:30:38] [WARN] Failed to parse recipe 'outer_end:stripped_azure_post[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
-[00:30:38] [WARN] Failed to parse recipe 'outer_end:violite/bricks/vertical_slab_stonecutting[minecraft:stonecutting]'! Falling back to vanilla: ItemStack 'result' can't be empty!
-[00:30:38] [WARN] Failed to parse recipe 'outer_end:azure_vertical_slab[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
-[00:30:38] [WARN] Failed to parse recipe 'outer_end:azure_post[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
-[00:30:38] [WARN] Failed to parse recipe 'outer_end:violite/mossy_tiles/vertical_slab[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
-[00:30:38] [INFO] Found 20487 recipes in 438.5 ms
-[00:30:38] [INFO] Posted recipe events in 15.32 ms
-[00:30:39] [WARN] Error parsing recipe outer_end:violite/mossy_tiles/vertical_slab[minecraft:crafting_shaped]: {"type":"minecraft:crafting_shaped","pattern":["#","#","#"],"key":{"#":{"item":"outer_end:mossy_violite_tile_slab"}},"result":{"item":"outer_end:mossy_violite_tile_vertical_slab","count":3}}: Unknown item 'outer_end:mossy_violite_tile_vertical_slab'
-[00:30:39] [WARN] Error parsing recipe outer_end:azure_vertical_to_slab[minecraft:crafting_shaped]: {"type":"minecraft:crafting_shaped","pattern":[" "," "," "],"key":{},"result":{"item":"outer_end:azure_slab","count":3}}: Index 0 out of bounds for length 0
-[00:30:39] [WARN] Error parsing recipe farmersdelight:cutting/azure_stem[farmersdelight:cutting]: {"type":"farmersdelight:cutting","ingredients":[{"item":"outer_end:azure_stem"}],"tool":{"type":"farmersdelight:tool","tool":"axe"},"result":[{"item":"farmersdelight:tree_bark"},{"item":"outer_end:azure_stripped_stem"}],"sound":"minecraft:item.axe.strip","conditions":[{"type":"forge:mod_loaded","modid":"outer_end"}]}: Unknown ingredient type: farmersdelight:tool
-[00:30:39] [WARN] Error parsing recipe outer_end:violite/mossy_bricks/vertical_slab[minecraft:crafting_shaped]: {"type":"minecraft:crafting_shaped","pattern":["#","#","#"],"key":{"#":{"item":"outer_end:mossy_violite_brick_slab"}},"result":{"item":"outer_end:mossy_violite_brick_vertical_slab","count":3}}: Unknown item 'outer_end:mossy_violite_brick_vertical_slab'
-[00:30:39] [WARN] Error parsing recipe outer_end:violite/slab_from_vertical_slab[minecraft:crafting_shaped]: {"type":"minecraft:crafting_shaped","pattern":[" "," "," "],"key":{},"result":{"item":"outer_end:violite_slab","count":3}}: Index 0 out of bounds for length 0
-[00:30:39] [WARN] Error parsing recipe farmersdelight:cutting/azure_pith[farmersdelight:cutting]: {"type":"farmersdelight:cutting","ingredients":[{"item":"outer_end:azure_pith"}],"tool":{"type":"farmersdelight:tool","tool":"axe"},"result":[{"item":"farmersdelight:tree_bark"},{"item":"outer_end:azure_stripped_pith"}],"sound":"minecraft:item.axe.strip","conditions":[{"type":"forge:mod_loaded","modid":"outer_end"}]}: Unknown ingredient type: farmersdelight:tool
-[00:30:39] [WARN] Error parsing recipe outer_end:azure_post[minecraft:crafting_shaped]: {"type":"minecraft:crafting_shaped","pattern":["#","#","#"],"key":{"#":{"item":"outer_end:azure_pith"}},"result":{"item":"outer_end:azure_post","count":8}}: Unknown item 'outer_end:azure_post'
-[00:30:39] [WARN] Error parsing recipe outer_end:violite/tiles/slab_from_vertical_slab[minecraft:crafting_shaped]: {"type":"minecraft:crafting_shaped","pattern":[" "," "," "],"key":{},"result":{"item":"outer_end:violite_tile_slab","count":3}}: Index 0 out of bounds for length 0
-[00:30:39] [WARN] Error parsing recipe outer_end:violite/mossy_tiles/slab_from_vertical_slab[minecraft:crafting_shaped]: {"type":"minecraft:crafting_shaped","pattern":[" "," "," "],"key":{},"result":{"item":"outer_end:mossy_violite_tile_slab","count":3}}: Index 0 out of bounds for length 0
-[00:30:39] [WARN] Error parsing recipe outer_end:azure_vertical_slab[minecraft:crafting_shaped]: {"type":"minecraft:crafting_shaped","pattern":["#","#","#"],"key":{"#":{"item":"outer_end:azure_slab"}},"result":{"item":"outer_end:azure_vertical_slab","count":3}}: Unknown item 'outer_end:azure_vertical_slab'
-[00:30:39] [WARN] Error parsing recipe outer_end:azure_vertical_planks[minecraft:crafting_shaped]: {"type":"minecraft:crafting_shaped","pattern":["#","#","#"],"key":{"#":{"item":"outer_end:azure_planks"}},"result":{"item":"outer_end:azure_vertical_planks","count":3}}: Unknown item 'outer_end:azure_vertical_planks'
-[00:30:39] [WARN] Error parsing recipe outer_end:violite/vertical_slab[minecraft:crafting_shaped]: {"type":"minecraft:crafting_shaped","pattern":["#","#","#"],"key":{"#":{"item":"outer_end:violite_slab"}},"result":{"item":"outer_end:violite_vertical_slab","count":3}}: Unknown item 'outer_end:violite_vertical_slab'
-[00:30:39] [WARN] Error parsing recipe outer_end:azure_vertical_to_planks[minecraft:crafting_shaped]: {"type":"minecraft:crafting_shaped","pattern":[" "," "," "],"key":{},"result":{"item":"outer_end:azure_planks","count":3}}: Index 0 out of bounds for length 0
-[00:30:39] [WARN] Error parsing recipe outer_end:violite/tiles/vertical_slab[minecraft:crafting_shaped]: {"type":"minecraft:crafting_shaped","pattern":["#","#","#"],"key":{"#":{"item":"outer_end:violite_tile_slab"}},"result":{"item":"outer_end:violite_tile_vertical_slab","count":3}}: Unknown item 'outer_end:violite_tile_vertical_slab'
-[00:30:39] [WARN] Error parsing recipe farmersdelight:cutting/azure_trapdoor[farmersdelight:cutting]: {"type":"farmersdelight:cutting","ingredients":[{"item":"outer_end:azure_trapdoor"}],"tool":{"type":"farmersdelight:tool","tool":"axe"},"result":[{"item":"outer_end:azure_planks"}],"conditions":[{"type":"forge:mod_loaded","modid":"outer_end"}]}: Unknown ingredient type: farmersdelight:tool
-[00:30:39] [WARN] Error parsing recipe outer_end:himmel_vertical_to_slab[minecraft:crafting_shaped]: {"type":"minecraft:crafting_shaped","pattern":[" "," "," "],"key":{},"result":{"item":"outer_end:himmel_slab","count":3}}: Index 0 out of bounds for length 0
-[00:30:39] [WARN] Error parsing recipe outer_end:violite/bricks/vertical_slab[minecraft:crafting_shaped]: {"type":"minecraft:crafting_shaped","pattern":["#","#","#"],"key":{"#":{"item":"outer_end:violite_brick_slab"}},"result":{"item":"outer_end:violite_brick_vertical_slab","count":3}}: Unknown item 'outer_end:violite_brick_vertical_slab'
-[00:30:39] [WARN] Error parsing recipe outer_end:violite/bricks/slab_from_vertical_slab[minecraft:crafting_shaped]: {"type":"minecraft:crafting_shaped","pattern":[" "," "," "],"key":{},"result":{"item":"outer_end:violite_brick_slab","count":3}}: Index 0 out of bounds for length 0
-[00:30:39] [WARN] Error parsing recipe outer_end:stripped_azure_post[minecraft:crafting_shaped]: {"type":"minecraft:crafting_shaped","pattern":["#","#","#"],"key":{"#":{"item":"outer_end:azure_stripped_pith"}},"result":{"item":"outer_end:stripped_azure_post","count":8}}: Unknown item 'outer_end:stripped_azure_post'
-[00:30:39] [WARN] Error parsing recipe farmersdelight:cutting/azure_sign[farmersdelight:cutting]: {"type":"farmersdelight:cutting","ingredients":[{"item":"outer_end:azure_sign"}],"tool":{"type":"farmersdelight:tool","tool":"axe"},"result":[{"item":"outer_end:azure_planks"}],"conditions":[{"type":"forge:mod_loaded","modid":"outer_end"}]}: Unknown ingredient type: farmersdelight:tool
-[00:30:39] [WARN] Error parsing recipe outer_end:violite/mossy_bricks/slab_from_vertical_slab[minecraft:crafting_shaped]: {"type":"minecraft:crafting_shaped","pattern":[" "," "," "],"key":{},"result":{"item":"outer_end:mossy_violite_brick_slab","count":3}}: Index 0 out of bounds for length 0
-[00:30:39] [WARN] Error parsing recipe farmersdelight:cutting/azure_door[farmersdelight:cutting]: {"type":"farmersdelight:cutting","ingredients":[{"item":"outer_end:azure_door"}],"tool":{"type":"farmersdelight:tool","tool":"axe"},"result":[{"item":"outer_end:azure_planks"}],"conditions":[{"type":"forge:mod_loaded","modid":"outer_end"}]}: Unknown ingredient type: farmersdelight:tool
-[00:30:39] [WARN] Error parsing recipe minecraft_121_update:copper_lock_crafting[minecraft:crafting_shaped]: {"type":"minecraft:crafting_shaped","category":"redstone","pattern":["012","3 5","678"],"key":{"0":{"tag":"forge:storage_blocks/copper"},"1":{"tag":"forge:storage_blocks/copper"},"2":{"tag":"forge:storage_blocks/copper"},"3":{"tag":"forge:storage_blocks/copper"},"5":{"tag":"forge:storage_blocks/copper"},"6":{"tag":"forge:storage_blocks/copper"},"7":{"tag":"forge:storage_blocks/copper"},"8":{"tag":"forge:storage_blocks/copper"}},"result":{"item":"minecraft_121_update:deleted_mod_element","count":1}}: Unknown item 'minecraft_121_update:deleted_mod_element'
-[00:30:39] [WARN] Error parsing recipe outer_end:himmel_vertical_slab[minecraft:crafting_shaped]: {"type":"minecraft:crafting_shaped","pattern":["#","#","#"],"key":{"#":{"item":"outer_end:himmel_slab"}},"result":{"item":"outer_end:himmel_vertical_slab","count":3}}: Unknown item 'outer_end:himmel_vertical_slab'
-[00:30:39] [INFO] Added 14 recipes, removed 0 recipes, modified 11 recipes, with 24 failed recipes in 998.4 ms
-[00:30:46] [INFO] Server resource reload complete!
-[00:30:49] [INFO] addonpack_fsang_hero:kubejs_scripts/config.js#18: Config file found. Loading config from config/fsang_config.json
-[00:30:49] [INFO] addonpack_fsang_hero:kubejs_scripts/config.js#64: Config file loaded or created at config/fsang_config.json
+[00:58:11] [INIT] KubeJS 2001.6.5-build.16; MC 2001 forge
+[00:58:11] [INIT] Loaded plugins:
+[00:58:11] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
+[00:58:11] [INIT] - net.threetag.palladium.compat.kubejs.PalladiumKubeJSPlugin
+[00:58:11] [INIT] - smartin.miapi.compat.kubejs.KubeJSMiapiPlugin
+[00:58:13] [INFO] example.js#5: Hello, World! (Loaded server scripts)
+[00:58:13] [INFO] Loaded script server_scripts:example.js in 0.001 s
+[00:58:13] [INFO] Loaded script addonpack_fsang_hero:kubejs_scripts/symbiotes_items.js in 0.009 s
+[00:58:13] [INFO] Loaded script addonpack_fsang_hero:kubejs_scripts/symbiote_assigner.js in 0.006 s
+[00:58:13] [INFO] Loaded script addonpack_fsang_hero:kubejs_scripts/skin_change.js in 0.002 s
+[00:58:13] [INFO] Loaded script addonpack_fsang_hero:kubejs_scripts/random_power_2.js in 0.005 s
+[00:58:13] [INFO] Loaded script addonpack_fsang_hero:kubejs_scripts/random_power.js in 0.003 s
+[00:58:13] [INFO] Loaded script addonpack_fsang_hero:kubejs_scripts/mutation_assigner.js in 0.002 s
+[00:58:13] [INFO] Loaded script addonpack_fsang_hero:kubejs_scripts/items.js in 0.016 s
+[00:58:13] [INFO] Loaded script addonpack_fsang_hero:kubejs_scripts/extra_lives.js in 0.0 s
+[00:58:13] [INFO] Loaded script addonpack_fsang_hero:kubejs_scripts/data_enderchest.js in 0.001 s
+[00:58:13] [INFO] Loaded script addonpack_fsang_hero:kubejs_scripts/custom_commands.js in 0.01 s
+[00:58:13] [INFO] Loaded script addonpack_fsang_hero:kubejs_scripts/config.js in 0.002 s
+[00:58:13] [INFO] Loaded script addonpack_fsang_hero:kubejs_scripts/blueprints.js in 0.001 s
+[00:58:13] [INFO] Loaded script addonpack_fsang_hero:kubejs_scripts/ad_astra_space.js in 0.001 s
+[00:58:13] [INFO] Loaded script addonpack_ghmorak:kubejs_scripts/teleporte.js in 0.002 s
+[00:58:13] [INFO] Loaded script addonpack_ghmorak:kubejs_scripts/startup_scripts/grow_plants.js in 0.0 s
+[00:58:13] [INFO] Loaded 16/16 KubeJS server scripts in 0.075 s with 0 errors and 0 warnings
+[00:58:13] [INFO] Scripts loaded
+[00:58:13] [INFO] Initializing recipe event...
+[00:58:43] [INFO] Processing recipes...
+[00:58:43] [WARN] Failed to parse recipe 'outer_end:violite/tiles/vertical_slab_stonecutting[minecraft:stonecutting]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[00:58:43] [WARN] Failed to parse recipe 'minecraft_121_update:copper_lock_crafting[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[00:58:44] [WARN] Failed to parse recipe 'outer_end:violite/bricks/vertical_slab[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[00:58:44] [WARN] Failed to parse recipe 'outer_end:himmel_vertical_slab_stonecutting[minecraft:stonecutting]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[00:58:44] [WARN] Failed to parse recipe 'outer_end:violite/tiles/vertical_slab[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[00:58:44] [WARN] Failed to parse recipe 'outer_end:azure_vertical_planks[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[00:58:44] [WARN] Failed to parse recipe 'outer_end:violite/vertical_slab[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[00:58:44] [WARN] Failed to parse recipe 'outer_end:violite/bricks/vertical_slab_violite_stonecutting[minecraft:stonecutting]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[00:58:44] [WARN] Failed to parse recipe 'outer_end:violite/vertical_slab_stonecutting[minecraft:stonecutting]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[00:58:44] [WARN] Failed to parse recipe 'outer_end:violite/mossy_bricks/vertical_slab[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[00:58:44] [WARN] Failed to parse recipe 'outer_end:himmel_vertical_slab[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[00:58:44] [WARN] Failed to parse recipe 'outer_end:violite/mossy_bricks/vertical_slab_stonecutting[minecraft:stonecutting]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[00:58:44] [WARN] Failed to parse recipe 'outer_end:violite/mossy_tiles/vertical_slab_stonecutting[minecraft:stonecutting]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[00:58:44] [WARN] Failed to parse recipe 'outer_end:violite/tiles/vertical_slab_from_violite_stonecutting[minecraft:stonecutting]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[00:58:44] [WARN] Failed to parse recipe 'outer_end:stripped_azure_post[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[00:58:44] [WARN] Failed to parse recipe 'outer_end:violite/bricks/vertical_slab_stonecutting[minecraft:stonecutting]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[00:58:44] [WARN] Failed to parse recipe 'outer_end:azure_vertical_slab[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[00:58:44] [WARN] Failed to parse recipe 'outer_end:azure_post[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[00:58:44] [WARN] Failed to parse recipe 'outer_end:violite/mossy_tiles/vertical_slab[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[00:58:44] [INFO] Found 20487 recipes in 295.1 ms
+[00:58:44] [INFO] Posted recipe events in 7.775 ms
+[00:58:44] [WARN] Error parsing recipe outer_end:violite/mossy_tiles/vertical_slab[minecraft:crafting_shaped]: {"type":"minecraft:crafting_shaped","pattern":["#","#","#"],"key":{"#":{"item":"outer_end:mossy_violite_tile_slab"}},"result":{"item":"outer_end:mossy_violite_tile_vertical_slab","count":3}}: Unknown item 'outer_end:mossy_violite_tile_vertical_slab'
+[00:58:44] [WARN] Error parsing recipe farmersdelight:cutting/azure_stem[farmersdelight:cutting]: {"type":"farmersdelight:cutting","ingredients":[{"item":"outer_end:azure_stem"}],"tool":{"type":"farmersdelight:tool","tool":"axe"},"result":[{"item":"farmersdelight:tree_bark"},{"item":"outer_end:azure_stripped_stem"}],"sound":"minecraft:item.axe.strip","conditions":[{"type":"forge:mod_loaded","modid":"outer_end"}]}: Unknown ingredient type: farmersdelight:tool
+[00:58:44] [WARN] Error parsing recipe outer_end:violite/mossy_bricks/vertical_slab[minecraft:crafting_shaped]: {"type":"minecraft:crafting_shaped","pattern":["#","#","#"],"key":{"#":{"item":"outer_end:mossy_violite_brick_slab"}},"result":{"item":"outer_end:mossy_violite_brick_vertical_slab","count":3}}: Unknown item 'outer_end:mossy_violite_brick_vertical_slab'
+[00:58:44] [WARN] Error parsing recipe farmersdelight:cutting/azure_pith[farmersdelight:cutting]: {"type":"farmersdelight:cutting","ingredients":[{"item":"outer_end:azure_pith"}],"tool":{"type":"farmersdelight:tool","tool":"axe"},"result":[{"item":"farmersdelight:tree_bark"},{"item":"outer_end:azure_stripped_pith"}],"sound":"minecraft:item.axe.strip","conditions":[{"type":"forge:mod_loaded","modid":"outer_end"}]}: Unknown ingredient type: farmersdelight:tool
+[00:58:44] [WARN] Error parsing recipe outer_end:azure_post[minecraft:crafting_shaped]: {"type":"minecraft:crafting_shaped","pattern":["#","#","#"],"key":{"#":{"item":"outer_end:azure_pith"}},"result":{"item":"outer_end:azure_post","count":8}}: Unknown item 'outer_end:azure_post'
+[00:58:44] [WARN] Error parsing recipe outer_end:azure_vertical_to_slab[minecraft:crafting_shaped]: {"type":"minecraft:crafting_shaped","pattern":[" "," "," "],"key":{},"result":{"item":"outer_end:azure_slab","count":3}}: Index 0 out of bounds for length 0
+[00:58:44] [WARN] Error parsing recipe outer_end:violite/slab_from_vertical_slab[minecraft:crafting_shaped]: {"type":"minecraft:crafting_shaped","pattern":[" "," "," "],"key":{},"result":{"item":"outer_end:violite_slab","count":3}}: Index 0 out of bounds for length 0
+[00:58:44] [WARN] Error parsing recipe outer_end:violite/mossy_tiles/slab_from_vertical_slab[minecraft:crafting_shaped]: {"type":"minecraft:crafting_shaped","pattern":[" "," "," "],"key":{},"result":{"item":"outer_end:mossy_violite_tile_slab","count":3}}: Index 0 out of bounds for length 0
+[00:58:44] [WARN] Error parsing recipe outer_end:violite/tiles/slab_from_vertical_slab[minecraft:crafting_shaped]: {"type":"minecraft:crafting_shaped","pattern":[" "," "," "],"key":{},"result":{"item":"outer_end:violite_tile_slab","count":3}}: Index 0 out of bounds for length 0
+[00:58:44] [WARN] Error parsing recipe outer_end:azure_vertical_slab[minecraft:crafting_shaped]: {"type":"minecraft:crafting_shaped","pattern":["#","#","#"],"key":{"#":{"item":"outer_end:azure_slab"}},"result":{"item":"outer_end:azure_vertical_slab","count":3}}: Unknown item 'outer_end:azure_vertical_slab'
+[00:58:44] [WARN] Error parsing recipe farmersdelight:cutting/azure_trapdoor[farmersdelight:cutting]: {"type":"farmersdelight:cutting","ingredients":[{"item":"outer_end:azure_trapdoor"}],"tool":{"type":"farmersdelight:tool","tool":"axe"},"result":[{"item":"outer_end:azure_planks"}],"conditions":[{"type":"forge:mod_loaded","modid":"outer_end"}]}: Unknown ingredient type: farmersdelight:tool
+[00:58:44] [WARN] Error parsing recipe outer_end:azure_vertical_to_planks[minecraft:crafting_shaped]: {"type":"minecraft:crafting_shaped","pattern":[" "," "," "],"key":{},"result":{"item":"outer_end:azure_planks","count":3}}: Index 0 out of bounds for length 0
+[00:58:44] [WARN] Error parsing recipe outer_end:azure_vertical_planks[minecraft:crafting_shaped]: {"type":"minecraft:crafting_shaped","pattern":["#","#","#"],"key":{"#":{"item":"outer_end:azure_planks"}},"result":{"item":"outer_end:azure_vertical_planks","count":3}}: Unknown item 'outer_end:azure_vertical_planks'
+[00:58:44] [WARN] Error parsing recipe outer_end:himmel_vertical_to_slab[minecraft:crafting_shaped]: {"type":"minecraft:crafting_shaped","pattern":[" "," "," "],"key":{},"result":{"item":"outer_end:himmel_slab","count":3}}: Index 0 out of bounds for length 0
+[00:58:44] [WARN] Error parsing recipe outer_end:violite/tiles/vertical_slab[minecraft:crafting_shaped]: {"type":"minecraft:crafting_shaped","pattern":["#","#","#"],"key":{"#":{"item":"outer_end:violite_tile_slab"}},"result":{"item":"outer_end:violite_tile_vertical_slab","count":3}}: Unknown item 'outer_end:violite_tile_vertical_slab'
+[00:58:44] [WARN] Error parsing recipe outer_end:violite/vertical_slab[minecraft:crafting_shaped]: {"type":"minecraft:crafting_shaped","pattern":["#","#","#"],"key":{"#":{"item":"outer_end:violite_slab"}},"result":{"item":"outer_end:violite_vertical_slab","count":3}}: Unknown item 'outer_end:violite_vertical_slab'
+[00:58:44] [WARN] Error parsing recipe outer_end:violite/bricks/vertical_slab[minecraft:crafting_shaped]: {"type":"minecraft:crafting_shaped","pattern":["#","#","#"],"key":{"#":{"item":"outer_end:violite_brick_slab"}},"result":{"item":"outer_end:violite_brick_vertical_slab","count":3}}: Unknown item 'outer_end:violite_brick_vertical_slab'
+[00:58:44] [WARN] Error parsing recipe outer_end:stripped_azure_post[minecraft:crafting_shaped]: {"type":"minecraft:crafting_shaped","pattern":["#","#","#"],"key":{"#":{"item":"outer_end:azure_stripped_pith"}},"result":{"item":"outer_end:stripped_azure_post","count":8}}: Unknown item 'outer_end:stripped_azure_post'
+[00:58:44] [WARN] Error parsing recipe outer_end:violite/mossy_bricks/slab_from_vertical_slab[minecraft:crafting_shaped]: {"type":"minecraft:crafting_shaped","pattern":[" "," "," "],"key":{},"result":{"item":"outer_end:mossy_violite_brick_slab","count":3}}: Index 0 out of bounds for length 0
+[00:58:44] [WARN] Error parsing recipe outer_end:violite/bricks/slab_from_vertical_slab[minecraft:crafting_shaped]: {"type":"minecraft:crafting_shaped","pattern":[" "," "," "],"key":{},"result":{"item":"outer_end:violite_brick_slab","count":3}}: Index 0 out of bounds for length 0
+[00:58:44] [WARN] Error parsing recipe farmersdelight:cutting/azure_sign[farmersdelight:cutting]: {"type":"farmersdelight:cutting","ingredients":[{"item":"outer_end:azure_sign"}],"tool":{"type":"farmersdelight:tool","tool":"axe"},"result":[{"item":"outer_end:azure_planks"}],"conditions":[{"type":"forge:mod_loaded","modid":"outer_end"}]}: Unknown ingredient type: farmersdelight:tool
+[00:58:44] [WARN] Error parsing recipe farmersdelight:cutting/azure_door[farmersdelight:cutting]: {"type":"farmersdelight:cutting","ingredients":[{"item":"outer_end:azure_door"}],"tool":{"type":"farmersdelight:tool","tool":"axe"},"result":[{"item":"outer_end:azure_planks"}],"conditions":[{"type":"forge:mod_loaded","modid":"outer_end"}]}: Unknown ingredient type: farmersdelight:tool
+[00:58:44] [WARN] Error parsing recipe minecraft_121_update:copper_lock_crafting[minecraft:crafting_shaped]: {"type":"minecraft:crafting_shaped","category":"redstone","pattern":["012","3 5","678"],"key":{"0":{"tag":"forge:storage_blocks/copper"},"1":{"tag":"forge:storage_blocks/copper"},"2":{"tag":"forge:storage_blocks/copper"},"3":{"tag":"forge:storage_blocks/copper"},"5":{"tag":"forge:storage_blocks/copper"},"6":{"tag":"forge:storage_blocks/copper"},"7":{"tag":"forge:storage_blocks/copper"},"8":{"tag":"forge:storage_blocks/copper"}},"result":{"item":"minecraft_121_update:deleted_mod_element","count":1}}: Unknown item 'minecraft_121_update:deleted_mod_element'
+[00:58:44] [WARN] Error parsing recipe outer_end:himmel_vertical_slab[minecraft:crafting_shaped]: {"type":"minecraft:crafting_shaped","pattern":["#","#","#"],"key":{"#":{"item":"outer_end:himmel_slab"}},"result":{"item":"outer_end:himmel_vertical_slab","count":3}}: Unknown item 'outer_end:himmel_vertical_slab'
+[00:58:44] [INFO] Added 14 recipes, removed 0 recipes, modified 11 recipes, with 24 failed recipes in 743.5 ms

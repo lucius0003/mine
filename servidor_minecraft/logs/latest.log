@@ -5383,3 +5383,1161 @@ java.lang.NullPointerException: Cannot invoke "com.google.gson.JsonElement.getAs
 [26Dec2024 00:31:01.542] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting dev/ftb/mods/ftbchunks/LongRangePlayerTracker
 [26Dec2024 00:36:01.019] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting org/violetmoon/quark/content/mobs/entity/Stoneling$StonelingVariant
 [26Dec2024 00:36:15.240] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/chunk/LevelChunk$EntityCreationType
+[26Dec2024 00:54:45.385] [Netty Epoll Server IO #2/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/network/ConnectionProtocol
+[26Dec2024 00:54:45.412] [Netty Epoll Server IO #2/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/network/protocol/game/ClientboundCustomChatCompletionsPacket$Action
+[26Dec2024 00:54:45.444] [Netty Epoll Server IO #2/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/network/protocol/game/ClientboundRecipePacket$State
+[26Dec2024 00:54:45.503] [Netty Epoll Server IO #2/INFO] [mixin/]: Mixing server.MixinServerboundChatCommandPacket from mixins/common/nochatreports.mixins.json into net.minecraft.network.protocol.game.ServerboundChatCommandPacket
+[26Dec2024 00:54:45.505] [Netty Epoll Server IO #2/INFO] [mixin/]: Mixing server.MixinServerboundChatPacket from mixins/common/nochatreports.mixins.json into net.minecraft.network.protocol.game.ServerboundChatPacket
+[26Dec2024 00:54:45.506] [Netty Epoll Server IO #2/INFO] [mixin/]: Mixing server.MixinServerboundChatSessionUpdatePacket from mixins/common/nochatreports.mixins.json into net.minecraft.network.protocol.game.ServerboundChatSessionUpdatePacket
+[26Dec2024 00:54:45.508] [Netty Epoll Server IO #2/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/network/protocol/game/ServerboundClientCommandPacket$Action
+[26Dec2024 00:54:45.514] [Netty Epoll Server IO #2/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/network/protocol/game/ServerboundInteractPacket$ActionType
+[26Dec2024 00:54:45.521] [Netty Epoll Server IO #2/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/network/protocol/game/ServerboundPlayerActionPacket$Action
+[26Dec2024 00:54:45.522] [Netty Epoll Server IO #2/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/network/protocol/game/ServerboundPlayerCommandPacket$Action
+[26Dec2024 00:54:45.524] [Netty Epoll Server IO #2/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/network/protocol/game/ServerboundResourcePackPacket$Action
+[26Dec2024 00:54:45.525] [Netty Epoll Server IO #2/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/network/protocol/game/ServerboundSeenAdvancementsPacket$Action
+[26Dec2024 00:54:45.527] [Netty Epoll Server IO #2/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/entity/CommandBlockEntity$Mode
+[26Dec2024 00:54:45.529] [Netty Epoll Server IO #2/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/entity/StructureBlockEntity$UpdateType
+[26Dec2024 00:54:45.551] [Netty Epoll Server IO #2/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraftforge/network/ConnectionType
+[26Dec2024 00:54:45.739] [Netty Epoll Server IO #2/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/server/network/ServerLoginPacketListenerImpl$State
+[26Dec2024 00:54:56.902] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/povstalec/sgjourney/common/capabilities/AncientGene$ATAGene
+[26Dec2024 00:54:56.933] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: luciu_black[/127.43.98.180:56029] logged in with entity id 508 at (-12.477608767089434, 72.0, -1.5511681100100114)
+[26Dec2024 00:54:56.937] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraftforge/network/filters/VanillaPacketSplitter$RemoteCompatibility
+[26Dec2024 00:54:57.019] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/entity/monster/SpellcasterIllager$IllagerSpell
+[26Dec2024 00:54:57.021] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/threetag/pantheonsent/entity/Khonshu$Mode
+[26Dec2024 00:54:57.028] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting twilightforest/entity/boss/KnightPhantom$Formation
+[26Dec2024 00:54:57.031] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/hollingsworth/arsnouveau/common/entity/AmethystGolem$AmethystGolemGoalState
+[26Dec2024 00:54:57.039] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/teamresourceful/yabn/elements/YabnType
+[26Dec2024 00:54:57.054] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/roguelogix/phosphophyllite/robn/ROBN$Type
+[26Dec2024 00:54:57.055] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/roguelogix/phosphophyllite/robn/ROBN$Endianness
+[26Dec2024 00:54:57.069] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/mehvahdjukaar/supplementaries/common/misc/globe/GlobeTextureGenerator$Face
+[26Dec2024 00:54:57.069] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/mehvahdjukaar/supplementaries/common/misc/globe/GlobeTextureGenerator$TerrainType
+[26Dec2024 00:54:57.070] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/mehvahdjukaar/supplementaries/common/misc/globe/GlobeTextureGenerator$Biome
+[26Dec2024 00:54:57.070] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/mehvahdjukaar/supplementaries/common/misc/globe/GlobeTextureGenerator$Feature
+[26Dec2024 00:54:57.075] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/mehvahdjukaar/supplementaries/common/utils/MiscUtils$Festivity
+[26Dec2024 00:54:57.190] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting dev/ftb/mods/ftblibrary/integration/permissions/PermissionHelper
+[26Dec2024 00:54:57.192] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/commands/SharedSuggestionProvider$ElementSuggestionType
+[26Dec2024 00:54:57.214] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: luciu_black joined the game
+[26Dec2024 00:54:57.215] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/entity/RelativeMovement
+[26Dec2024 00:54:57.875] [Server thread/ERROR] [net.threetag.palladium.Palladium/]: Was not able to read user's supporter data! (48812f9b-dcef-3414-958e-f80113c926fd)
+[26Dec2024 00:54:57.880] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting dev/ftb/mods/ftbessentials/kit/KitManager
+[26Dec2024 00:54:57.920] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting dev/ftb/mods/ftbquests/integration/item_filtering/ItemMatchingSystem
+[26Dec2024 00:54:57.932] [Server thread/INFO] [KubeJS Server/]: addonpack_fsang_hero:kubejs_scripts/config.js#18: Config file found. Loading config from config/fsang_config.json
+[26Dec2024 00:54:57.943] [Server thread/INFO] [KubeJS Server/]: addonpack_fsang_hero:kubejs_scripts/config.js#57: Applying config to player: luciu_black
+[26Dec2024 00:54:57.946] [Server thread/INFO] [KubeJS Server/]: addonpack_fsang_hero:kubejs_scripts/config.js#36: Running command: execute as luciu_black run scoreboard objectives add FSang.Gamerule.item dummy
+[26Dec2024 00:54:57.965] [Server thread/INFO] [KubeJS Server/]: addonpack_fsang_hero:kubejs_scripts/config.js#39: Running command: execute as luciu_black run scoreboard players set .sang FSang.Gamerule.item 1
+[26Dec2024 00:54:57.967] [Server thread/INFO] [KubeJS Server/]: addonpack_fsang_hero:kubejs_scripts/config.js#47: Running command: execute as luciu_black run scoreboard objectives add FSang.Gamerule.symbiote dummy
+[26Dec2024 00:54:57.967] [Server thread/INFO] [KubeJS Server/]: addonpack_fsang_hero:kubejs_scripts/config.js#50: Running command: execute as luciu_black run scoreboard players set .sang FSang.Gamerule.symbiote 1
+[26Dec2024 00:54:57.999] [Server thread/INFO] [structurize/]: New Server UUID 0cef7549-82b0-487f-b9ee-dbc065bb8035
+[26Dec2024 00:54:58.000] [Server thread/INFO] [se.mickelus.tetra.data.DataManager/]: Sending data to client: luciu_black
+[26Dec2024 00:54:58.047] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/simibubi/create/content/trains/signal/EdgeGroupColor
+[26Dec2024 00:54:58.048] [Server thread/INFO] [Jade/]: Syncing config to luciu_black (48812f9b-dcef-3414-958e-f80113c926fd)
+[26Dec2024 00:54:58.469] [Netty Epoll Server IO #2/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraftforge/network/NetworkEvent$RegistrationChangeType
+[26Dec2024 00:55:04.595] [Server thread/INFO] [com.alrex.parcool.ParCool/]: Limitation of 48812f9b-dcef-3414-958e-f80113c926fd was loaded
+[26Dec2024 00:55:04.621] [Server thread/WARN] [waterframes/]: Server seems overloading, jumping 9253ms or 185 ticks
+[26Dec2024 00:55:04.621] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 7707ms or 154 ticks behind
+[26Dec2024 00:55:04.673] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting top/theillusivec4/caelus/api/CaelusApi$TriState
+[26Dec2024 00:55:04.676] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/scores/Team$CollisionRule
+[26Dec2024 00:55:04.693] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/util/profiling/metrics/MetricCategory
+[26Dec2024 00:55:04.713] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/server/advancements/AdvancementVisibilityEvaluator$VisibilityRule
+[26Dec2024 00:55:04.726] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/possible_triangle/flightlib/api/FlyingPose
+[26Dec2024 00:55:04.764] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/aetherteam/nitrogen/capability/INBTSynchable$Direction
+[26Dec2024 00:55:04.770] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting be/florens/expandability/EventResult
+[26Dec2024 00:55:04.780] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting moze_intel/projecte/handlers/CommonInternalAbilities$WalkOnType
+[26Dec2024 00:55:04.786] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/alrex/parcool/common/action/StaminaConsumeTiming
+[26Dec2024 00:55:07.473] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting org/violetmoon/zeta/event/bus/ZResult
+[26Dec2024 00:55:13.856] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Made luciu_black a server operator
+[26Dec2024 00:55:25.934] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/railwayteam/railways/util/DevCapeUtils
+[26Dec2024 00:58:10.990] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [luciu_black: Reloading!]
+[26Dec2024 00:58:11.032] [Server thread/INFO] [Supplementaries/]: Generated runtime SERVER_DATA for pack Supplementaries Generated Pack (supplementaries) in: 8 ms
+[26Dec2024 00:58:11.048] [Server thread/INFO] [Supplementaries/]: Generated runtime SERVER_DATA for pack Supplementaries Generated Pack (supplementaries) in: 5 ms
+[26Dec2024 00:58:11.054] [Server thread/ERROR] [net.minecraft.server.packs.AbstractPackResources/]: Couldn't load pack metadata
+com.google.gson.JsonSyntaxException: Missing pack_format, expected to find a Int
+	at net.minecraft.util.GsonHelper.m_13927_(GsonHelper.java:277) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.server.packs.metadata.pack.PackMetadataSectionSerializer.m_6322_(PackMetadataSectionSerializer.java:15) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.server.packs.metadata.pack.PackMetadataSectionSerializer.m_6322_(PackMetadataSectionSerializer.java:9) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.server.packs.AbstractPackResources.m_10214_(AbstractPackResources.java:52) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.server.packs.AbstractPackResources.m_5550_(AbstractPackResources.java:33) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.server.packs.repository.Pack.m_246334_(Pack.java:60) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.server.packs.repository.Pack.m_245429_(Pack.java:35) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.threetag.palladium.addonpack.forge.AddonPackManagerImpl$ModPackSource.m_7686_(AddonPackManagerImpl.java:49) ~[palladium-4.1.5+1.20.1-forge.jar%23517!/:4.1.5+1.20.1]
+	at net.minecraft.server.packs.repository.PackRepository.m_10526_(PackRepository.java:39) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.server.packs.repository.PackRepository.m_10506_(PackRepository.java:31) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at dev.latvian.mods.kubejs.script.ScriptManager.handler$bkc000$loadFromDirectory(ScriptManager.java:537) ~[kubejs-forge-2001.6.5-build.16.jar%23479!/:2001.6.5-build.16]
+	at dev.latvian.mods.kubejs.script.ScriptManager.loadFromDirectory(ScriptManager.java:150) ~[kubejs-forge-2001.6.5-build.16.jar%23479!/:2001.6.5-build.16]
+	at dev.latvian.mods.kubejs.script.ScriptManager.reload(ScriptManager.java:72) ~[kubejs-forge-2001.6.5-build.16.jar%23479!/:2001.6.5-build.16]
+	at dev.latvian.mods.kubejs.server.ServerScriptManager.wrapResourceManager(ServerScriptManager.java:85) ~[kubejs-forge-2001.6.5-build.16.jar%23479!/:2001.6.5-build.16]
+	at net.minecraft.server.MinecraftServer.localvar$chd000$wrapResourceManager(MinecraftServer.java:5836) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.server.MinecraftServer.lambda$reloadResources$25(MinecraftServer.java:1322) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1150) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1773) ~[?:?]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:156) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:770) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:161) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:130) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:753) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:747) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_18701_(BlockableEventLoop.java:139) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.server.MinecraftServer.m_129861_(MinecraftServer.java:1345) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.server.commands.ReloadCommand.m_138235_(ReloadCommand.java:22) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.server.commands.ReloadCommand.m_287964_(ReloadCommand.java:53) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at com.mojang.brigadier.CommandDispatcher.execute(CommandDispatcher.java:264) ~[brigadier-1.1.8.jar%2376!/:?]
+	at net.minecraft.commands.Commands.m_242674_(Commands.java:257) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.m_246958_(ServerGamePacketListenerImpl.java:1244) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.m_244885_(ServerGamePacketListenerImpl.java:1221) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_18693_(BlockableEventLoop.java:67) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:156) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:770) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:161) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:130) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:753) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:747) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_18701_(BlockableEventLoop.java:139) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.server.MinecraftServer.m_130012_(MinecraftServer.java:733) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:665) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:251) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[26Dec2024 00:58:11.057] [Server thread/WARN] [net.minecraft.server.packs.repository.Pack/]: Missing metadata in pack mod:minecraft
+[26Dec2024 00:58:13.154] [Server thread/INFO] [KubeJS/]: Added bindings for script type SERVER from mod 'almostunified': [AlmostUnified]
+[26Dec2024 00:58:13.155] [Server thread/INFO] [KubeJS Server/]: example.js#5: Hello, World! (Loaded server scripts)
+[26Dec2024 00:58:13.155] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:example.js in 0.001 s
+[26Dec2024 00:58:13.165] [Server thread/INFO] [KubeJS Server/]: Loaded script addonpack_fsang_hero:kubejs_scripts/symbiotes_items.js in 0.009 s
+[26Dec2024 00:58:13.171] [Server thread/INFO] [KubeJS Server/]: Loaded script addonpack_fsang_hero:kubejs_scripts/symbiote_assigner.js in 0.006 s
+[26Dec2024 00:58:13.173] [Server thread/INFO] [KubeJS Server/]: Loaded script addonpack_fsang_hero:kubejs_scripts/skin_change.js in 0.002 s
+[26Dec2024 00:58:13.178] [Server thread/INFO] [KubeJS Server/]: Loaded script addonpack_fsang_hero:kubejs_scripts/random_power_2.js in 0.005 s
+[26Dec2024 00:58:13.182] [Server thread/INFO] [KubeJS Server/]: Loaded script addonpack_fsang_hero:kubejs_scripts/random_power.js in 0.003 s
+[26Dec2024 00:58:13.185] [Server thread/INFO] [KubeJS Server/]: Loaded script addonpack_fsang_hero:kubejs_scripts/mutation_assigner.js in 0.002 s
+[26Dec2024 00:58:13.202] [Server thread/INFO] [KubeJS Server/]: Loaded script addonpack_fsang_hero:kubejs_scripts/items.js in 0.016 s
+[26Dec2024 00:58:13.203] [Server thread/INFO] [KubeJS Server/]: Loaded script addonpack_fsang_hero:kubejs_scripts/extra_lives.js in 0.0 s
+[26Dec2024 00:58:13.204] [Server thread/INFO] [KubeJS Server/]: Loaded script addonpack_fsang_hero:kubejs_scripts/data_enderchest.js in 0.001 s
+[26Dec2024 00:58:13.214] [Server thread/INFO] [KubeJS Server/]: Loaded script addonpack_fsang_hero:kubejs_scripts/custom_commands.js in 0.01 s
+[26Dec2024 00:58:13.216] [Server thread/INFO] [KubeJS Server/]: Loaded script addonpack_fsang_hero:kubejs_scripts/config.js in 0.002 s
+[26Dec2024 00:58:13.217] [Server thread/INFO] [KubeJS Server/]: Loaded script addonpack_fsang_hero:kubejs_scripts/blueprints.js in 0.001 s
+[26Dec2024 00:58:13.218] [Server thread/INFO] [KubeJS Server/]: Loaded script addonpack_fsang_hero:kubejs_scripts/ad_astra_space.js in 0.001 s
+[26Dec2024 00:58:13.220] [Server thread/INFO] [KubeJS Server/]: Loaded script addonpack_ghmorak:kubejs_scripts/teleporte.js in 0.002 s
+[26Dec2024 00:58:13.220] [Server thread/INFO] [KubeJS Server/]: Loaded script addonpack_ghmorak:kubejs_scripts/startup_scripts/grow_plants.js in 0.0 s
+[26Dec2024 00:58:13.220] [Server thread/INFO] [KubeJS Server/]: Loaded 16/16 KubeJS server scripts in 0.075 s with 0 errors and 0 warnings
+[26Dec2024 00:58:13.221] [Server thread/INFO] [KubeJS Server/]: Scripts loaded
+[26Dec2024 00:58:13.221] [Server thread/INFO] [KubeJS Server/]: Initializing recipe event...
+[26Dec2024 00:58:13.252] [Server thread/INFO] [com.teamabnormals.blueprint.core.Blueprint/]: Successfully loaded 0 data remolders!
+[26Dec2024 00:58:13.939] [Worker-ResourceReload-2/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag quark:vertical_slabs as it is missing following references: outer_end:azure_vertical_slab (from TheOuterEnd-1.0.10.jar), 
+	outer_end:himmel_vertical_slab (from TheOuterEnd-1.0.10.jar), 
+	outer_end:violite_vertical_slab (from TheOuterEnd-1.0.10.jar), 
+	outer_end:violite_brick_vertical_slab (from TheOuterEnd-1.0.10.jar), 
+	outer_end:mossy_violite_brick_vertical_slab (from TheOuterEnd-1.0.10.jar), 
+	outer_end:violite_tile_vertical_slab (from TheOuterEnd-1.0.10.jar), 
+	outer_end:mossy_violite_tile_vertical_slab (from TheOuterEnd-1.0.10.jar)
+[26Dec2024 00:58:14.523] [Worker-ResourceReload-0/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag minecraft:pbguns as it is missing following references: #pointblank:c14 (from taczplus-1.1.1-forge-1.20.1.jar)
+[26Dec2024 00:58:14.533] [Worker-ResourceReload-0/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag trinkets:chest/cape as it is missing following references: ghmorak:kryptonian_cape (from Gods-and-Heroes-PE-1.1.8.jar)
+[26Dec2024 00:58:14.537] [Worker-ResourceReload-0/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag quark:vertical_slabs as it is missing following references: outer_end:azure_vertical_slab (from TheOuterEnd-1.0.10.jar), 
+	outer_end:himmel_vertical_slab (from TheOuterEnd-1.0.10.jar), 
+	outer_end:violite_vertical_slab (from TheOuterEnd-1.0.10.jar), 
+	outer_end:violite_brick_vertical_slab (from TheOuterEnd-1.0.10.jar), 
+	outer_end:mossy_violite_brick_vertical_slab (from TheOuterEnd-1.0.10.jar), 
+	outer_end:violite_tile_vertical_slab (from TheOuterEnd-1.0.10.jar), 
+	outer_end:mossy_violite_tile_vertical_slab (from TheOuterEnd-1.0.10.jar)
+[26Dec2024 00:58:14.544] [Worker-ResourceReload-0/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag ctov:wares/cardboard_box as it is missing following references: wares:cardboard_box (from [forge]ctov-3.4.10.jar)
+[26Dec2024 00:58:14.544] [Worker-ResourceReload-0/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag supplementaries:lunch_basket_blacklist as it is missing following references: potionbundles:potion_bundle (from supplementaries-1.20-3.1.11.jar)
+[26Dec2024 00:58:14.553] [Worker-ResourceReload-0/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag ctov:wares/sealed_delivery_agreement as it is missing following references: wares:sealed_delivery_agreement (from [forge]ctov-3.4.10.jar)
+[26Dec2024 00:58:14.561] [Worker-ResourceReload-0/WARN] [AlmostUnified/]: The following tags are invalid and will be ignored: [forge:wires/lead, forge:storage_blocks/raw_netherite, forge:rods/silver, forge:storage_blocks/raw_cobalt, forge:raw_materials/coal_coke, forge:ores/cobalt, forge:plates/aluminum, forge:raw_materials/lumium, forge:wires/silver, forge:gears/graphite, forge:gears/chrome, forge:raw_materials/amber, forge:wires/charcoal, forge:nuggets/lapis, forge:ingots/obsidian, forge:raw_materials/iridium, forge:plates/mithril, forge:nuggets/coal, forge:nuggets/graphite, forge:raw_materials/peridot, forge:gems/osmium, forge:rods/peridot, forge:rods/sapphire, forge:ores/lumium, forge:plates/cobalt, forge:raw_materials/netherite, forge:ores/amber, forge:gears/platinum, forge:raw_materials/cobalt, forge:ores/aeternium, forge:wires/platinum, forge:ores/mithril, forge:nuggets/elementium, forge:storage_blocks/raw_electrum, forge:rods/fluorite, forge:rods/invar, forge:rods/lead, forge:storage_blocks/raw_enderium, forge:dusts/brass, forge:gems/enderium, forge:rods/enderium, forge:raw_materials/tungsten, forge:rods/potassium_nitrate, forge:nuggets/platinum, forge:ingots/cinnabar, forge:gems/aluminum, forge:wires/apatite, forge:wires/coal, forge:wires/peridot, forge:raw_materials/chrome, forge:wires/steel, forge:wires/fluorite, forge:nuggets/coal_coke, forge:gems/gold, forge:wires/constantan, forge:ingots/sulfur, forge:rods/lapis, forge:rods/charcoal, forge:rods/aluminum, forge:nuggets/cobalt, forge:gems/cobalt, forge:rods/zinc, forge:gears/coal_coke, forge:storage_blocks/aeternium, forge:nuggets/iridium, forge:nuggets/potassium_nitrate, forge:gems/tin, forge:ingots/peridot, forge:rods/aeternium, forge:wires/graphite, forge:storage_blocks/raw_lapis, forge:storage_blocks/raw_aluminum, forge:wires/coal_coke, forge:ingots/apatite, forge:gems/amber, forge:rods/iridium, forge:gems/elementium, forge:wires/sapphire, forge:nuggets/diamond, forge:rods/elementium, forge:plates/osmium, forge:dusts/platinum, forge:ores/tungsten, forge:gears/cobalt, forge:raw_materials/emerald, forge:rods/osmium, forge:storage_blocks/aluminum, forge:wires/cobalt, forge:plates/sapphire, forge:storage_blocks/raw_obsidian, forge:gears/mithril, forge:rods/uranium, forge:raw_materials/signalum, forge:plates/elementium, forge:plates/fluorite, forge:gears/osmium, forge:raw_materials/obsidian, forge:plates/amber, forge:gears/steel, forge:rods/ruby, forge:plates/uranium, forge:dusts/bitumen, forge:raw_materials/elementium, forge:rods/tin, forge:plates/diamond, forge:raw_materials/charcoal, forge:gems/steel, forge:ingots/fluorite, forge:raw_materials/bitumen, forge:nuggets/emerald, forge:nuggets/amber, forge:gears/aeternium, forge:nuggets/chrome, forge:ores/chrome, forge:wires/uranium, forge:dusts/amber, forge:ores/invar, forge:gears/potassium_nitrate, forge:gems/coal, forge:rods/lumium, forge:storage_blocks/raw_fluorite, forge:ingots/aeternium, forge:storage_blocks/mithril, forge:gears/apatite, forge:wires/diamond, forge:rods/netherite, forge:ingots/emerald, forge:gems/graphite, forge:ingots/sapphire, forge:gems/potassium_nitrate, forge:gems/coal_coke, forge:raw_materials/constantan, forge:raw_materials/lapis, forge:ores/signalum, forge:storage_blocks/raw_cinnabar, forge:wires/sulfur, forge:dusts/aeternium, forge:storage_blocks/raw_diamond, forge:wires/amber, forge:storage_blocks/raw_sapphire, forge:raw_materials/electrum, forge:plates/bitumen, forge:storage_blocks/raw_bitumen, forge:rods/diamond, forge:nuggets/ruby, forge:rods/chrome, forge:wires/tin, forge:wires/zinc, forge:storage_blocks/cobalt, forge:storage_blocks/raw_invar, forge:rods/amber, forge:raw_materials/aeternium, forge:gears/charcoal, forge:nuggets/tungsten, forge:rods/mithril, forge:nuggets/apatite, forge:gears/uranium, forge:ores/peridot, forge:ingots/chrome, forge:ores/enderium, forge:nuggets/peridot, forge:raw_materials/ruby, forge:gems/iridium, forge:dusts/elementium, forge:ores/platinum, forge:wires/netherite, forge:dusts/potassium_nitrate, forge:gears/elementium, forge:gems/invar, forge:plates/aeternium, forge:ores/steel, forge:ingots/cobalt, forge:storage_blocks/tungsten, forge:ingots/iridium, forge:gears/fluorite, forge:gears/coal, forge:rods/cobalt, forge:gears/peridot, forge:ingots/charcoal, forge:gears/amber, forge:rods/platinum, forge:rods/signalum, forge:storage_blocks/raw_constantan, forge:storage_blocks/raw_mithril, forge:storage_blocks/raw_platinum, forge:dusts/mithril, forge:ingots/potassium_nitrate, forge:rods/bitumen, forge:storage_blocks/raw_signalum, forge:gems/copper, forge:storage_blocks/raw_brass, forge:storage_blocks/raw_aeternium, forge:rods/coal, forge:raw_materials/sulfur, forge:raw_materials/steel, forge:ores/netherite, forge:raw_materials/sapphire, forge:ingots/elementium, forge:ingots/coal, forge:nuggets/aeternium, forge:storage_blocks/raw_graphite, forge:dusts/zinc, forge:plates/lapis, forge:plates/coal_coke, forge:nuggets/sulfur, forge:storage_blocks/raw_elementium, forge:storage_blocks/amber, forge:raw_materials/coal, forge:ores/potassium_nitrate, forge:wires/bronze, forge:gears/iridium, forge:wires/invar, forge:wires/obsidian, forge:nuggets/bitumen, forge:wires/chrome, forge:dusts/iridium, forge:raw_materials/enderium, forge:wires/mithril, forge:wires/nickel, forge:dusts/chrome, forge:ingots/mithril, forge:ores/coal_coke, forge:gears/brass, forge:rods/tungsten, forge:gems/brass, forge:gems/tungsten, forge:rods/bronze, forge:plates/iridium, forge:nuggets/mithril, forge:raw_materials/fluorite, forge:ores/iridium, forge:rods/sulfur, forge:storage_blocks/obsidian, forge:rods/cinnabar, forge:storage_blocks/raw_charcoal, forge:gems/constantan, forge:nuggets/obsidian, forge:gears/obsidian, forge:rods/nickel, forge:gears/zinc, forge:gems/mithril, forge:storage_blocks/raw_amber, forge:gems/lead, forge:storage_blocks/peridot, forge:ores/bronze, forge:ores/charcoal, forge:ingots/bitumen, forge:ingots/amber, forge:wires/bitumen, forge:storage_blocks/raw_iridium, forge:ores/constantan, forge:storage_blocks/raw_peridot, forge:ingots/ruby, forge:plates/sulfur, forge:wires/elementium, forge:wires/lapis, forge:storage_blocks/raw_steel, forge:storage_blocks/chrome, forge:wires/potassium_nitrate, forge:raw_materials/invar, forge:dusts/peridot, forge:gears/aluminum, forge:gears/cinnabar, forge:gems/bitumen, forge:storage_blocks/raw_sulfur, forge:plates/charcoal, forge:gems/obsidian, forge:ores/brass, forge:plates/graphite, forge:rods/obsidian, forge:wires/aeternium, forge:wires/tungsten, forge:ores/graphite, forge:storage_blocks/raw_coal, forge:plates/peridot, forge:raw_materials/brass, forge:gems/zinc, forge:raw_materials/mithril, forge:raw_materials/potassium_nitrate, forge:nuggets/cinnabar, forge:ingots/platinum, forge:plates/tungsten, forge:ores/electrum, forge:rods/constantan, forge:ingots/diamond, forge:wires/ruby, forge:gems/netherite, forge:gems/platinum, forge:raw_materials/apatite, forge:raw_materials/bronze, forge:rods/graphite, forge:raw_materials/platinum, forge:ingots/tungsten, forge:gears/sulfur, forge:plates/coal, forge:wires/signalum, forge:gems/nickel, forge:gears/bitumen, forge:rods/coal_coke, forge:wires/aluminum, forge:wires/brass, forge:wires/emerald, forge:storage_blocks/elementium, forge:gems/charcoal, forge:ingots/coal_coke, forge:storage_blocks/potassium_nitrate, forge:ores/elementium, forge:gems/electrum, forge:raw_materials/graphite, forge:plates/apatite, forge:storage_blocks/raw_ruby, forge:gems/aeternium, forge:raw_materials/cinnabar, forge:dusts/aluminum, forge:plates/emerald, forge:raw_materials/diamond, forge:storage_blocks/raw_potassium_nitrate, forge:dusts/coal_coke, forge:ores/obsidian, forge:storage_blocks/raw_tungsten, forge:wires/iridium, forge:nuggets/sapphire, forge:gems/signalum, forge:plates/platinum, forge:storage_blocks/iridium, forge:gears/tungsten, forge:storage_blocks/platinum, forge:plates/chrome, forge:plates/ruby, forge:nuggets/charcoal, forge:gems/lumium, forge:ingots/lapis, forge:dusts/tungsten, forge:gems/peridot, forge:storage_blocks/raw_apatite, forge:ores/bitumen, forge:rods/apatite, forge:wires/osmium, forge:plates/potassium_nitrate, forge:gems/iron, forge:storage_blocks/raw_lumium, forge:storage_blocks/raw_chrome, forge:plates/cinnabar, forge:nuggets/fluorite, forge:storage_blocks/raw_coal_coke, forge:gems/silver, forge:storage_blocks/raw_bronze, forge:wires/enderium, forge:gems/chrome, forge:rods/emerald, forge:wires/lumium, forge:storage_blocks/raw_emerald, forge:gems/uranium, forge:gems/bronze, forge:wires/cinnabar]
+[26Dec2024 00:58:15.475] [Worker-ResourceReload-1/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:outer_end:blocks/azure_vertical_slab
+java.lang.IllegalArgumentException: Can't find block outer_end:azure_vertical_slab
+	at net.minecraft.world.level.storage.loot.predicates.LootItemBlockStatePropertyCondition$Serializer.m_81802_(LootItemBlockStatePropertyCondition.java:79) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.world.level.storage.loot.predicates.LootItemBlockStatePropertyCondition$Serializer.m_7561_(LootItemBlockStatePropertyCondition.java:79) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.world.level.storage.loot.predicates.LootItemBlockStatePropertyCondition$Serializer.m_7561_(LootItemBlockStatePropertyCondition.java:68) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.world.level.storage.loot.GsonAdapterFactory$JsonAdapter.deserialize(GsonAdapterFactory.java:102) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.util.GsonHelper.m_13845_(GsonHelper.java:481) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.world.level.storage.loot.functions.LootItemConditionalFunction$Serializer.m_7561_(LootItemConditionalFunction.java:98) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.world.level.storage.loot.functions.LootItemConditionalFunction$Serializer.m_7561_(LootItemConditionalFunction.java:88) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.world.level.storage.loot.GsonAdapterFactory$JsonAdapter.deserialize(GsonAdapterFactory.java:102) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.util.GsonHelper.m_13845_(GsonHelper.java:481) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:149) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:129) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:86) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:74) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.world.level.storage.loot.GsonAdapterFactory$JsonAdapter.deserialize(GsonAdapterFactory.java:102) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.util.GsonHelper.m_13836_(GsonHelper.java:471) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:192) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:189) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.util.GsonHelper.m_13845_(GsonHelper.java:481) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:294) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:291) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1261) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:871) ~[forge-1.20.1-47.3.7-universal.jar%23610!/:?]
+	at net.minecraftforge.common.ForgeHooks.lambda$getLootTableDeserializer$3(ForgeHooks.java:848) ~[forge-1.20.1-47.3.7-universal.jar%23610!/:?]
+	at net.minecraft.world.level.storage.loot.LootDataType.deserialize(LootDataType.java:45) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.world.level.storage.loot.LootDataManager.lambda$scheduleElementParse$4(LootDataManager.java:56) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at java.util.HashMap.forEach(HashMap.java:1429) ~[?:?]
+	at net.minecraft.world.level.storage.loot.LootDataManager.m_278660_(LootDataManager.java:55) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?]
+[26Dec2024 00:58:15.564] [Worker-ResourceReload-1/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:outer_end:blocks/azure_post
+com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'outer_end:azure_post'
+	at net.minecraft.util.GsonHelper.m_13866_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.util.GsonHelper.m_13874_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.util.GsonHelper.m_13909_(GsonHelper.java:153) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootItem$Serializer.m_7267_(LootItem.java:55) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootItem$Serializer.m_7267_(LootItem.java:40) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:151) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:129) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:86) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:74) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.world.level.storage.loot.GsonAdapterFactory$JsonAdapter.deserialize(GsonAdapterFactory.java:102) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.util.GsonHelper.m_13836_(GsonHelper.java:471) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:192) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:189) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.util.GsonHelper.m_13845_(GsonHelper.java:481) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:294) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:291) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1261) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:871) ~[forge-1.20.1-47.3.7-universal.jar%23610!/:?]
+	at net.minecraftforge.common.ForgeHooks.lambda$getLootTableDeserializer$3(ForgeHooks.java:848) ~[forge-1.20.1-47.3.7-universal.jar%23610!/:?]
+	at net.minecraft.world.level.storage.loot.LootDataType.deserialize(LootDataType.java:45) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.world.level.storage.loot.LootDataManager.lambda$scheduleElementParse$4(LootDataManager.java:56) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at java.util.HashMap.forEach(HashMap.java:1429) ~[?:?]
+	at net.minecraft.world.level.storage.loot.LootDataManager.m_278660_(LootDataManager.java:55) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?]
+[26Dec2024 00:58:15.636] [Worker-ResourceReload-1/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:minecraft_121_update:blocks/spawner_loot_0
+com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'minecraft_121_update:deleted_mod_element'
+	at net.minecraft.util.GsonHelper.m_13866_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.util.GsonHelper.m_13874_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.util.GsonHelper.m_13909_(GsonHelper.java:153) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootItem$Serializer.m_7267_(LootItem.java:55) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootItem$Serializer.m_7267_(LootItem.java:40) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:151) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:129) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:86) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:74) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.world.level.storage.loot.GsonAdapterFactory$JsonAdapter.deserialize(GsonAdapterFactory.java:102) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.util.GsonHelper.m_13836_(GsonHelper.java:471) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:192) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:189) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.util.GsonHelper.m_13845_(GsonHelper.java:481) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:294) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:291) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1261) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:871) ~[forge-1.20.1-47.3.7-universal.jar%23610!/:?]
+	at net.minecraftforge.common.ForgeHooks.lambda$getLootTableDeserializer$3(ForgeHooks.java:848) ~[forge-1.20.1-47.3.7-universal.jar%23610!/:?]
+	at net.minecraft.world.level.storage.loot.LootDataType.deserialize(LootDataType.java:45) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.world.level.storage.loot.LootDataManager.lambda$scheduleElementParse$4(LootDataManager.java:56) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at java.util.HashMap.forEach(HashMap.java:1429) ~[?:?]
+	at net.minecraft.world.level.storage.loot.LootDataManager.m_278660_(LootDataManager.java:55) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?]
+[26Dec2024 00:58:15.816] [Worker-ResourceReload-1/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:swplanets:star_manual
+com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'swplanets:star_manual'
+	at net.minecraft.util.GsonHelper.m_13866_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.util.GsonHelper.m_13874_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.util.GsonHelper.m_13909_(GsonHelper.java:153) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootItem$Serializer.m_7267_(LootItem.java:55) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootItem$Serializer.m_7267_(LootItem.java:40) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:151) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:129) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:86) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:74) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.world.level.storage.loot.GsonAdapterFactory$JsonAdapter.deserialize(GsonAdapterFactory.java:102) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.util.GsonHelper.m_13836_(GsonHelper.java:471) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:192) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:189) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.util.GsonHelper.m_13845_(GsonHelper.java:481) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:294) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:291) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1261) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:871) ~[forge-1.20.1-47.3.7-universal.jar%23610!/:?]
+	at net.minecraftforge.common.ForgeHooks.lambda$getLootTableDeserializer$3(ForgeHooks.java:848) ~[forge-1.20.1-47.3.7-universal.jar%23610!/:?]
+	at net.minecraft.world.level.storage.loot.LootDataType.deserialize(LootDataType.java:45) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.world.level.storage.loot.LootDataManager.lambda$scheduleElementParse$4(LootDataManager.java:56) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at java.util.HashMap.forEach(HashMap.java:1429) ~[?:?]
+	at net.minecraft.world.level.storage.loot.LootDataManager.m_278660_(LootDataManager.java:55) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?]
+[26Dec2024 00:58:15.841] [Worker-ResourceReload-1/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:minecraft_121_update:spawner_loot_2
+com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'minecraft_121_update:deleted_mod_element'
+	at net.minecraft.util.GsonHelper.m_13866_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.util.GsonHelper.m_13874_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.util.GsonHelper.m_13909_(GsonHelper.java:153) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootItem$Serializer.m_7267_(LootItem.java:55) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootItem$Serializer.m_7267_(LootItem.java:40) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:151) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:129) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:86) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:74) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.world.level.storage.loot.GsonAdapterFactory$JsonAdapter.deserialize(GsonAdapterFactory.java:102) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.util.GsonHelper.m_13836_(GsonHelper.java:471) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:192) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:189) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.util.GsonHelper.m_13845_(GsonHelper.java:481) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:294) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:291) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1261) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:871) ~[forge-1.20.1-47.3.7-universal.jar%23610!/:?]
+	at net.minecraftforge.common.ForgeHooks.lambda$getLootTableDeserializer$3(ForgeHooks.java:848) ~[forge-1.20.1-47.3.7-universal.jar%23610!/:?]
+	at net.minecraft.world.level.storage.loot.LootDataType.deserialize(LootDataType.java:45) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.world.level.storage.loot.LootDataManager.lambda$scheduleElementParse$4(LootDataManager.java:56) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at java.util.HashMap.forEach(HashMap.java:1429) ~[?:?]
+	at net.minecraft.world.level.storage.loot.LootDataManager.m_278660_(LootDataManager.java:55) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?]
+[26Dec2024 00:58:15.856] [Worker-ResourceReload-1/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:minecraft_121_update:spawner_loot_1
+com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'minecraft_121_update:deleted_mod_element'
+	at net.minecraft.util.GsonHelper.m_13866_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.util.GsonHelper.m_13874_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.util.GsonHelper.m_13909_(GsonHelper.java:153) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootItem$Serializer.m_7267_(LootItem.java:55) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootItem$Serializer.m_7267_(LootItem.java:40) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:151) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:129) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:86) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:74) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.world.level.storage.loot.GsonAdapterFactory$JsonAdapter.deserialize(GsonAdapterFactory.java:102) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.util.GsonHelper.m_13836_(GsonHelper.java:471) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:192) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:189) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.util.GsonHelper.m_13845_(GsonHelper.java:481) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:294) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:291) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1261) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:871) ~[forge-1.20.1-47.3.7-universal.jar%23610!/:?]
+	at net.minecraftforge.common.ForgeHooks.lambda$getLootTableDeserializer$3(ForgeHooks.java:848) ~[forge-1.20.1-47.3.7-universal.jar%23610!/:?]
+	at net.minecraft.world.level.storage.loot.LootDataType.deserialize(LootDataType.java:45) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.world.level.storage.loot.LootDataManager.lambda$scheduleElementParse$4(LootDataManager.java:56) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at java.util.HashMap.forEach(HashMap.java:1429) ~[?:?]
+	at net.minecraft.world.level.storage.loot.LootDataManager.m_278660_(LootDataManager.java:55) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?]
+[26Dec2024 00:58:16.342] [Worker-ResourceReload-1/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:ctov:chests/village/village_forager
+com.google.gson.JsonSyntaxException: Missing expand, expected to find a Boolean
+	at net.minecraft.util.GsonHelper.m_13912_(GsonHelper.java:181) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.world.level.storage.loot.entries.TagEntry$Serializer.m_7267_(TagEntry.java:86) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.world.level.storage.loot.entries.TagEntry$Serializer.m_7267_(TagEntry.java:72) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:151) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:129) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:86) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:74) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.world.level.storage.loot.GsonAdapterFactory$JsonAdapter.deserialize(GsonAdapterFactory.java:102) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.util.GsonHelper.m_13836_(GsonHelper.java:471) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:192) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:189) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.util.GsonHelper.m_13845_(GsonHelper.java:481) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:294) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:291) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1261) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:871) ~[forge-1.20.1-47.3.7-universal.jar%23610!/:?]
+	at net.minecraftforge.common.ForgeHooks.lambda$getLootTableDeserializer$3(ForgeHooks.java:848) ~[forge-1.20.1-47.3.7-universal.jar%23610!/:?]
+	at net.minecraft.world.level.storage.loot.LootDataType.deserialize(LootDataType.java:45) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.world.level.storage.loot.LootDataManager.lambda$scheduleElementParse$4(LootDataManager.java:56) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at java.util.HashMap.forEach(HashMap.java:1429) ~[?:?]
+	at net.minecraft.world.level.storage.loot.LootDataManager.m_278660_(LootDataManager.java:55) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?]
+[26Dec2024 00:58:16.415] [Worker-ResourceReload-1/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:outer_end:blocks/stripped_azure_post
+com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'outer_end:stripped_azure_post'
+	at net.minecraft.util.GsonHelper.m_13866_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.util.GsonHelper.m_13874_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.util.GsonHelper.m_13909_(GsonHelper.java:153) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootItem$Serializer.m_7267_(LootItem.java:55) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootItem$Serializer.m_7267_(LootItem.java:40) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:151) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:129) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:86) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:74) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.world.level.storage.loot.GsonAdapterFactory$JsonAdapter.deserialize(GsonAdapterFactory.java:102) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.util.GsonHelper.m_13836_(GsonHelper.java:471) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:192) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:189) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.util.GsonHelper.m_13845_(GsonHelper.java:481) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:294) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:291) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1261) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:871) ~[forge-1.20.1-47.3.7-universal.jar%23610!/:?]
+	at net.minecraftforge.common.ForgeHooks.lambda$getLootTableDeserializer$3(ForgeHooks.java:848) ~[forge-1.20.1-47.3.7-universal.jar%23610!/:?]
+	at net.minecraft.world.level.storage.loot.LootDataType.deserialize(LootDataType.java:45) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.world.level.storage.loot.LootDataManager.lambda$scheduleElementParse$4(LootDataManager.java:56) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at java.util.HashMap.forEach(HashMap.java:1429) ~[?:?]
+	at net.minecraft.world.level.storage.loot.LootDataManager.m_278660_(LootDataManager.java:55) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?]
+[26Dec2024 00:58:16.625] [Worker-ResourceReload-1/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:outer_end:blocks/azure_vertical_planks
+com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'outer_end:azure_vertical_planks'
+	at net.minecraft.util.GsonHelper.m_13866_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.util.GsonHelper.m_13874_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.util.GsonHelper.m_13909_(GsonHelper.java:153) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootItem$Serializer.m_7267_(LootItem.java:55) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootItem$Serializer.m_7267_(LootItem.java:40) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:151) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:129) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:86) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:74) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.world.level.storage.loot.GsonAdapterFactory$JsonAdapter.deserialize(GsonAdapterFactory.java:102) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.util.GsonHelper.m_13836_(GsonHelper.java:471) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:192) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:189) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.util.GsonHelper.m_13845_(GsonHelper.java:481) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:294) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:291) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1261) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:871) ~[forge-1.20.1-47.3.7-universal.jar%23610!/:?]
+	at net.minecraftforge.common.ForgeHooks.lambda$getLootTableDeserializer$3(ForgeHooks.java:848) ~[forge-1.20.1-47.3.7-universal.jar%23610!/:?]
+	at net.minecraft.world.level.storage.loot.LootDataType.deserialize(LootDataType.java:45) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.world.level.storage.loot.LootDataManager.lambda$scheduleElementParse$4(LootDataManager.java:56) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at java.util.HashMap.forEach(HashMap.java:1429) ~[?:?]
+	at net.minecraft.world.level.storage.loot.LootDataManager.m_278660_(LootDataManager.java:55) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?]
+[26Dec2024 00:58:16.664] [Worker-ResourceReload-1/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:outer_end:blocks/himmel_vertical_slab
+java.lang.IllegalArgumentException: Can't find block outer_end:himmel_vertical_slab
+	at net.minecraft.world.level.storage.loot.predicates.LootItemBlockStatePropertyCondition$Serializer.m_81802_(LootItemBlockStatePropertyCondition.java:79) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.world.level.storage.loot.predicates.LootItemBlockStatePropertyCondition$Serializer.m_7561_(LootItemBlockStatePropertyCondition.java:79) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.world.level.storage.loot.predicates.LootItemBlockStatePropertyCondition$Serializer.m_7561_(LootItemBlockStatePropertyCondition.java:68) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.world.level.storage.loot.GsonAdapterFactory$JsonAdapter.deserialize(GsonAdapterFactory.java:102) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.util.GsonHelper.m_13845_(GsonHelper.java:481) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.world.level.storage.loot.functions.LootItemConditionalFunction$Serializer.m_7561_(LootItemConditionalFunction.java:98) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.world.level.storage.loot.functions.LootItemConditionalFunction$Serializer.m_7561_(LootItemConditionalFunction.java:88) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.world.level.storage.loot.GsonAdapterFactory$JsonAdapter.deserialize(GsonAdapterFactory.java:102) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.util.GsonHelper.m_13845_(GsonHelper.java:481) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:149) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:129) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:86) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:74) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.world.level.storage.loot.GsonAdapterFactory$JsonAdapter.deserialize(GsonAdapterFactory.java:102) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.util.GsonHelper.m_13836_(GsonHelper.java:471) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:192) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:189) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.util.GsonHelper.m_13845_(GsonHelper.java:481) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:294) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:291) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1261) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:871) ~[forge-1.20.1-47.3.7-universal.jar%23610!/:?]
+	at net.minecraftforge.common.ForgeHooks.lambda$getLootTableDeserializer$3(ForgeHooks.java:848) ~[forge-1.20.1-47.3.7-universal.jar%23610!/:?]
+	at net.minecraft.world.level.storage.loot.LootDataType.deserialize(LootDataType.java:45) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.world.level.storage.loot.LootDataManager.lambda$scheduleElementParse$4(LootDataManager.java:56) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at java.util.HashMap.forEach(HashMap.java:1429) ~[?:?]
+	at net.minecraft.world.level.storage.loot.LootDataManager.m_278660_(LootDataManager.java:55) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?]
+[26Dec2024 00:58:40.990] [Server thread/INFO] [net.threetag.palladium.Palladium/]: Loaded 0 loot table modifications
+[26Dec2024 00:58:41.093] [Server thread/INFO] [com.teamabnormals.blueprint.core.Blueprint/]: Loot Modification Manager has loaded 0 modifier groups
+[26Dec2024 00:58:41.186] [Server thread/WARN] [AlmostUnified/]: Recipe count: 24549
+[26Dec2024 00:58:43.936] [Server thread/WARN] [AlmostUnified/]: Recipe count afterwards: 24347 (done in 2.750 s)
+[26Dec2024 00:58:43.937] [Server thread/INFO] [KubeJS Server/]: Processing recipes...
+[26Dec2024 00:58:43.938] [Server thread/WARN] [quark-zeta/]: Non-existent flag calcite being used
+[26Dec2024 00:58:43.943] [Server thread/WARN] [quark-zeta/]: Non-existent flag andesite being used
+[26Dec2024 00:58:43.944] [Server thread/WARN] [quark-zeta/]: Non-existent flag granite being used
+[26Dec2024 00:58:43.945] [Server thread/WARN] [quark-zeta/]: Non-existent flag calcite being used
+[26Dec2024 00:58:43.948] [Server thread/WARN] [quark-zeta/]: Non-existent flag dripstone being used
+[26Dec2024 00:58:43.955] [Server thread/WARN] [KubeJS Server/]: Failed to parse recipe 'outer_end:violite/tiles/vertical_slab_stonecutting[minecraft:stonecutting]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[26Dec2024 00:58:43.957] [Server thread/WARN] [quark-zeta/]: Non-existent flag dripstone being used
+[26Dec2024 00:58:43.971] [Server thread/WARN] [quark-zeta/]: Non-existent flag dripstone being used
+[26Dec2024 00:58:43.972] [Server thread/WARN] [KubeJS Server/]: Failed to parse recipe 'minecraft_121_update:copper_lock_crafting[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[26Dec2024 00:58:43.977] [Server thread/WARN] [quark-zeta/]: Non-existent flag tuff being used
+[26Dec2024 00:58:43.979] [Server thread/WARN] [quark-zeta/]: Non-existent flag calcite being used
+[26Dec2024 00:58:43.985] [Server thread/WARN] [quark-zeta/]: Non-existent flag diorite being used
+[26Dec2024 00:58:43.987] [Server thread/WARN] [quark-zeta/]: Non-existent flag tuff being used
+[26Dec2024 00:58:43.988] [Server thread/WARN] [quark-zeta/]: Non-existent flag diorite being used
+[26Dec2024 00:58:43.994] [Server thread/WARN] [quark-zeta/]: Non-existent flag granite being used
+[26Dec2024 00:58:43.997] [Server thread/WARN] [quark-zeta/]: Non-existent flag andesite being used
+[26Dec2024 00:58:44.000] [Server thread/WARN] [quark-zeta/]: Non-existent flag tuff being used
+[26Dec2024 00:58:44.001] [Server thread/WARN] [quark-zeta/]: Non-existent flag calcite being used
+[26Dec2024 00:58:44.003] [Server thread/WARN] [KubeJS Server/]: Failed to parse recipe 'outer_end:violite/bricks/vertical_slab[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[26Dec2024 00:58:44.005] [Server thread/WARN] [quark-zeta/]: Non-existent flag diorite being used
+[26Dec2024 00:58:44.007] [Server thread/WARN] [quark-zeta/]: Non-existent flag calcite being used
+[26Dec2024 00:58:44.009] [Server thread/WARN] [quark-zeta/]: Non-existent flag calcite being used
+[26Dec2024 00:58:44.010] [Server thread/WARN] [quark-zeta/]: Non-existent flag tuff being used
+[26Dec2024 00:58:44.015] [Server thread/WARN] [quark-zeta/]: Non-existent flag dripstone being used
+[26Dec2024 00:58:44.015] [Server thread/WARN] [quark-zeta/]: Non-existent flag granite being used
+[26Dec2024 00:58:44.018] [Server thread/WARN] [quark-zeta/]: Non-existent flag andesite being used
+[26Dec2024 00:58:44.019] [Server thread/WARN] [quark-zeta/]: Non-existent flag tuff being used
+[26Dec2024 00:58:44.022] [Server thread/WARN] [quark-zeta/]: Non-existent flag calcite being used
+[26Dec2024 00:58:44.023] [Server thread/WARN] [quark-zeta/]: Non-existent flag dripstone being used
+[26Dec2024 00:58:44.025] [Server thread/WARN] [quark-zeta/]: Non-existent flag granite being used
+[26Dec2024 00:58:44.028] [Server thread/WARN] [quark-zeta/]: Non-existent flag andesite being used
+[26Dec2024 00:58:44.028] [Server thread/WARN] [quark-zeta/]: Non-existent flag granite being used
+[26Dec2024 00:58:44.030] [Server thread/WARN] [quark-zeta/]: Non-existent flag calcite being used
+[26Dec2024 00:58:44.030] [Server thread/WARN] [quark-zeta/]: Non-existent flag dripstone being used
+[26Dec2024 00:58:44.034] [Server thread/WARN] [quark-zeta/]: Non-existent flag tuff being used
+[26Dec2024 00:58:44.036] [Server thread/WARN] [quark-zeta/]: Non-existent flag dripstone being used
+[26Dec2024 00:58:44.037] [Server thread/WARN] [quark-zeta/]: Non-existent flag dripstone being used
+[26Dec2024 00:58:44.041] [Server thread/WARN] [quark-zeta/]: Non-existent flag calcite being used
+[26Dec2024 00:58:44.047] [Server thread/WARN] [quark-zeta/]: Non-existent flag tuff being used
+[26Dec2024 00:58:44.048] [Server thread/WARN] [quark-zeta/]: Non-existent flag calcite being used
+[26Dec2024 00:58:44.048] [Server thread/WARN] [quark-zeta/]: Non-existent flag granite being used
+[26Dec2024 00:58:44.050] [Server thread/WARN] [KubeJS Server/]: Failed to parse recipe 'outer_end:himmel_vertical_slab_stonecutting[minecraft:stonecutting]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[26Dec2024 00:58:44.051] [Server thread/WARN] [KubeJS Server/]: Failed to parse recipe 'outer_end:violite/tiles/vertical_slab[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[26Dec2024 00:58:44.055] [Server thread/WARN] [quark-zeta/]: Non-existent flag dripstone being used
+[26Dec2024 00:58:44.057] [Server thread/WARN] [quark-zeta/]: Non-existent flag andesite being used
+[26Dec2024 00:58:44.057] [Server thread/WARN] [quark-zeta/]: Non-existent flag tuff being used
+[26Dec2024 00:58:44.057] [Server thread/WARN] [quark-zeta/]: Non-existent flag tuff being used
+[26Dec2024 00:58:44.058] [Server thread/WARN] [quark-zeta/]: Non-existent flag andesite being used
+[26Dec2024 00:58:44.059] [Server thread/WARN] [quark-zeta/]: Non-existent flag dripstone being used
+[26Dec2024 00:58:44.061] [Server thread/WARN] [quark-zeta/]: Non-existent flag tuff being used
+[26Dec2024 00:58:44.062] [Server thread/WARN] [quark-zeta/]: Non-existent flag tuff being used
+[26Dec2024 00:58:44.063] [Server thread/WARN] [quark-zeta/]: Non-existent flag tuff being used
+[26Dec2024 00:58:44.063] [Server thread/WARN] [quark-zeta/]: Non-existent flag tuff being used
+[26Dec2024 00:58:44.064] [Server thread/WARN] [quark-zeta/]: Non-existent flag granite being used
+[26Dec2024 00:58:44.069] [Server thread/WARN] [quark-zeta/]: Non-existent flag calcite being used
+[26Dec2024 00:58:44.071] [Server thread/WARN] [quark-zeta/]: Non-existent flag calcite being used
+[26Dec2024 00:58:44.072] [Server thread/WARN] [quark-zeta/]: Non-existent flag tuff being used
+[26Dec2024 00:58:44.074] [Server thread/WARN] [quark-zeta/]: Non-existent flag andesite being used
+[26Dec2024 00:58:44.075] [Server thread/WARN] [quark-zeta/]: Non-existent flag granite being used
+[26Dec2024 00:58:44.076] [Server thread/WARN] [KubeJS Server/]: Failed to parse recipe 'outer_end:azure_vertical_planks[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[26Dec2024 00:58:44.079] [Server thread/WARN] [quark-zeta/]: Non-existent flag dripstone being used
+[26Dec2024 00:58:44.081] [Server thread/WARN] [KubeJS Server/]: Failed to parse recipe 'outer_end:violite/vertical_slab[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[26Dec2024 00:58:44.083] [Server thread/WARN] [KubeJS Server/]: Failed to parse recipe 'outer_end:violite/bricks/vertical_slab_violite_stonecutting[minecraft:stonecutting]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[26Dec2024 00:58:44.084] [Server thread/WARN] [quark-zeta/]: Non-existent flag dripstone being used
+[26Dec2024 00:58:44.086] [Server thread/WARN] [quark-zeta/]: Non-existent flag diorite being used
+[26Dec2024 00:58:44.087] [Server thread/WARN] [quark-zeta/]: Non-existent flag tuff being used
+[26Dec2024 00:58:44.090] [Server thread/WARN] [KubeJS Server/]: Failed to parse recipe 'outer_end:violite/vertical_slab_stonecutting[minecraft:stonecutting]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[26Dec2024 00:58:44.092] [Server thread/WARN] [quark-zeta/]: Non-existent flag calcite being used
+[26Dec2024 00:58:44.093] [Server thread/WARN] [quark-zeta/]: Non-existent flag tuff being used
+[26Dec2024 00:58:44.094] [Server thread/WARN] [quark-zeta/]: Non-existent flag calcite being used
+[26Dec2024 00:58:44.095] [Server thread/WARN] [quark-zeta/]: Non-existent flag dripstone being used
+[26Dec2024 00:58:44.096] [Server thread/WARN] [quark-zeta/]: Non-existent flag diorite being used
+[26Dec2024 00:58:44.097] [Server thread/WARN] [quark-zeta/]: Non-existent flag andesite being used
+[26Dec2024 00:58:44.097] [Server thread/WARN] [quark-zeta/]: Non-existent flag diorite being used
+[26Dec2024 00:58:44.098] [Server thread/WARN] [quark-zeta/]: Non-existent flag granite being used
+[26Dec2024 00:58:44.098] [Server thread/WARN] [quark-zeta/]: Non-existent flag diorite being used
+[26Dec2024 00:58:44.099] [Server thread/WARN] [quark-zeta/]: Non-existent flag dripstone being used
+[26Dec2024 00:58:44.099] [Server thread/WARN] [quark-zeta/]: Non-existent flag calcite being used
+[26Dec2024 00:58:44.101] [Server thread/WARN] [quark-zeta/]: Non-existent flag diorite being used
+[26Dec2024 00:58:44.101] [Server thread/WARN] [quark-zeta/]: Non-existent flag calcite being used
+[26Dec2024 00:58:44.103] [Server thread/WARN] [quark-zeta/]: Non-existent flag dripstone being used
+[26Dec2024 00:58:44.107] [Server thread/WARN] [KubeJS Server/]: Failed to parse recipe 'outer_end:violite/mossy_bricks/vertical_slab[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[26Dec2024 00:58:44.108] [Server thread/WARN] [quark-zeta/]: Non-existent flag tuff being used
+[26Dec2024 00:58:44.109] [Server thread/WARN] [quark-zeta/]: Non-existent flag calcite being used
+[26Dec2024 00:58:44.112] [Server thread/WARN] [quark-zeta/]: Non-existent flag granite being used
+[26Dec2024 00:58:44.113] [Server thread/WARN] [quark-zeta/]: Non-existent flag tuff being used
+[26Dec2024 00:58:44.115] [Server thread/WARN] [quark-zeta/]: Non-existent flag diorite being used
+[26Dec2024 00:58:44.117] [Server thread/WARN] [KubeJS Server/]: Failed to parse recipe 'outer_end:himmel_vertical_slab[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[26Dec2024 00:58:44.118] [Server thread/WARN] [quark-zeta/]: Non-existent flag tuff being used
+[26Dec2024 00:58:44.120] [Server thread/WARN] [quark-zeta/]: Non-existent flag dripstone being used
+[26Dec2024 00:58:44.120] [Server thread/WARN] [quark-zeta/]: Non-existent flag tuff being used
+[26Dec2024 00:58:44.121] [Server thread/WARN] [KubeJS Server/]: Failed to parse recipe 'outer_end:violite/mossy_bricks/vertical_slab_stonecutting[minecraft:stonecutting]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[26Dec2024 00:58:44.122] [Server thread/WARN] [quark-zeta/]: Non-existent flag calcite being used
+[26Dec2024 00:58:44.124] [Server thread/WARN] [KubeJS Server/]: Failed to parse recipe 'outer_end:violite/mossy_tiles/vertical_slab_stonecutting[minecraft:stonecutting]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[26Dec2024 00:58:44.124] [Server thread/WARN] [quark-zeta/]: Non-existent flag andesite being used
+[26Dec2024 00:58:44.125] [Server thread/WARN] [quark-zeta/]: Non-existent flag tuff being used
+[26Dec2024 00:58:44.126] [Server thread/WARN] [quark-zeta/]: Non-existent flag dripstone being used
+[26Dec2024 00:58:44.127] [Server thread/WARN] [quark-zeta/]: Non-existent flag dripstone being used
+[26Dec2024 00:58:44.130] [Server thread/WARN] [quark-zeta/]: Non-existent flag tuff being used
+[26Dec2024 00:58:44.132] [Server thread/WARN] [quark-zeta/]: Non-existent flag tuff being used
+[26Dec2024 00:58:44.135] [Server thread/WARN] [quark-zeta/]: Non-existent flag granite being used
+[26Dec2024 00:58:44.137] [Server thread/WARN] [quark-zeta/]: Non-existent flag calcite being used
+[26Dec2024 00:58:44.140] [Server thread/WARN] [quark-zeta/]: Non-existent flag dripstone being used
+[26Dec2024 00:58:44.144] [Server thread/WARN] [quark-zeta/]: Non-existent flag dripstone being used
+[26Dec2024 00:58:44.144] [Server thread/WARN] [quark-zeta/]: Non-existent flag tuff being used
+[26Dec2024 00:58:44.145] [Server thread/WARN] [quark-zeta/]: Non-existent flag dripstone being used
+[26Dec2024 00:58:44.147] [Server thread/WARN] [KubeJS Server/]: Failed to parse recipe 'outer_end:violite/tiles/vertical_slab_from_violite_stonecutting[minecraft:stonecutting]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[26Dec2024 00:58:44.149] [Server thread/WARN] [quark-zeta/]: Non-existent flag diorite being used
+[26Dec2024 00:58:44.150] [Server thread/WARN] [KubeJS Server/]: Failed to parse recipe 'outer_end:stripped_azure_post[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[26Dec2024 00:58:44.152] [Server thread/WARN] [quark-zeta/]: Non-existent flag tuff being used
+[26Dec2024 00:58:44.154] [Server thread/WARN] [quark-zeta/]: Non-existent flag andesite being used
+[26Dec2024 00:58:44.154] [Server thread/WARN] [quark-zeta/]: Non-existent flag dripstone being used
+[26Dec2024 00:58:44.156] [Server thread/WARN] [quark-zeta/]: Non-existent flag diorite being used
+[26Dec2024 00:58:44.158] [Server thread/WARN] [quark-zeta/]: Non-existent flag andesite being used
+[26Dec2024 00:58:44.160] [Server thread/WARN] [quark-zeta/]: Non-existent flag dripstone being used
+[26Dec2024 00:58:44.162] [Server thread/WARN] [KubeJS Server/]: Failed to parse recipe 'outer_end:violite/bricks/vertical_slab_stonecutting[minecraft:stonecutting]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[26Dec2024 00:58:44.163] [Server thread/WARN] [quark-zeta/]: Non-existent flag granite being used
+[26Dec2024 00:58:44.169] [Server thread/WARN] [quark-zeta/]: Non-existent flag calcite being used
+[26Dec2024 00:58:44.170] [Server thread/WARN] [quark-zeta/]: Non-existent flag diorite being used
+[26Dec2024 00:58:44.171] [Server thread/WARN] [quark-zeta/]: Non-existent flag granite being used
+[26Dec2024 00:58:44.171] [Server thread/WARN] [quark-zeta/]: Non-existent flag tuff being used
+[26Dec2024 00:58:44.172] [Server thread/WARN] [quark-zeta/]: Non-existent flag dripstone being used
+[26Dec2024 00:58:44.173] [Server thread/WARN] [quark-zeta/]: Non-existent flag dripstone being used
+[26Dec2024 00:58:44.173] [Server thread/WARN] [quark-zeta/]: Non-existent flag andesite being used
+[26Dec2024 00:58:44.173] [Server thread/WARN] [quark-zeta/]: Non-existent flag diorite being used
+[26Dec2024 00:58:44.177] [Server thread/WARN] [quark-zeta/]: Non-existent flag tuff being used
+[26Dec2024 00:58:44.177] [Server thread/WARN] [quark-zeta/]: Non-existent flag calcite being used
+[26Dec2024 00:58:44.178] [Server thread/WARN] [quark-zeta/]: Non-existent flag granite being used
+[26Dec2024 00:58:44.178] [Server thread/WARN] [quark-zeta/]: Non-existent flag andesite being used
+[26Dec2024 00:58:44.179] [Server thread/WARN] [quark-zeta/]: Non-existent flag tuff being used
+[26Dec2024 00:58:44.181] [Server thread/WARN] [quark-zeta/]: Non-existent flag dripstone being used
+[26Dec2024 00:58:44.183] [Server thread/WARN] [quark-zeta/]: Non-existent flag tuff being used
+[26Dec2024 00:58:44.183] [Server thread/WARN] [quark-zeta/]: Non-existent flag tuff being used
+[26Dec2024 00:58:44.184] [Server thread/WARN] [quark-zeta/]: Non-existent flag dripstone being used
+[26Dec2024 00:58:44.185] [Server thread/WARN] [quark-zeta/]: Non-existent flag andesite being used
+[26Dec2024 00:58:44.185] [Server thread/WARN] [quark-zeta/]: Non-existent flag dripstone being used
+[26Dec2024 00:58:44.188] [Server thread/WARN] [quark-zeta/]: Non-existent flag granite being used
+[26Dec2024 00:58:44.189] [Server thread/WARN] [KubeJS Server/]: Failed to parse recipe 'outer_end:azure_vertical_slab[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[26Dec2024 00:58:44.191] [Server thread/WARN] [quark-zeta/]: Non-existent flag calcite being used
+[26Dec2024 00:58:44.192] [Server thread/WARN] [quark-zeta/]: Non-existent flag diorite being used
+[26Dec2024 00:58:44.195] [Server thread/WARN] [quark-zeta/]: Non-existent flag diorite being used
+[26Dec2024 00:58:44.196] [Server thread/WARN] [quark-zeta/]: Non-existent flag tuff being used
+[26Dec2024 00:58:44.196] [Server thread/WARN] [quark-zeta/]: Non-existent flag tuff being used
+[26Dec2024 00:58:44.197] [Server thread/WARN] [quark-zeta/]: Non-existent flag tuff being used
+[26Dec2024 00:58:44.198] [Server thread/WARN] [quark-zeta/]: Non-existent flag calcite being used
+[26Dec2024 00:58:44.200] [Server thread/WARN] [quark-zeta/]: Non-existent flag calcite being used
+[26Dec2024 00:58:44.202] [Server thread/WARN] [quark-zeta/]: Non-existent flag dripstone being used
+[26Dec2024 00:58:44.203] [Server thread/WARN] [quark-zeta/]: Non-existent flag tuff being used
+[26Dec2024 00:58:44.203] [Server thread/WARN] [quark-zeta/]: Non-existent flag tuff being used
+[26Dec2024 00:58:44.204] [Server thread/WARN] [KubeJS Server/]: Failed to parse recipe 'outer_end:azure_post[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[26Dec2024 00:58:44.206] [Server thread/WARN] [quark-zeta/]: Non-existent flag calcite being used
+[26Dec2024 00:58:44.206] [Server thread/WARN] [quark-zeta/]: Non-existent flag calcite being used
+[26Dec2024 00:58:44.209] [Server thread/WARN] [quark-zeta/]: Non-existent flag calcite being used
+[26Dec2024 00:58:44.212] [Server thread/WARN] [KubeJS Server/]: Failed to parse recipe 'outer_end:violite/mossy_tiles/vertical_slab[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[26Dec2024 00:58:44.212] [Server thread/WARN] [quark-zeta/]: Non-existent flag andesite being used
+[26Dec2024 00:58:44.214] [Server thread/WARN] [quark-zeta/]: Non-existent flag dripstone being used
+[26Dec2024 00:58:44.216] [Server thread/WARN] [quark-zeta/]: Non-existent flag dripstone being used
+[26Dec2024 00:58:44.218] [Server thread/WARN] [quark-zeta/]: Non-existent flag dripstone being used
+[26Dec2024 00:58:44.219] [Server thread/WARN] [quark-zeta/]: Non-existent flag dripstone being used
+[26Dec2024 00:58:44.219] [Server thread/WARN] [quark-zeta/]: Non-existent flag calcite being used
+[26Dec2024 00:58:44.220] [Server thread/WARN] [quark-zeta/]: Non-existent flag dripstone being used
+[26Dec2024 00:58:44.221] [Server thread/WARN] [quark-zeta/]: Non-existent flag calcite being used
+[26Dec2024 00:58:44.223] [Server thread/WARN] [quark-zeta/]: Non-existent flag dripstone being used
+[26Dec2024 00:58:44.232] [Server thread/INFO] [KubeJS Server/]: Found 20487 recipes in 295.1 ms
+[26Dec2024 00:58:44.241] [Server thread/INFO] [KubeJS Server/]: Posted recipe events in 7.775 ms
+[26Dec2024 00:58:44.253] [KubeJS Recipe Event Worker 0/WARN] [com.simibubi.create.Create/]: Your custom createaddition:rolling/iron_ingot recipe (createaddition:rolling/iron_ingot) specified a duration. Durations have no impact on this type of recipe.
+[26Dec2024 00:58:44.262] [KubeJS Recipe Event Worker 0/WARN] [KubeJS Server/]: Error parsing recipe outer_end:violite/mossy_tiles/vertical_slab[minecraft:crafting_shaped]: {"type":"minecraft:crafting_shaped","pattern":["#","#","#"],"key":{"#":{"item":"outer_end:mossy_violite_tile_slab"}},"result":{"item":"outer_end:mossy_violite_tile_vertical_slab","count":3}}: Unknown item 'outer_end:mossy_violite_tile_vertical_slab'
+[26Dec2024 00:58:44.351] [KubeJS Recipe Event Worker 0/WARN] [com.simibubi.create.Create/]: Your custom createaddition:rolling/copper_plate recipe (createaddition:rolling/copper_plate) specified a duration. Durations have no impact on this type of recipe.
+[26Dec2024 00:58:44.353] [KubeJS Recipe Event Worker 0/WARN] [KubeJS Server/]: Error parsing recipe farmersdelight:cutting/azure_stem[farmersdelight:cutting]: {"type":"farmersdelight:cutting","ingredients":[{"item":"outer_end:azure_stem"}],"tool":{"type":"farmersdelight:tool","tool":"axe"},"result":[{"item":"farmersdelight:tree_bark"},{"item":"outer_end:azure_stripped_stem"}],"sound":"minecraft:item.axe.strip","conditions":[{"type":"forge:mod_loaded","modid":"outer_end"}]}: Unknown ingredient type: farmersdelight:tool
+[26Dec2024 00:58:44.357] [KubeJS Recipe Event Worker 0/WARN] [KubeJS Server/]: Error parsing recipe outer_end:violite/mossy_bricks/vertical_slab[minecraft:crafting_shaped]: {"type":"minecraft:crafting_shaped","pattern":["#","#","#"],"key":{"#":{"item":"outer_end:mossy_violite_brick_slab"}},"result":{"item":"outer_end:mossy_violite_brick_vertical_slab","count":3}}: Unknown item 'outer_end:mossy_violite_brick_vertical_slab'
+[26Dec2024 00:58:44.386] [KubeJS Recipe Event Worker 0/WARN] [KubeJS Server/]: Error parsing recipe farmersdelight:cutting/azure_pith[farmersdelight:cutting]: {"type":"farmersdelight:cutting","ingredients":[{"item":"outer_end:azure_pith"}],"tool":{"type":"farmersdelight:tool","tool":"axe"},"result":[{"item":"farmersdelight:tree_bark"},{"item":"outer_end:azure_stripped_pith"}],"sound":"minecraft:item.axe.strip","conditions":[{"type":"forge:mod_loaded","modid":"outer_end"}]}: Unknown ingredient type: farmersdelight:tool
+[26Dec2024 00:58:44.390] [KubeJS Recipe Event Worker 0/WARN] [KubeJS Server/]: Error parsing recipe outer_end:azure_post[minecraft:crafting_shaped]: {"type":"minecraft:crafting_shaped","pattern":["#","#","#"],"key":{"#":{"item":"outer_end:azure_pith"}},"result":{"item":"outer_end:azure_post","count":8}}: Unknown item 'outer_end:azure_post'
+[26Dec2024 00:58:44.415] [KubeJS Recipe Event Worker 0/WARN] [KubeJS Server/]: Error parsing recipe outer_end:azure_vertical_to_slab[minecraft:crafting_shaped]: {"type":"minecraft:crafting_shaped","pattern":[" "," "," "],"key":{},"result":{"item":"outer_end:azure_slab","count":3}}: Index 0 out of bounds for length 0
+[26Dec2024 00:58:44.423] [KubeJS Recipe Event Worker 0/WARN] [com.simibubi.create.Create/]: Your custom createaddition:rolling/electrum_plate recipe (createaddition:rolling/electrum_plate) specified a duration. Durations have no impact on this type of recipe.
+[26Dec2024 00:58:44.424] [KubeJS Recipe Event Worker 0/WARN] [KubeJS Server/]: Error parsing recipe outer_end:violite/slab_from_vertical_slab[minecraft:crafting_shaped]: {"type":"minecraft:crafting_shaped","pattern":[" "," "," "],"key":{},"result":{"item":"outer_end:violite_slab","count":3}}: Index 0 out of bounds for length 0
+[26Dec2024 00:58:44.424] [KubeJS Recipe Event Worker 0/WARN] [KubeJS Server/]: Error parsing recipe outer_end:violite/mossy_tiles/slab_from_vertical_slab[minecraft:crafting_shaped]: {"type":"minecraft:crafting_shaped","pattern":[" "," "," "],"key":{},"result":{"item":"outer_end:mossy_violite_tile_slab","count":3}}: Index 0 out of bounds for length 0
+[26Dec2024 00:58:44.567] [KubeJS Recipe Event Worker 0/WARN] [KubeJS Server/]: Error parsing recipe outer_end:violite/tiles/slab_from_vertical_slab[minecraft:crafting_shaped]: {"type":"minecraft:crafting_shaped","pattern":[" "," "," "],"key":{},"result":{"item":"outer_end:violite_tile_slab","count":3}}: Index 0 out of bounds for length 0
+[26Dec2024 00:58:44.579] [KubeJS Recipe Event Worker 0/WARN] [KubeJS Server/]: Error parsing recipe outer_end:azure_vertical_slab[minecraft:crafting_shaped]: {"type":"minecraft:crafting_shaped","pattern":["#","#","#"],"key":{"#":{"item":"outer_end:azure_slab"}},"result":{"item":"outer_end:azure_vertical_slab","count":3}}: Unknown item 'outer_end:azure_vertical_slab'
+[26Dec2024 00:58:44.581] [KubeJS Recipe Event Worker 0/WARN] [KubeJS Server/]: Error parsing recipe farmersdelight:cutting/azure_trapdoor[farmersdelight:cutting]: {"type":"farmersdelight:cutting","ingredients":[{"item":"outer_end:azure_trapdoor"}],"tool":{"type":"farmersdelight:tool","tool":"axe"},"result":[{"item":"outer_end:azure_planks"}],"conditions":[{"type":"forge:mod_loaded","modid":"outer_end"}]}: Unknown ingredient type: farmersdelight:tool
+[26Dec2024 00:58:44.608] [KubeJS Recipe Event Worker 0/WARN] [com.simibubi.create.Create/]: Your custom createaddition:rolling/copper_ingot recipe (createaddition:rolling/copper_ingot) specified a duration. Durations have no impact on this type of recipe.
+[26Dec2024 00:58:44.609] [KubeJS Recipe Event Worker 0/WARN] [KubeJS Server/]: Error parsing recipe outer_end:azure_vertical_to_planks[minecraft:crafting_shaped]: {"type":"minecraft:crafting_shaped","pattern":[" "," "," "],"key":{},"result":{"item":"outer_end:azure_planks","count":3}}: Index 0 out of bounds for length 0
+[26Dec2024 00:58:44.614] [KubeJS Recipe Event Worker 0/WARN] [com.simibubi.create.Create/]: Your custom createaddition:rolling/gold_ingot recipe (createaddition:rolling/gold_ingot) specified a duration. Durations have no impact on this type of recipe.
+[26Dec2024 00:58:44.617] [KubeJS Recipe Event Worker 0/WARN] [KubeJS Server/]: Error parsing recipe outer_end:azure_vertical_planks[minecraft:crafting_shaped]: {"type":"minecraft:crafting_shaped","pattern":["#","#","#"],"key":{"#":{"item":"outer_end:azure_planks"}},"result":{"item":"outer_end:azure_vertical_planks","count":3}}: Unknown item 'outer_end:azure_vertical_planks'
+[26Dec2024 00:58:44.618] [KubeJS Recipe Event Worker 0/WARN] [com.simibubi.create.Create/]: Your custom createaddition:rolling/straw recipe (createaddition:rolling/straw) specified a duration. Durations have no impact on this type of recipe.
+[26Dec2024 00:58:44.649] [KubeJS Recipe Event Worker 0/WARN] [KubeJS Server/]: Error parsing recipe outer_end:himmel_vertical_to_slab[minecraft:crafting_shaped]: {"type":"minecraft:crafting_shaped","pattern":[" "," "," "],"key":{},"result":{"item":"outer_end:himmel_slab","count":3}}: Index 0 out of bounds for length 0
+[26Dec2024 00:58:44.671] [KubeJS Recipe Event Worker 0/WARN] [KubeJS Server/]: Error parsing recipe outer_end:violite/tiles/vertical_slab[minecraft:crafting_shaped]: {"type":"minecraft:crafting_shaped","pattern":["#","#","#"],"key":{"#":{"item":"outer_end:violite_tile_slab"}},"result":{"item":"outer_end:violite_tile_vertical_slab","count":3}}: Unknown item 'outer_end:violite_tile_vertical_slab'
+[26Dec2024 00:58:44.676] [KubeJS Recipe Event Worker 0/WARN] [com.simibubi.create.Create/]: Your custom createaddition:rolling/gold_plate recipe (createaddition:rolling/gold_plate) specified a duration. Durations have no impact on this type of recipe.
+[26Dec2024 00:58:44.693] [KubeJS Recipe Event Worker 0/WARN] [KubeJS Server/]: Error parsing recipe outer_end:violite/vertical_slab[minecraft:crafting_shaped]: {"type":"minecraft:crafting_shaped","pattern":["#","#","#"],"key":{"#":{"item":"outer_end:violite_slab"}},"result":{"item":"outer_end:violite_vertical_slab","count":3}}: Unknown item 'outer_end:violite_vertical_slab'
+[26Dec2024 00:58:44.704] [KubeJS Recipe Event Worker 0/WARN] [KubeJS Server/]: Error parsing recipe outer_end:violite/bricks/vertical_slab[minecraft:crafting_shaped]: {"type":"minecraft:crafting_shaped","pattern":["#","#","#"],"key":{"#":{"item":"outer_end:violite_brick_slab"}},"result":{"item":"outer_end:violite_brick_vertical_slab","count":3}}: Unknown item 'outer_end:violite_brick_vertical_slab'
+[26Dec2024 00:58:44.713] [KubeJS Recipe Event Worker 0/WARN] [KubeJS Server/]: Error parsing recipe outer_end:stripped_azure_post[minecraft:crafting_shaped]: {"type":"minecraft:crafting_shaped","pattern":["#","#","#"],"key":{"#":{"item":"outer_end:azure_stripped_pith"}},"result":{"item":"outer_end:stripped_azure_post","count":8}}: Unknown item 'outer_end:stripped_azure_post'
+[26Dec2024 00:58:44.781] [KubeJS Recipe Event Worker 0/WARN] [KubeJS Server/]: Error parsing recipe outer_end:violite/mossy_bricks/slab_from_vertical_slab[minecraft:crafting_shaped]: {"type":"minecraft:crafting_shaped","pattern":[" "," "," "],"key":{},"result":{"item":"outer_end:mossy_violite_brick_slab","count":3}}: Index 0 out of bounds for length 0
+[26Dec2024 00:58:44.787] [KubeJS Recipe Event Worker 0/WARN] [com.simibubi.create.Create/]: Your custom createaddition:rolling/electrum_ingot recipe (createaddition:rolling/electrum_ingot) specified a duration. Durations have no impact on this type of recipe.
+[26Dec2024 00:58:44.791] [KubeJS Recipe Event Worker 0/WARN] [KubeJS Server/]: Error parsing recipe outer_end:violite/bricks/slab_from_vertical_slab[minecraft:crafting_shaped]: {"type":"minecraft:crafting_shaped","pattern":[" "," "," "],"key":{},"result":{"item":"outer_end:violite_brick_slab","count":3}}: Index 0 out of bounds for length 0
+[26Dec2024 00:58:44.819] [KubeJS Recipe Event Worker 0/WARN] [KubeJS Server/]: Error parsing recipe farmersdelight:cutting/azure_sign[farmersdelight:cutting]: {"type":"farmersdelight:cutting","ingredients":[{"item":"outer_end:azure_sign"}],"tool":{"type":"farmersdelight:tool","tool":"axe"},"result":[{"item":"outer_end:azure_planks"}],"conditions":[{"type":"forge:mod_loaded","modid":"outer_end"}]}: Unknown ingredient type: farmersdelight:tool
+[26Dec2024 00:58:44.821] [KubeJS Recipe Event Worker 0/WARN] [com.simibubi.create.Create/]: Your custom createaddition:rolling/brass_ingot recipe (createaddition:rolling/brass_ingot) specified a duration. Durations have no impact on this type of recipe.
+[26Dec2024 00:58:44.842] [KubeJS Recipe Event Worker 0/WARN] [KubeJS Server/]: Error parsing recipe farmersdelight:cutting/azure_door[farmersdelight:cutting]: {"type":"farmersdelight:cutting","ingredients":[{"item":"outer_end:azure_door"}],"tool":{"type":"farmersdelight:tool","tool":"axe"},"result":[{"item":"outer_end:azure_planks"}],"conditions":[{"type":"forge:mod_loaded","modid":"outer_end"}]}: Unknown ingredient type: farmersdelight:tool
+[26Dec2024 00:58:44.873] [KubeJS Recipe Event Worker 0/WARN] [KubeJS Server/]: Error parsing recipe minecraft_121_update:copper_lock_crafting[minecraft:crafting_shaped]: {"type":"minecraft:crafting_shaped","category":"redstone","pattern":["012","3 5","678"],"key":{"0":{"tag":"forge:storage_blocks/copper"},"1":{"tag":"forge:storage_blocks/copper"},"2":{"tag":"forge:storage_blocks/copper"},"3":{"tag":"forge:storage_blocks/copper"},"5":{"tag":"forge:storage_blocks/copper"},"6":{"tag":"forge:storage_blocks/copper"},"7":{"tag":"forge:storage_blocks/copper"},"8":{"tag":"forge:storage_blocks/copper"}},"result":{"item":"minecraft_121_update:deleted_mod_element","count":1}}: Unknown item 'minecraft_121_update:deleted_mod_element'
+[26Dec2024 00:58:44.896] [KubeJS Recipe Event Worker 0/WARN] [KubeJS Server/]: Error parsing recipe outer_end:himmel_vertical_slab[minecraft:crafting_shaped]: {"type":"minecraft:crafting_shaped","pattern":["#","#","#"],"key":{"#":{"item":"outer_end:himmel_slab"}},"result":{"item":"outer_end:himmel_vertical_slab","count":3}}: Unknown item 'outer_end:himmel_vertical_slab'
+[26Dec2024 00:58:44.926] [KubeJS Recipe Event Worker 0/WARN] [com.simibubi.create.Create/]: Your custom createaddition:rolling/iron_plate recipe (createaddition:rolling/iron_plate) specified a duration. Durations have no impact on this type of recipe.
+[26Dec2024 00:58:44.985] [Server thread/INFO] [KubeJS Server/]: Added 14 recipes, removed 0 recipes, modified 11 recipes, with 24 failed recipes in 743.5 ms
+[26Dec2024 00:58:44.985] [Server thread/INFO] [ModernFix/]: Clearing KubeJS recipe lists...
+[26Dec2024 00:58:45.001] [Server thread/INFO] [com.teamabnormals.blueprint.core.Blueprint/]: Advancement Modification Manager has loaded 0 modifier groups
+[26Dec2024 00:58:45.001] [Server thread/ERROR] [net.minecraft.server.ServerFunctionLibrary/]: Failed to load function fsang:shieldkill
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 1: Expected value for option 'sort' at position 59: ...rojectile,<--[HERE]
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1770) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?]
+Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1: Expected value for option 'sort' at position 59: ...rojectile,<--[HERE]
+	at net.minecraft.commands.CommandFunction.m_77984_(CommandFunction.java:63) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.server.ServerFunctionLibrary.m_214320_(ServerFunctionLibrary.java:83) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	... 6 more
+[26Dec2024 00:58:45.121] [Server thread/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement outer_end:end/find_catacombs: Expected item to be an item, was unknown string 'outer_end:chiseled_violite'
+[26Dec2024 00:58:45.151] [Server thread/INFO] [quark/]: [Automatic Recipe Unlock] Removed 9802 recipe advancements
+[26Dec2024 00:58:45.156] [Server thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1019 advancements
+[26Dec2024 00:58:45.163] [Server thread/INFO] [placebo/]: Registered 0 additional recipes.
+[26Dec2024 00:58:45.163] [Server thread/INFO] [villagersplus/]: Deserializing default trades of profession: villagersplus:alchemist
+[26Dec2024 00:58:45.163] [Server thread/INFO] [villagersplus/]: Deserializing default trades of profession: villagersplus:horticulturist
+[26Dec2024 00:58:45.163] [Server thread/INFO] [villagersplus/]: Deserializing default trades of profession: villagersplus:occultist
+[26Dec2024 00:58:45.164] [Server thread/INFO] [villagersplus/]: Deserializing default trades of profession: villagersplus:oceanographer
+[26Dec2024 00:58:45.198] [Server thread/INFO] [top.theillusivec4.curios.Curios/]: Loaded 23 curio slots
+[26Dec2024 00:58:45.215] [Server thread/ERROR] [top.theillusivec4.curios.Curios/]: curios:necklace is not a registered slot type!
+[26Dec2024 00:58:45.215] [Server thread/INFO] [top.theillusivec4.curios.Curios/]: Loaded 12 curio entities
+[26Dec2024 00:58:45.216] [Server thread/INFO] [rechiseled/]: Loaded 66 chiseling recipes
+[26Dec2024 00:58:45.223] [Server thread/WARN] [net.minecraftforge.common.loot.LootModifierManager/]: Unable to decode loot conditions
+com.google.gson.JsonSyntaxException: Unknown type 'minecraft:alternatives'
+	at net.minecraft.world.level.storage.loot.GsonAdapterFactory$JsonAdapter.deserialize(GsonAdapterFactory.java:99) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1261) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraftforge.common.loot.IGlobalLootModifier.lambda$static$1(IGlobalLootModifier.java:39) ~[forge-1.20.1-47.3.7-universal.jar%23610!/:?]
+	at com.mojang.serialization.Decoder$1.lambda$decode$1(Decoder.java:49) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.DataResult.lambda$flatMap$11(DataResult.java:139) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.datafixers.util.Either$Left.map(Either.java:38) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.DataResult.flatMap(DataResult.java:137) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.Decoder$1.decode(Decoder.java:49) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.Codec$2.decode(Codec.java:71) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.Decoder.parse(Decoder.java:18) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.codecs.FieldDecoder.decode(FieldDecoder.java:29) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.MapCodec$1.decode(MapCodec.java:34) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.codecs.RecordCodecBuilder$Instance$5.decode(RecordCodecBuilder.java:323) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.codecs.RecordCodecBuilder$2.decode(RecordCodecBuilder.java:107) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.codecs.KeyDispatchCodec.lambda$decode$3(KeyDispatchCodec.java:67) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.DataResult.lambda$flatMap$11(DataResult.java:139) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.datafixers.util.Either$Left.map(Either.java:38) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.DataResult.flatMap(DataResult.java:137) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.codecs.KeyDispatchCodec.lambda$decode$4(KeyDispatchCodec.java:58) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.DataResult.lambda$flatMap$11(DataResult.java:139) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.datafixers.util.Either$Left.map(Either.java:38) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.DataResult.flatMap(DataResult.java:137) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.codecs.KeyDispatchCodec.decode(KeyDispatchCodec.java:56) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.MapDecoder.lambda$compressedDecode$1(MapDecoder.java:52) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.DataResult.lambda$flatMap$11(DataResult.java:139) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.datafixers.util.Either$Left.map(Either.java:38) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.DataResult.flatMap(DataResult.java:137) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.MapDecoder.compressedDecode(MapDecoder.java:52) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.MapCodec$MapCodecCodec.decode(MapCodec.java:91) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.Decoder.parse(Decoder.java:18) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at net.minecraftforge.common.loot.LootModifierManager.apply(LootModifierManager.java:79) ~[forge-1.20.1-47.3.7-universal.jar%23610!/:?]
+	at net.minecraftforge.common.loot.LootModifierManager.m_5787_(LootModifierManager.java:38) ~[forge-1.20.1-47.3.7-universal.jar%23610!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:156) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:770) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:161) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:130) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:753) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:747) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_18701_(BlockableEventLoop.java:139) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.server.MinecraftServer.m_129861_(MinecraftServer.java:1345) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.server.commands.ReloadCommand.m_138235_(ReloadCommand.java:22) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.server.commands.ReloadCommand.m_287964_(ReloadCommand.java:53) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at com.mojang.brigadier.CommandDispatcher.execute(CommandDispatcher.java:264) ~[brigadier-1.1.8.jar%2376!/:?]
+	at net.minecraft.commands.Commands.m_242674_(Commands.java:257) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.m_246958_(ServerGamePacketListenerImpl.java:1244) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.m_244885_(ServerGamePacketListenerImpl.java:1221) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_18693_(BlockableEventLoop.java:67) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:156) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:770) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:161) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:130) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:753) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:747) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_18701_(BlockableEventLoop.java:139) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.server.MinecraftServer.m_130012_(MinecraftServer.java:733) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:665) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:251) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[26Dec2024 00:58:45.225] [Server thread/WARN] [net.minecraftforge.common.loot.LootModifierManager/]: Could not decode GlobalLootModifier with json id nethersdelight:chopping_leather - error: Unknown type 'minecraft:alternatives'
+[26Dec2024 00:58:45.225] [Server thread/WARN] [net.minecraftforge.common.loot.LootModifierManager/]: Unable to decode loot conditions
+com.google.gson.JsonSyntaxException: Unknown type 'minecraft:alternative'
+	at net.minecraft.world.level.storage.loot.GsonAdapterFactory$JsonAdapter.deserialize(GsonAdapterFactory.java:99) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1261) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraftforge.common.loot.IGlobalLootModifier.lambda$static$1(IGlobalLootModifier.java:39) ~[forge-1.20.1-47.3.7-universal.jar%23610!/:?]
+	at com.mojang.serialization.Decoder$1.lambda$decode$1(Decoder.java:49) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.DataResult.lambda$flatMap$11(DataResult.java:139) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.datafixers.util.Either$Left.map(Either.java:38) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.DataResult.flatMap(DataResult.java:137) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.Decoder$1.decode(Decoder.java:49) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.Codec$2.decode(Codec.java:71) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.Decoder.parse(Decoder.java:18) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.codecs.FieldDecoder.decode(FieldDecoder.java:29) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.MapCodec$1.decode(MapCodec.java:34) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.codecs.RecordCodecBuilder$Instance$5.decode(RecordCodecBuilder.java:323) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.codecs.RecordCodecBuilder$2.decode(RecordCodecBuilder.java:107) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.codecs.KeyDispatchCodec.lambda$decode$3(KeyDispatchCodec.java:67) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.DataResult.lambda$flatMap$11(DataResult.java:139) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.datafixers.util.Either$Left.map(Either.java:38) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.DataResult.flatMap(DataResult.java:137) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.codecs.KeyDispatchCodec.lambda$decode$4(KeyDispatchCodec.java:58) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.DataResult.lambda$flatMap$11(DataResult.java:139) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.datafixers.util.Either$Left.map(Either.java:38) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.DataResult.flatMap(DataResult.java:137) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.codecs.KeyDispatchCodec.decode(KeyDispatchCodec.java:56) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.MapDecoder.lambda$compressedDecode$1(MapDecoder.java:52) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.DataResult.lambda$flatMap$11(DataResult.java:139) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.datafixers.util.Either$Left.map(Either.java:38) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.DataResult.flatMap(DataResult.java:137) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.MapDecoder.compressedDecode(MapDecoder.java:52) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.MapCodec$MapCodecCodec.decode(MapCodec.java:91) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.Decoder.parse(Decoder.java:18) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at net.minecraftforge.common.loot.LootModifierManager.apply(LootModifierManager.java:79) ~[forge-1.20.1-47.3.7-universal.jar%23610!/:?]
+	at net.minecraftforge.common.loot.LootModifierManager.m_5787_(LootModifierManager.java:38) ~[forge-1.20.1-47.3.7-universal.jar%23610!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:156) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:770) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:161) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:130) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:753) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:747) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_18701_(BlockableEventLoop.java:139) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.server.MinecraftServer.m_129861_(MinecraftServer.java:1345) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.server.commands.ReloadCommand.m_138235_(ReloadCommand.java:22) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.server.commands.ReloadCommand.m_287964_(ReloadCommand.java:53) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at com.mojang.brigadier.CommandDispatcher.execute(CommandDispatcher.java:264) ~[brigadier-1.1.8.jar%2376!/:?]
+	at net.minecraft.commands.Commands.m_242674_(Commands.java:257) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.m_246958_(ServerGamePacketListenerImpl.java:1244) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.m_244885_(ServerGamePacketListenerImpl.java:1221) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_18693_(BlockableEventLoop.java:67) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:156) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:770) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:161) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:130) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:753) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:747) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_18701_(BlockableEventLoop.java:139) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.server.MinecraftServer.m_130012_(MinecraftServer.java:733) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:665) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:251) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[26Dec2024 00:58:45.226] [Server thread/WARN] [net.minecraftforge.common.loot.LootModifierManager/]: Could not decode GlobalLootModifier with json id nethersdelight:chopping_string - error: Unknown type 'minecraft:alternative'
+[26Dec2024 00:58:45.227] [Server thread/INFO] [com.github.nyuppo.MoreMobVariants/]: Reloading config...
+[26Dec2024 00:58:45.330] [Server thread/INFO] [net.threetag.palladium.Palladium/]: Loaded 113 powers
+[26Dec2024 00:58:45.331] [Server thread/WARN] [net.threetag.palladium.Palladium/]: Unknown power used for item 'fsang:empty_symbiote'
+[26Dec2024 00:58:45.331] [Server thread/WARN] [net.threetag.palladium.Palladium/]: Unknown power used for item 'fsang:empty_vial'
+[26Dec2024 00:58:45.331] [Server thread/WARN] [net.threetag.palladium.Palladium/]: Unknown power used for item 'fsang:filled_symbiote'
+[26Dec2024 00:58:45.331] [Server thread/WARN] [net.threetag.palladium.Palladium/]: Unknown power used for item 'fsang:wayne'
+[26Dec2024 00:58:45.331] [Server thread/ERROR] [net.threetag.palladium.Palladium/]: Parsing error loading item powers fsang:wayne_heirloom
+com.google.gson.JsonParseException: Unknown item 'fsang:wayne_heirloom'
+	at net.threetag.palladium.power.ItemPowerManager.lambda$apply$2(ItemPowerManager.java:73) ~[palladium-4.1.5+1.20.1-forge.jar%23517!/:4.1.5+1.20.1]
+	at java.util.HashMap.forEach(HashMap.java:1429) ~[?:?]
+	at net.threetag.palladium.power.ItemPowerManager.apply(ItemPowerManager.java:40) ~[palladium-4.1.5+1.20.1-forge.jar%23517!/:4.1.5+1.20.1]
+	at net.threetag.palladium.power.ItemPowerManager.m_5787_(ItemPowerManager.java:22) ~[palladium-4.1.5+1.20.1-forge.jar%23517!/:4.1.5+1.20.1]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:156) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:770) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:161) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:130) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:753) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:747) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_18701_(BlockableEventLoop.java:139) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.server.MinecraftServer.m_129861_(MinecraftServer.java:1345) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.server.commands.ReloadCommand.m_138235_(ReloadCommand.java:22) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.server.commands.ReloadCommand.m_287964_(ReloadCommand.java:53) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at com.mojang.brigadier.CommandDispatcher.execute(CommandDispatcher.java:264) ~[brigadier-1.1.8.jar%2376!/:?]
+	at net.minecraft.commands.Commands.m_242674_(Commands.java:257) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.m_246958_(ServerGamePacketListenerImpl.java:1244) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.m_244885_(ServerGamePacketListenerImpl.java:1221) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_18693_(BlockableEventLoop.java:67) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:156) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:770) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:161) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:130) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:753) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:747) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_18701_(BlockableEventLoop.java:139) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.server.MinecraftServer.m_130012_(MinecraftServer.java:733) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:665) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:251) ~[server-1.20.1-20230612.114412-srg.jar%23605!/:?]
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[26Dec2024 00:59:10.965] [Server Watchdog/ERROR] [net.minecraft.server.dedicated.ServerWatchdog/FATAL]: A single server tick took 60.00 seconds (should be max 0.05)
+[26Dec2024 00:59:40.937] [Server Watchdog/ERROR] [net.minecraft.server.dedicated.ServerWatchdog/FATAL]: Considering it to be crashed, server will forcibly shutdown.
+[26Dec2024 00:59:40.938] [Server thread/WARN] [net.threetag.palladium.Palladium/]: Unknown power used for item 'fsang:x_gene_item'
+[26Dec2024 00:59:40.938] [Server thread/INFO] [net.threetag.palladium.Palladium/]: Loaded 15 item powers
+[26Dec2024 00:59:41.241] [Server thread/INFO] [net.threetag.palladium.Palladium/]: Loaded 6 suit set powers
+[26Dec2024 00:59:41.241] [Server thread/INFO] [net.threetag.palladium.Palladium/]: Registered 110 objectives to be tracked
+[26Dec2024 00:59:41.266] [Server thread/INFO] [twilightforest/]: Loaded 9 Stalactite configs!
