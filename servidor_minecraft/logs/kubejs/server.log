@@ -79,3 +79,21 @@
 [00:34:20] [INFO] addonpack_fsang_hero:kubejs_scripts/config.js#39: Running command: execute as luciu_black run scoreboard players set .sang FSang.Gamerule.item 1
 [00:34:20] [INFO] addonpack_fsang_hero:kubejs_scripts/config.js#47: Running command: execute as luciu_black run scoreboard objectives add FSang.Gamerule.symbiote dummy
 [00:34:20] [INFO] addonpack_fsang_hero:kubejs_scripts/config.js#50: Running command: execute as luciu_black run scoreboard players set .sang FSang.Gamerule.symbiote 1
+[00:36:29] [INFO] addonpack_fsang_hero:kubejs_scripts/config.js#18: Config file found. Loading config from config/fsang_config.json
+[00:36:29] [INFO] addonpack_fsang_hero:kubejs_scripts/config.js#57: Applying config to player: luciu_black
+[00:36:29] [INFO] addonpack_fsang_hero:kubejs_scripts/config.js#36: Running command: execute as luciu_black run scoreboard objectives add FSang.Gamerule.item dummy
+[00:36:29] [INFO] addonpack_fsang_hero:kubejs_scripts/config.js#39: Running command: execute as luciu_black run scoreboard players set .sang FSang.Gamerule.item 1
+[00:36:29] [INFO] addonpack_fsang_hero:kubejs_scripts/config.js#47: Running command: execute as luciu_black run scoreboard objectives add FSang.Gamerule.symbiote dummy
+[00:36:29] [INFO] addonpack_fsang_hero:kubejs_scripts/config.js#50: Running command: execute as luciu_black run scoreboard players set .sang FSang.Gamerule.symbiote 1
+[00:43:33] [INFO] addonpack_fsang_hero:kubejs_scripts/config.js#18: Config file found. Loading config from config/fsang_config.json
+[00:43:33] [INFO] addonpack_fsang_hero:kubejs_scripts/config.js#57: Applying config to player: luciu_black
+[00:43:33] [INFO] addonpack_fsang_hero:kubejs_scripts/config.js#36: Running command: execute as luciu_black run scoreboard objectives add FSang.Gamerule.item dummy
+[00:43:33] [INFO] addonpack_fsang_hero:kubejs_scripts/config.js#39: Running command: execute as luciu_black run scoreboard players set .sang FSang.Gamerule.item 1
+[00:43:33] [INFO] addonpack_fsang_hero:kubejs_scripts/config.js#47: Running command: execute as luciu_black run scoreboard objectives add FSang.Gamerule.symbiote dummy
+[00:43:33] [INFO] addonpack_fsang_hero:kubejs_scripts/config.js#50: Running command: execute as luciu_black run scoreboard players set .sang FSang.Gamerule.symbiote 1
+[00:44:27] [INFO] addonpack_fsang_hero:kubejs_scripts/config.js#18: Config file found. Loading config from config/fsang_config.json
+[00:44:27] [INFO] addonpack_fsang_hero:kubejs_scripts/config.js#57: Applying config to player: Alejaso
+[00:44:27] [INFO] addonpack_fsang_hero:kubejs_scripts/config.js#36: Running command: execute as Alejaso run scoreboard objectives add FSang.Gamerule.item dummy
+[00:44:27] [INFO] addonpack_fsang_hero:kubejs_scripts/config.js#39: Running command: execute as Alejaso run scoreboard players set .sang FSang.Gamerule.item 1
+[00:44:27] [INFO] addonpack_fsang_hero:kubejs_scripts/config.js#47: Running command: execute as Alejaso run scoreboard objectives add FSang.Gamerule.symbiote dummy
+[00:44:27] [INFO] addonpack_fsang_hero:kubejs_scripts/config.js#50: Running command: execute as Alejaso run scoreboard players set .sang FSang.Gamerule.symbiote 1
