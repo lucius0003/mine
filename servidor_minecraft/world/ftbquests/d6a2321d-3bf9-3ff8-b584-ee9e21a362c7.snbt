@@ -1,0 +1,12 @@
+{
+	version: 1
+	uuid: "d6a2321d3bf93ff8b584ee9e21a362c7"
+	name: "Alejaso#d6a2321d"
+	lock: false
+	rewards_blocked: false
+	task_progress: { }
+	started: { }
+	completed: { }
+	claimed_rewards: { }
+	player_data: { }
+}

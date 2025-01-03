@@ -97,6 +97,8 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:sparse_jungle": "2025-01-03 01:12:59 +0000",
+      "minecraft:river": "2025-01-03 01:24:16 +0000",
       "minecraft:plains": "2025-01-03 00:44:27 +0000"
     },
     "done": false
@@ -110,6 +112,36 @@
   "betterdeserttemples:root": {
     "criteria": {
       "always": "2025-01-03 00:44:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/root": {
+    "criteria": {
+      "killed_by_something": "2025-01-03 01:11:42 +0000"
+    },
+    "done": true
+  },
+  "mining_dimension:recipes/decorations/teleporter": {
+    "criteria": {
+      "has_log": "2025-01-03 01:13:04 +0000"
+    },
+    "done": true
+  },
+  "tetra:recipes/planks": {
+    "criteria": {
+      "got_wood": "2025-01-03 01:13:47 +0000"
+    },
+    "done": true
+  },
+  "statues:player_statue": {
+    "criteria": {
+      "player_statue": "2025-01-03 01:22:25 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/root": {
+    "criteria": {
+      "crafting_table": "2025-01-03 01:24:49 +0000"
     },
     "done": true
   },

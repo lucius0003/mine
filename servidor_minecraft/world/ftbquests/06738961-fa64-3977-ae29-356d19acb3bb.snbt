@@ -1,0 +1,12 @@
+{
+	version: 1
+	uuid: "06738961fa643977ae29356d19acb3bb"
+	name: "LeanCapo5#06738961"
+	lock: false
+	rewards_blocked: false
+	task_progress: { }
+	started: { }
+	completed: { }
+	claimed_rewards: { }
+	player_data: { }
+}
